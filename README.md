@@ -1,1 +1,1 @@
-# ckclassic
+[GitHub](https://drikkii.github.io/ckclassic/)
