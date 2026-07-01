@@ -1,1 +1,1 @@
-[GitHub](https://drikkii.github.io/ckclassic/)
+[Link Ckclassic](https://drikkii.github.io/ckclassic/)
