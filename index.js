@@ -242,3 +242,35 @@
 
   initCarousel();
 })();
+
+(function () {
+  "use strict";
+
+  document.querySelectorAll("[data-tabs]").forEach((tabsRoot) => {
+    const buttons = tabsRoot.querySelectorAll(".tabs__btn");
+    const panels = tabsRoot.querySelectorAll(".tabs__panel");
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const target = btn.dataset.tab;
+
+        buttons.forEach((b) => b.classList.toggle("is-active", b === btn));
+        panels.forEach((panel) => {
+          const isActive = panel.dataset.panel === target;
+          panel.classList.toggle("is-active", isActive);
+          panel.hidden = !isActive;
+        });
+      });
+    });
+  });
+
+  document.querySelectorAll("[data-readmore]").forEach((block) => {
+    const btn = block.querySelector("[data-readmore-btn]");
+    if (!btn) return;
+
+    btn.addEventListener("click", () => {
+      const isOpen = block.classList.toggle("is-open");
+      btn.textContent = isOpen ? "Скрыть" : "Читать далее";
+    });
+  });
+})();
