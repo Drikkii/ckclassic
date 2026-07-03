@@ -30,10 +30,14 @@
     <header class="header">
       <div class="head">
         <div class="head-logo">
-          <a href="/"><img class="logo" src="img/logo/Logo-SVG.svg" alt="Ск-классик" /></a>
+          <a href="/"
+            ><img class="logo" src="img/logo/Logo-SVG.svg" alt="Ск-классик"
+          /></a>
         </div>
         <div class="head-tagline">
-          <p class="paragraf-tagline">Классическая мягкая мебель от производителя</p>
+          <p class="paragraf-tagline">
+            Классическая мягкая мебель от производителя
+          </p>
         </div>
         <div class="head-call">
           <div class="head-call-number">
@@ -45,10 +49,16 @@
             >
             <div class="head-messengers">
               <a href="https://wa.me/78888888888" target="_blank" rel="noopener"
-                ><img class="call-logo" src="img/logo/whatsapp-svg.svg" alt="WhatsApp"
+                ><img
+                  class="call-logo"
+                  src="img/logo/whatsapp-svg.svg"
+                  alt="WhatsApp"
               /></a>
               <a href="https://t.me/Drikki" target="_blank" rel="noopener"
-                ><img class="call-logo" src="img/logo/telegram-tg.svg" alt="Telegram"
+                ><img
+                  class="call-logo"
+                  src="img/logo/telegram-tg.svg"
+                  alt="Telegram"
               /></a>
               <a href="https://max.ru" target="_blank" rel="noopener"
                 ><img
@@ -62,12 +72,120 @@
       </div>
       <nav class="head-menu" aria-label="Основное меню">
         <ul class="nav-menu-list">
-          <li class="nav-menu-el"><a href="#about">О фабрике</a></li>
-          <li class="nav-menu-el"><a href="#materials">Продукция и материалы</a></li>
-          <li class="nav-menu-el"><a href="#rooms">Модельный ряд</a></li>
-          <li class="nav-menu-el"><a href="#fabrics">Ткани и декор</a></li>
-          <li class="nav-menu-el"><a href="#buy">Где купить</a></li>
-          <li class="nav-menu-el"><a href="#works">Наши работы</a></li>
+          <li class="nav-menu-el">
+            <a class="nav-menu-link" href="index.html" rel="noopener noreferrer"
+              >Главная</a
+            >
+          </li>
+
+          <li class="nav-menu-el nav-menu-el--dropdown">
+            <button
+              class="nav-menu-trigger"
+              type="button"
+              aria-expanded="false"
+              aria-controls="nav-dropdown-factory"
+            >
+              О фабрике
+            </button>
+            <ul class="nav-dropdown" id="nav-dropdown-factory" hidden>
+              <li><a href="pages/about/business.html">О бизнесе</a></li>
+              <li><a href="pages/about/history.html">История</a></li>
+              <li><a href="pages/about/vacancies.html">Вакансии</a></li>
+              <li><a href="pages/about/contacts.html">Контакты</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-menu-el nav-menu-el--dropdown">
+            <button
+              class="nav-menu-trigger"
+              type="button"
+              aria-expanded="false"
+              aria-controls="nav-dropdown-products"
+            >
+              О продукции и материалах
+            </button>
+            <ul class="nav-dropdown" id="nav-dropdown-products" hidden>
+              <li>
+                <a href="pages/products/materials.html"
+                  >Используемые материалы и технологии</a
+                >
+              </li>
+              <li><a href="pages/products/warranty.html">Гарантии</a></li>
+              <li>
+                <a href="pages/products/usage.html">Правила эксплуатации</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-menu-el nav-menu-el--dropdown">
+            <button
+              class="nav-menu-trigger nav-menu-trigger--wide"
+              type="button"
+              aria-expanded="false"
+              aria-controls="nav-dropdown-catalog"
+            >
+              Модельный ряд
+            </button>
+            <ul
+              class="nav-dropdown nav-dropdown--catalog"
+              id="nav-dropdown-catalog"
+              hidden
+            >
+              <li><a href="pages/catalog/living.html">Ливинг</a></li>
+              <li><a href="pages/catalog/hermes.html">Гермес</a></li>
+              <li><a href="pages/catalog/dante.html">Данте</a></li>
+              <li>
+                <a href="pages/catalog/shantal-milord.html">Шантал Милорд</a>
+              </li>
+              <li><a href="pages/catalog/jamaica.html">Ямайка</a></li>
+              <li><a href="pages/catalog/scarlett.html">Скарлет</a></li>
+              <li><a href="pages/catalog/teseo.html">Тесео</a></li>
+              <li><a href="pages/catalog/turin.html">Турин</a></li>
+              <li><a href="pages/catalog/baxter.html">Бакстер</a></li>
+              <li><a href="pages/catalog/dionis.html">Дионис</a></li>
+              <li><a href="pages/catalog/custom.html">Проектные изделия</a></li>
+              <li><a href="pages/catalog/beds.html">Кровати</a></li>
+              <li><a href="pages/catalog/panels.html">Мягкие панели</a></li>
+              <li>
+                <a
+                  href="pages/catalog/chairs.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Стулья</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-menu-el">
+            <a
+              class="nav-menu-link"
+              href="pages/fabrics.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ткани и декор</a
+            >
+          </li>
+
+          <li class="nav-menu-el">
+            <a
+              class="nav-menu-link"
+              href="pages/where-to-buy.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Где купить</a
+            >
+          </li>
+
+          <li class="nav-menu-el">
+            <a
+              class="nav-menu-link"
+              href="pages/works.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Наши работы / Отзывы</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -83,35 +201,50 @@
             </div>
           </li>
           <li class="carousel__slide">
-            <img src="https://picsum.photos/seed/ckclassic1/1920/640" alt="Ск-классик — фабрика мебели" />
+            <img
+              src="https://picsum.photos/seed/ckclassic1/1920/640"
+              alt="Ск-классик — фабрика мебели"
+            />
             <div class="carousel__caption">
               <h1>Мягкая мебель Ск-классик</h1>
               <p>Собственное производство · доставка по России</p>
             </div>
           </li>
           <li class="carousel__slide">
-            <img src="https://picsum.photos/seed/ckclassic2/1920/640" alt="Качественные материалы" />
+            <img
+              src="https://picsum.photos/seed/ckclassic2/1920/640"
+              alt="Качественные материалы"
+            />
             <div class="carousel__caption">
               <h2>Качественные материалы</h2>
               <p>Ткани и декор на ваш выбор</p>
             </div>
           </li>
           <li class="carousel__slide">
-            <img src="https://picsum.photos/seed/ckclassic3/1920/640" alt="Модельный ряд" />
+            <img
+              src="https://picsum.photos/seed/ckclassic3/1920/640"
+              alt="Модельный ряд"
+            />
             <div class="carousel__caption">
               <h2>Модельный ряд</h2>
               <p>Диваны, кресла, угловые и модульные системы</p>
             </div>
           </li>
           <li class="carousel__slide">
-            <img src="https://picsum.photos/seed/ckclassic4/1920/640" alt="Наши работы" />
+            <img
+              src="https://picsum.photos/seed/ckclassic4/1920/640"
+              alt="Наши работы"
+            />
             <div class="carousel__caption">
               <h2>Наши работы</h2>
               <p>Реализованные проекты и отзывы клиентов</p>
             </div>
           </li>
           <li class="carousel__slide">
-            <img src="https://picsum.photos/seed/ckclassic5/1920/640" alt="Классика и комфорт" />
+            <img
+              src="https://picsum.photos/seed/ckclassic5/1920/640"
+              alt="Классика и комфорт"
+            />
             <div class="carousel__caption">
               <h2>Классика и комфорт</h2>
               <p>Мягкая мебель для вашего дома</p>
@@ -126,17 +259,43 @@
           </li>
         </ul>
       </div>
-      <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Предыдущий слайд">
+      <button
+        class="carousel__btn carousel__btn--prev"
+        type="button"
+        aria-label="Предыдущий слайд"
+      >
         <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M15.5 4.5 7.5 12l8 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path
+            d="M15.5 4.5 7.5 12l8 7.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       </button>
-      <button class="carousel__btn carousel__btn--next" type="button" aria-label="Следующий слайд">
+      <button
+        class="carousel__btn carousel__btn--next"
+        type="button"
+        aria-label="Следующий слайд"
+      >
         <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M8.5 4.5 16.5 12l-8 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path
+            d="M8.5 4.5 16.5 12l-8 7.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       </button>
-      <div class="carousel__dots" role="tablist" aria-label="Выбор слайда"></div>
+      <div
+        class="carousel__dots"
+        role="tablist"
+        aria-label="Выбор слайда"
+      ></div>
     </section>
 
     <main class="main">
@@ -145,7 +304,9 @@
           <ul class="benefits__list">
             <li class="benefits__item">
               <span class="benefits__icon" aria-hidden="true">◆</span>
-              <p>Собственное производство и контроль качества на каждом этапе</p>
+              <p>
+                Собственное производство и контроль качества на каждом этапе
+              </p>
             </li>
             <li class="benefits__item">
               <span class="benefits__icon" aria-hidden="true">◆</span>
@@ -168,42 +329,152 @@
           <h2 class="section__title">Мебель по комнатам</h2>
           <div class="tabs" data-tabs="rooms">
             <div class="tabs__nav" role="tablist">
-              <button class="tabs__btn is-active" type="button" role="tab" data-tab="living">Гостиная</button>
-              <button class="tabs__btn" type="button" role="tab" data-tab="bedroom">Спальня</button>
-              <button class="tabs__btn" type="button" role="tab" data-tab="office">Кабинет</button>
-              <button class="tabs__btn" type="button" role="tab" data-tab="hall">Прихожая</button>
+              <button
+                class="tabs__btn is-active"
+                type="button"
+                role="tab"
+                data-tab="living"
+              >
+                Гостиная
+              </button>
+              <button
+                class="tabs__btn"
+                type="button"
+                role="tab"
+                data-tab="bedroom"
+              >
+                Спальня
+              </button>
+              <button
+                class="tabs__btn"
+                type="button"
+                role="tab"
+                data-tab="office"
+              >
+                Кабинет
+              </button>
+              <button
+                class="tabs__btn"
+                type="button"
+                role="tab"
+                data-tab="hall"
+              >
+                Прихожая
+              </button>
             </div>
             <div class="tabs__panels">
-              <div class="tabs__panel is-active" data-panel="living" role="tabpanel">
+              <div
+                class="tabs__panel is-active"
+                data-panel="living"
+                role="tabpanel"
+              >
                 <div class="room-grid">
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/living1/400/280" alt="Диваны" /><span>Диваны</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/living2/400/280" alt="Кресла" /><span>Кресла</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/living3/400/280" alt="Угловые модели" /><span>Угловые модели</span></a>
-                  <a class="room-card room-card--more" href="#">Все предметы раздела →</a>
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/living1/400/280"
+                      alt="Диваны"
+                    /><span>Диваны</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/living2/400/280"
+                      alt="Кресла"
+                    /><span>Кресла</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/living3/400/280"
+                      alt="Угловые модели"
+                    /><span>Угловые модели</span></a
+                  >
+                  <a class="room-card room-card--more" href="#"
+                    >Все предметы раздела →</a
+                  >
                 </div>
               </div>
-              <div class="tabs__panel" data-panel="bedroom" role="tabpanel" hidden>
+              <div
+                class="tabs__panel"
+                data-panel="bedroom"
+                role="tabpanel"
+                hidden
+              >
                 <div class="room-grid">
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/bed1/400/280" alt="Кровати" /><span>Кровати</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/bed2/400/280" alt="Банкетки" /><span>Банкетки</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/bed3/400/280" alt="Пуфы" /><span>Пуфы</span></a>
-                  <a class="room-card room-card--more" href="#">Все предметы раздела →</a>
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/bed1/400/280"
+                      alt="Кровати"
+                    /><span>Кровати</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/bed2/400/280"
+                      alt="Банкетки"
+                    /><span>Банкетки</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/bed3/400/280"
+                      alt="Пуфы"
+                    /><span>Пуфы</span></a
+                  >
+                  <a class="room-card room-card--more" href="#"
+                    >Все предметы раздела →</a
+                  >
                 </div>
               </div>
-              <div class="tabs__panel" data-panel="office" role="tabpanel" hidden>
+              <div
+                class="tabs__panel"
+                data-panel="office"
+                role="tabpanel"
+                hidden
+              >
                 <div class="room-grid">
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/office1/400/280" alt="Кресла руководителя" /><span>Кресла руководителя</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/office2/400/280" alt="Диваны" /><span>Диваны</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/office3/400/280" alt="Кресла" /><span>Кресла</span></a>
-                  <a class="room-card room-card--more" href="#">Все предметы раздела →</a>
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/office1/400/280"
+                      alt="Кресла руководителя"
+                    /><span>Кресла руководителя</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/office2/400/280"
+                      alt="Диваны"
+                    /><span>Диваны</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/office3/400/280"
+                      alt="Кресла"
+                    /><span>Кресла</span></a
+                  >
+                  <a class="room-card room-card--more" href="#"
+                    >Все предметы раздела →</a
+                  >
                 </div>
               </div>
               <div class="tabs__panel" data-panel="hall" role="tabpanel" hidden>
                 <div class="room-grid">
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/hall1/400/280" alt="Банкетки" /><span>Банкетки</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/hall2/400/280" alt="Пуфы" /><span>Пуфы</span></a>
-                  <a class="room-card" href="#"><img src="https://picsum.photos/seed/hall3/400/280" alt="Кресла" /><span>Кресла</span></a>
-                  <a class="room-card room-card--more" href="#">Все предметы раздела →</a>
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/hall1/400/280"
+                      alt="Банкетки"
+                    /><span>Банкетки</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/hall2/400/280"
+                      alt="Пуфы"
+                    /><span>Пуфы</span></a
+                  >
+                  <a class="room-card" href="#"
+                    ><img
+                      src="https://picsum.photos/seed/hall3/400/280"
+                      alt="Кресла"
+                    /><span>Кресла</span></a
+                  >
+                  <a class="room-card room-card--more" href="#"
+                    >Все предметы раздела →</a
+                  >
                 </div>
               </div>
             </div>
@@ -215,14 +486,54 @@
         <div class="container">
           <h2 class="section__title">Каталог мягкой мебели</h2>
           <div class="catalog-grid">
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat1/320/240" alt="Диваны" /><span>Диваны</span></a>
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat2/320/240" alt="Угловые диваны" /><span>Угловые диваны</span></a>
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat3/320/240" alt="Кресла" /><span>Кресла</span></a>
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat4/320/240" alt="Модульные системы" /><span>Модульные системы</span></a>
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat5/320/240" alt="Кушетки" /><span>Кушетки</span></a>
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat6/320/240" alt="Банкетки" /><span>Банкетки</span></a>
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat7/320/240" alt="Пуфы" /><span>Пуфы</span></a>
-            <a class="catalog-card" href="#"><img src="https://picsum.photos/seed/cat8/320/240" alt="Канапе" /><span>Канапе</span></a>
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat1/320/240"
+                alt="Диваны"
+              /><span>Диваны</span></a
+            >
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat2/320/240"
+                alt="Угловые диваны"
+              /><span>Угловые диваны</span></a
+            >
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat3/320/240"
+                alt="Кресла"
+              /><span>Кресла</span></a
+            >
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat4/320/240"
+                alt="Модульные системы"
+              /><span>Модульные системы</span></a
+            >
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat5/320/240"
+                alt="Кушетки"
+              /><span>Кушетки</span></a
+            >
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat6/320/240"
+                alt="Банкетки"
+              /><span>Банкетки</span></a
+            >
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat7/320/240"
+                alt="Пуфы"
+              /><span>Пуфы</span></a
+            >
+            <a class="catalog-card" href="#"
+              ><img
+                src="https://picsum.photos/seed/cat8/320/240"
+                alt="Канапе"
+              /><span>Канапе</span></a
+            >
           </div>
         </div>
       </section>
@@ -232,7 +543,10 @@
           <h2 class="section__title">Наши интерьеры</h2>
           <div class="works-grid">
             <article class="work-card">
-              <img src="https://picsum.photos/seed/work1/500/360" alt="Гостиная Classic" />
+              <img
+                src="https://picsum.photos/seed/work1/500/360"
+                alt="Гостиная Classic"
+              />
               <div class="work-card__body">
                 <h3>Гостиная Classic</h3>
                 <p>Диван и два кресла в ткани бежевого оттенка</p>
@@ -240,7 +554,10 @@
               </div>
             </article>
             <article class="work-card">
-              <img src="https://picsum.photos/seed/work2/500/360" alt="Спальня Comfort" />
+              <img
+                src="https://picsum.photos/seed/work2/500/360"
+                alt="Спальня Comfort"
+              />
               <div class="work-card__body">
                 <h3>Спальня Comfort</h3>
                 <p>Кровать с мягким изголовьем и банкетка</p>
@@ -248,7 +565,10 @@
               </div>
             </article>
             <article class="work-card">
-              <img src="https://picsum.photos/seed/work3/500/360" alt="Кабинет Prestige" />
+              <img
+                src="https://picsum.photos/seed/work3/500/360"
+                alt="Кабинет Prestige"
+              />
               <div class="work-card__body">
                 <h3>Кабинет Prestige</h3>
                 <p>Кресло руководителя и диван для переговоров</p>
@@ -256,7 +576,10 @@
               </div>
             </article>
             <article class="work-card">
-              <img src="https://picsum.photos/seed/work4/500/360" alt="Гостиная Modern" />
+              <img
+                src="https://picsum.photos/seed/work4/500/360"
+                alt="Гостиная Modern"
+              />
               <div class="work-card__body">
                 <h3>Гостиная Modern</h3>
                 <p>Угловой диван и журнальная зона</p>
@@ -273,32 +596,46 @@
           <div class="offer-grid">
             <div class="offer-card">
               <h3>Лучшую мебель<br />для интерьера</h3>
-              <p>Качественная мягкая мебель собственного производства с продуманной эргономикой и долговечным каркасом.</p>
+              <p>
+                Качественная мягкая мебель собственного производства с
+                продуманной эргономикой и долговечным каркасом.
+              </p>
             </div>
             <div class="offer-card">
               <h3>Выгодные<br />условия</h3>
-              <p>Работаем напрямую с фабрики — без лишних наценок. Гибкий подбор комплектации под ваш бюджет.</p>
+              <p>
+                Работаем напрямую с фабрики — без лишних наценок. Гибкий подбор
+                комплектации под ваш бюджет.
+              </p>
             </div>
             <div class="offer-card">
               <h3>Широкий выбор<br />тканей</h3>
-              <p>Каталоги декоративных тканей, ножек и элементов отделки для индивидуального заказа.</p>
+              <p>
+                Каталоги декоративных тканей, ножек и элементов отделки для
+                индивидуального заказа.
+              </p>
             </div>
           </div>
           <div class="about-text" data-readmore>
             <div class="about-text__content">
               <p>
-                Правильно подобранная мягкая мебель способна преобразить любое помещение — добавить уют,
-                подчеркнуть стиль и создать комфорт для всей семьи. Фабрика «Ск-классик» специализируется
-                на классических и современных моделях диванов, кресел и аксессуаров.
+                Правильно подобранная мягкая мебель способна преобразить любое
+                помещение — добавить уют, подчеркнуть стиль и создать комфорт
+                для всей семьи. Фабрика «Ск-классик» специализируется на
+                классических и современных моделях диванов, кресел и
+                аксессуаров.
               </p>
               <p class="about-text__hidden">
-                Мы используем проверенные материалы, даём гарантию на каркас и механизмы, помогаем с
-                подбором ткани и размеров. Доставляем готовые изделия по всей России. На сайте
-                представлена лишь часть модельного ряда — менеджер подберёт нужную конфигурацию и ответит
-                на все вопросы по срокам и условиям заказа.
+                Мы используем проверенные материалы, даём гарантию на каркас и
+                механизмы, помогаем с подбором ткани и размеров. Доставляем
+                готовые изделия по всей России. На сайте представлена лишь часть
+                модельного ряда — менеджер подберёт нужную конфигурацию и
+                ответит на все вопросы по срокам и условиям заказа.
               </p>
             </div>
-            <button class="about-text__toggle" type="button" data-readmore-btn>Читать далее</button>
+            <button class="about-text__toggle" type="button" data-readmore-btn>
+              Читать далее
+            </button>
           </div>
         </div>
       </section>
@@ -308,8 +645,8 @@
           <div class="consultation__text">
             <h2>Нужна консультация?</h2>
             <p>
-              Оставьте номер телефона — менеджер свяжется с вами, поможет с подбором модели,
-              ткани и условиями доставки.
+              Оставьте номер телефона — менеджер свяжется с вами, поможет с
+              подбором модели, ткани и условиями доставки.
             </p>
           </div>
           <form class="consultation__form" action="#" method="post">
@@ -326,7 +663,11 @@
     <footer class="footer">
       <div class="container footer__grid">
         <div class="footer__col">
-          <img class="footer__logo" src="img/logo/Logo-SVG.svg" alt="Ск-классик" />
+          <img
+            class="footer__logo"
+            src="img/logo/Logo-SVG.svg"
+            alt="Ск-классик"
+          />
           <p class="footer__copy">© Фабрика «Ск-классик», 2026</p>
         </div>
         <div class="footer__col">
@@ -348,7 +689,9 @@
         <div class="footer__col">
           <h4>Контакты</h4>
           <a href="tel:+78888888888">8 (888) 888-88-88</a>
-          <a href="javascript:void(0)" class="js-callback-popup-btn">Обратный звонок</a>
+          <a href="javascript:void(0)" class="js-callback-popup-btn"
+            >Обратный звонок</a
+          >
         </div>
       </div>
     </footer>
