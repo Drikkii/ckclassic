@@ -15,7 +15,7 @@
     return `<header class="header">
       <div class="head">
         <div class="head-logo">
-          <a href="${b}index.html"><img class="logo" src="${b}img/logo/Logo-SVG.svg" alt="Ск-классик" /></a>
+          <a href="${b}index.html"><img class="logo" src="${b}img/logo/logotip.png" alt="Ск-классик" /></a>
         </div>
         <div class="head-tagline">
           <p class="paragraf-tagline">Классическая мягкая мебель от производителя</p>
@@ -33,6 +33,11 @@
             </div>
           </div>
         </div>
+        <button class="nav-burger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню">
+          <span class="nav-burger__line" aria-hidden="true"></span>
+          <span class="nav-burger__line" aria-hidden="true"></span>
+          <span class="nav-burger__line" aria-hidden="true"></span>
+        </button>
       </div>
       <nav class="head-menu" aria-label="Основное меню">
         <ul class="nav-menu-list">
@@ -86,7 +91,68 @@
           </li>
         </ul>
       </nav>
+      ${renderMobileNav(b, pages, catalog, blank)}
     </header>`;
+  }
+
+  function renderMobileNav(b, pages, catalog, blank) {
+    return `<nav class="mobile-nav" id="mobile-nav" aria-label="Мобильное меню" hidden>
+      <div class="mobile-nav__backdrop" data-mobile-nav-close tabindex="-1" aria-hidden="true"></div>
+      <div class="mobile-nav__drawer">
+        <div class="mobile-nav__top">
+          <button class="mobile-nav__back" type="button" hidden aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path d="M15.5 4.5 7.5 12l8 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Назад</span>
+          </button>
+          <p class="mobile-nav__heading">Меню</p>
+          <button class="mobile-nav__close" type="button" data-mobile-nav-close aria-label="Закрыть">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+              <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+        <div class="mobile-nav__panels">
+          <ul class="mobile-nav__list" data-mobile-panel="root">
+            <li><a class="mobile-nav__link" href="${b}index.html">Главная</a></li>
+            <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="factory">О фабрике</button></li>
+            <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="products">О продукции и материалах</button></li>
+            <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="catalog">Модельный ряд</button></li>
+            <li><a class="mobile-nav__link" href="${pages}fabrics.html"${blank}>Ткани и декор</a></li>
+            <li><a class="mobile-nav__link" href="${pages}where-to-buy.html"${blank}>Где купить</a></li>
+            <li><a class="mobile-nav__link" href="${pages}works.html"${blank}>Наши работы / Отзывы</a></li>
+          </ul>
+          <ul class="mobile-nav__list" data-mobile-panel="factory" hidden>
+            <li><a class="mobile-nav__link" href="${pages}about/business.html">О бизнесе</a></li>
+            <li><a class="mobile-nav__link" href="${pages}about/history.html">История</a></li>
+            <li><a class="mobile-nav__link" href="${pages}about/vacancies.html">Вакансии</a></li>
+            <li><a class="mobile-nav__link" href="${pages}about/contacts.html">Контакты</a></li>
+          </ul>
+          <ul class="mobile-nav__list" data-mobile-panel="products" hidden>
+            <li><a class="mobile-nav__link" href="${pages}products/materials.html">Используемые материалы и технологии</a></li>
+            <li><a class="mobile-nav__link" href="${pages}products/warranty.html">Гарантии</a></li>
+            <li><a class="mobile-nav__link" href="${pages}products/usage.html">Правила эксплуатации</a></li>
+          </ul>
+          <ul class="mobile-nav__list mobile-nav__list--catalog" data-mobile-panel="catalog" hidden>
+            <li><a class="mobile-nav__link" href="${catalog}living.html">Ливинг</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}hermes.html">Гермес</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}dante.html">Данте</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}shantal-milord.html">Шантал Милорд</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}jamaica.html">Ямайка</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}scarlett.html">Скарлет</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}teseo.html">Тесео</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}turin.html">Турин</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}baxter.html">Бакстер</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}dionis.html">Дионис</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}custom.html">Проектные изделия</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}beds.html">Кровати</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}panels.html">Мягкие панели</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}chairs.html">Стулья</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>`;
   }
 
   function renderConsultation(base) {
@@ -134,8 +200,8 @@
     return `<footer class="footer">
       <div class="container footer__grid">
         <div class="footer__col">
-          <img class="footer__logo" src="${b}img/logo/Logo-SVG.svg" alt="Ск-классик" />
-          <p class="footer__copy">© Фабрика «Ск-классик», 2026</p>
+          <img class="footer__logo" src="${b}img/logo/logotip.png" alt="Ск-классик" />
+          <p class="footer__copy">© Фабрика «Ск-классик» 2026</p>
         </div>
         <div class="footer__col">
           <h4>Каталог</h4>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кровати — Ск-классик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../catalog.css" />
+    <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
+  </head>
+  <body class="page-catalog" data-base="../../" data-default-collections="" data-catalog-focus="beds">
+    <div id="site-header"></div>
+
+    <main class="main catalog-page">
+      <div class="container">
+        <nav class="catalog-breadcrumbs" aria-label="Хлебные крошки">
+          <a href="../../index.html">Главная</a><span>/</span>
+          <a href="../../index.html#materials">Каталог</a><span>/</span>
+          <span>Кровати</span>
+        </nav>
+
+        <header class="catalog-header">
+          <h1 class="catalog-header__title">Кровати</h1>
+          <div class="catalog-tags">
+            <button class="catalog-tag" type="button" data-catalog-tag data-style="classic">Классические</button>
+            <button class="catalog-tag" type="button" data-catalog-tag data-style="modern">Современные</button>
+            <button class="catalog-tag" type="button" data-catalog-tag data-collection="dante">Коллекция Кровати</button>
+          </div>
+        </header>
+
+        <button class="catalog-filters-toggle" type="button" data-filters-toggle>Фильтры</button>
+
+        <div class="catalog-layout">
+          <aside class="catalog-filters" data-catalog-filters-panel>
+            <h2 class="catalog-filters__title">Фильтры</h2>
+            <form data-catalog-filters-form>
+              <div class="catalog-filters__group">
+                <span class="catalog-filters__label">По стилям</span>
+                <div class="catalog-filters__options">
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="style" value="classic" />
+                    Классический
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="style" value="modern" />
+                    Современный
+                  </label>
+                </div>
+              </div>
+
+              <div class="catalog-filters__group">
+                <span class="catalog-filters__label">По коллекции</span>
+                <div class="catalog-filters__options">
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="living" /> Ливинг</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="hermes" /> Гермес</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="dante" /> Данте</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="shantal" /> Шантал Милорд</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="jamaica" /> Ямайка</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="scarlett" /> Скарлет</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="teseo" /> Тесео</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="turin" /> Турин</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="baxter" /> Бакстер</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="dionis" /> Дионис</label>
+                </div>
+              </div>
+
+              <div class="catalog-filters__group">
+                <span class="catalog-filters__label">По цене, до</span>
+                <input
+                  class="catalog-filters__range"
+                  type="range"
+                  name="price"
+                  min="27000"
+                  max="207700"
+                  step="1000"
+                  value="207700"
+                  data-price-range
+                />
+                <div class="catalog-filters__range-values">
+                  <span>27 000 ₽</span>
+                  <span data-price-max>207 700 ₽</span>
+                </div>
+              </div>
+
+              <div class="catalog-filters__actions">
+                <button class="catalog-filters__apply" type="submit">Применить</button>
+                <button class="catalog-filters__reset" type="button" data-filter-reset>
+                  Очистить все фильтры
+                </button>
+              </div>
+            </form>
+          </aside>
+
+          <div class="catalog-main">
+            <div class="catalog-main__toolbar">
+              <p class="catalog-main__count" data-catalog-count>Показано: 0 из 84</p>
+              <label class="catalog-main__sort">
+                Сортировка
+                <select data-catalog-sort>
+                  <option value="name-asc">По алфавиту ↑</option>
+                  <option value="name-desc">По алфавиту ↓</option>
+                  <option value="price-asc">По возрастанию цены</option>
+                  <option value="price-desc">По убыванию цены</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="catalog-products-grid" data-catalog-grid></div>
+          </div>
+        </div>
+
+        <section class="catalog-seo" data-readmore>
+          <h2>Мягкие кровати и диваны-кровати</h2>
+          <p>Диваны-кровати и спальные решения с качественным механизмом трансформации — для гостиной и спальни.</p>
+          <div class="catalog-seo__hidden">
+            <p>Фото моделей с механизмами Пума, «Спартак» и другими из каталога «Ск-классик».</p>
+          </div>
+          <button class="catalog-seo__toggle" type="button" data-readmore-btn>Читать подробнее</button>
+        </section>
+      </div>
+    </main>
+
+    <div id="site-consultation"></div>
+    <div id="site-footer"></div>
+
+    <script src="../../layout.js"></script>
+    <script src="../../catalog-data.js"></script>
+    <script src="../../index.js" defer></script>
+    <script src="../../catalog.js" defer></script>
+  </body>
+</html>

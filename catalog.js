@@ -4,7 +4,7 @@
   const grid = document.querySelector("[data-catalog-grid]");
   if (!grid) return;
 
-  const products = Array.from(grid.querySelectorAll(".catalog-product"));
+  const body = document.body;
   const countEl = document.querySelector("[data-catalog-count]");
   const sortSelect = document.querySelector("[data-catalog-sort]");
   const filterForm = document.querySelector("[data-catalog-filters-form]");
@@ -15,7 +15,58 @@
   const filtersPanel = document.querySelector("[data-catalog-filters-panel]");
   const tagButtons = document.querySelectorAll("[data-catalog-tag]");
 
-  const priceMax = Number(priceRange?.max || 100000);
+  const defaultCollections = (body.dataset.defaultCollections || "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const focusGroup = body.dataset.catalogFocus || "";
+
+  let products = [];
+  let groupFilterActive = Boolean(focusGroup);
+
+  function renderProductCard(p) {
+    const article = document.createElement("article");
+    article.className = "catalog-product";
+    article.dataset.style = p.style;
+    article.dataset.collection = p.collection;
+    article.dataset.price = String(p.price);
+    article.dataset.group = p.group;
+    article.innerHTML = `
+      <a class="catalog-product__image" href="#">
+        <img src="${p.image}" alt="${p.name}" loading="lazy" />
+      </a>
+      <div class="catalog-product__body">
+        <h3 class="catalog-product__title">
+          <a href="#">${p.name}</a>
+        </h3>
+        <ul class="catalog-product__meta">
+          <li><span>Артикул:</span> ${p.sku}</li>
+          <li><span>Коллекция:</span> ${p.collectionLabel}</li>
+          <li><span>Габариты:</span> ${p.dims}</li>
+        </ul>
+        <p class="catalog-product__price">${Number(p.price).toLocaleString("ru-RU")} ₽</p>
+      </div>`;
+    return article;
+  }
+
+  function mountProducts() {
+    const source = window.CATALOG_PRODUCTS;
+    if (!Array.isArray(source) || !source.length) {
+      products = Array.from(grid.querySelectorAll(".catalog-product"));
+      return;
+    }
+
+    grid.innerHTML = "";
+    products = source.map((p) => {
+      const el = renderProductCard(p);
+      grid.appendChild(el);
+      return el;
+    });
+  }
+
+  mountProducts();
+
+  const priceMax = Number(priceRange?.max || 1000000);
 
   function getCheckedValues(name) {
     if (!filterForm) return [];
@@ -39,17 +90,27 @@
     const collections = getCheckedValues("collection");
     const maxPrice = priceRange ? Number(priceRange.value) : priceMax;
 
+    if (collections.length || styles.length) {
+      groupFilterActive = false;
+    }
+
     products.forEach((product) => {
       const productStyle = product.dataset.style;
       const productCollection = product.dataset.collection;
+      const productGroup = product.dataset.group;
       const productPrice = Number(product.dataset.price);
 
       const styleMatch = !styles.length || styles.includes(productStyle);
       const collectionMatch =
         !collections.length || collections.includes(productCollection);
       const priceMatch = productPrice <= maxPrice;
+      const groupMatch =
+        !groupFilterActive || !focusGroup || productGroup === focusGroup;
 
-      product.classList.toggle("is-hidden", !(styleMatch && collectionMatch && priceMatch));
+      product.classList.toggle(
+        "is-hidden",
+        !(styleMatch && collectionMatch && priceMatch && groupMatch),
+      );
     });
 
     applySort(false);
@@ -88,11 +149,23 @@
     if (updateCountFlag !== false) updateCount();
   }
 
-  function resetFilters() {
-    if (filterForm) {
-      filterForm.querySelectorAll("input[type=checkbox]").forEach((input) => {
-        input.checked = false;
+  function setDefaultFilters() {
+    if (!filterForm) return;
+
+    filterForm.querySelectorAll("input[type=checkbox]").forEach((input) => {
+      input.checked = false;
+    });
+
+    if (defaultCollections.length) {
+      defaultCollections.forEach((value) => {
+        const input = filterForm.querySelector(
+          `input[name="collection"][value="${value}"]`,
+        );
+        if (input) input.checked = true;
       });
+      groupFilterActive = false;
+    } else if (focusGroup) {
+      groupFilterActive = true;
     }
 
     if (priceRange) {
@@ -103,13 +176,16 @@
     }
 
     tagButtons.forEach((tag) => tag.classList.remove("is-active"));
-    products.forEach((p) => p.classList.remove("is-hidden"));
+  }
+
+  function resetFilters() {
+    setDefaultFilters();
     if (sortSelect) sortSelect.value = "name-asc";
-    applySort();
+    applyFilters();
   }
 
   function applyTagFilter(tag) {
-    resetFilters();
+    setDefaultFilters();
     tagButtons.forEach((btn) => btn.classList.toggle("is-active", btn === tag));
 
     const style = tag.dataset.style;
@@ -127,6 +203,7 @@
       if (input) input.checked = true;
     }
 
+    groupFilterActive = false;
     applyFilters();
   }
 
@@ -135,8 +212,13 @@
       if (priceMaxLabel) {
         priceMaxLabel.textContent = `${Number(priceRange.value).toLocaleString("ru-RU")} ₽`;
       }
+      applyFilters();
     });
   }
+
+  filterForm?.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+    input.addEventListener("change", applyFilters);
+  });
 
   filterForm?.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -168,5 +250,6 @@
     priceMaxLabel.textContent = `${Number(priceRange.value).toLocaleString("ru-RU")} ₽`;
   }
 
-  applySort();
+  setDefaultFilters();
+  applyFilters();
 })();

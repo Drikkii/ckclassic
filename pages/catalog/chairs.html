@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../../catalog.css" />
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
   </head>
-  <body class="page-catalog" data-base="../../">
+  <body class="page-catalog" data-base="../../" data-default-collections="" data-catalog-focus="chairs">
     <div id="site-header"></div>
 
     <main class="main catalog-page">
@@ -30,9 +30,8 @@
           <div class="catalog-tags">
             <button class="catalog-tag" type="button" data-catalog-tag data-style="classic">Классические</button>
             <button class="catalog-tag" type="button" data-catalog-tag data-style="modern">Современные</button>
-            <button class="catalog-tag" type="button" data-catalog-tag data-collection="living">Коллекция Ливинг</button>
+            <button class="catalog-tag" type="button" data-catalog-tag data-collection="living">Коллекция Стулья</button>
             <button class="catalog-tag" type="button" data-catalog-tag data-collection="hermes">Коллекция Гермес</button>
-            <button class="catalog-tag" type="button" data-catalog-tag data-collection="scarlett">Коллекция Скарлет</button>
           </div>
         </header>
 
@@ -59,30 +58,16 @@
               <div class="catalog-filters__group">
                 <span class="catalog-filters__label">По коллекции</span>
                 <div class="catalog-filters__options">
-                  <label class="catalog-filters__option">
-                    <input type="checkbox" name="collection" value="living" />
-                    Ливинг
-                  </label>
-                  <label class="catalog-filters__option">
-                    <input type="checkbox" name="collection" value="hermes" />
-                    Гермес
-                  </label>
-                  <label class="catalog-filters__option">
-                    <input type="checkbox" name="collection" value="dante" />
-                    Данте
-                  </label>
-                  <label class="catalog-filters__option">
-                    <input type="checkbox" name="collection" value="shantal" />
-                    Шантал Милорд
-                  </label>
-                  <label class="catalog-filters__option">
-                    <input type="checkbox" name="collection" value="turin" />
-                    Турин
-                  </label>
-                  <label class="catalog-filters__option">
-                    <input type="checkbox" name="collection" value="scarlett" />
-                    Скарлет
-                  </label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="living" /> Ливинг</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="hermes" /> Гермес</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="dante" /> Данте</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="shantal" /> Шантал Милорд</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="jamaica" /> Ямайка</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="scarlett" /> Скарлет</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="teseo" /> Тесео</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="turin" /> Турин</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="baxter" /> Бакстер</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="dionis" /> Дионис</label>
                 </div>
               </div>
 
@@ -92,15 +77,15 @@
                   class="catalog-filters__range"
                   type="range"
                   name="price"
-                  min="20000"
-                  max="80000"
+                  min="27000"
+                  max="207700"
                   step="1000"
-                  value="80000"
+                  value="207700"
                   data-price-range
                 />
                 <div class="catalog-filters__range-values">
-                  <span>20 000 ₽</span>
-                  <span data-price-max>80 000 ₽</span>
+                  <span>27 000 ₽</span>
+                  <span data-price-max>207 700 ₽</span>
                 </div>
               </div>
 
@@ -115,7 +100,7 @@
 
           <div class="catalog-main">
             <div class="catalog-main__toolbar">
-              <p class="catalog-main__count" data-catalog-count>Показано: 6 из 6</p>
+              <p class="catalog-main__count" data-catalog-count>Показано: 0 из 84</p>
               <label class="catalog-main__sort">
                 Сортировка
                 <select data-catalog-sort>
@@ -127,160 +112,16 @@
               </label>
             </div>
 
-            <div class="catalog-products-grid" data-catalog-grid>
-              <article
-                class="catalog-product"
-                data-style="classic"
-                data-collection="living"
-                data-price="28500"
-              >
-                <a class="catalog-product__image" href="#">
-                  <img src="https://picsum.photos/seed/chair-living/600/450" alt="Стул Classic Ливинг" />
-                </a>
-                <div class="catalog-product__body">
-                  <h3 class="catalog-product__title">
-                    <a href="#">Стул Classic Ливинг</a>
-                  </h3>
-                  <ul class="catalog-product__meta">
-                    <li><span>Артикул:</span> SK-CH-001</li>
-                    <li><span>Коллекция:</span> Ливинг</li>
-                    <li><span>Габариты:</span> 520 × 580 × 980 мм</li>
-                  </ul>
-                  <p class="catalog-product__price">28 500 ₽</p>
-                </div>
-              </article>
-
-              <article
-                class="catalog-product"
-                data-style="classic"
-                data-collection="hermes"
-                data-price="42000"
-              >
-                <a class="catalog-product__image" href="#">
-                  <img src="https://picsum.photos/seed/chair-hermes/600/450" alt="Стул Гермес с подлокотниками" />
-                </a>
-                <div class="catalog-product__body">
-                  <h3 class="catalog-product__title">
-                    <a href="#">Стул Гермес с подлокотниками</a>
-                  </h3>
-                  <ul class="catalog-product__meta">
-                    <li><span>Артикул:</span> SK-CH-002</li>
-                    <li><span>Коллекция:</span> Гермес</li>
-                    <li><span>Габариты:</span> 620 × 650 × 1020 мм</li>
-                  </ul>
-                  <p class="catalog-product__price">42 000 ₽</p>
-                </div>
-              </article>
-
-              <article
-                class="catalog-product"
-                data-style="modern"
-                data-collection="dante"
-                data-price="35800"
-              >
-                <a class="catalog-product__image" href="#">
-                  <img src="https://picsum.photos/seed/chair-dante/600/450" alt="Стул Dante" />
-                </a>
-                <div class="catalog-product__body">
-                  <h3 class="catalog-product__title">
-                    <a href="#">Стул Dante</a>
-                  </h3>
-                  <ul class="catalog-product__meta">
-                    <li><span>Артикул:</span> SK-CH-003</li>
-                    <li><span>Коллекция:</span> Данте</li>
-                    <li><span>Габариты:</span> 540 × 590 × 940 мм</li>
-                  </ul>
-                  <p class="catalog-product__price">35 800 ₽</p>
-                </div>
-              </article>
-
-              <article
-                class="catalog-product"
-                data-style="classic"
-                data-collection="shantal"
-                data-price="51000"
-              >
-                <a class="catalog-product__image" href="#">
-                  <img src="https://picsum.photos/seed/chair-shantal/600/450" alt="Стул Шантал Милорд" />
-                </a>
-                <div class="catalog-product__body">
-                  <h3 class="catalog-product__title">
-                    <a href="#">Стул Шантал Милорд</a>
-                  </h3>
-                  <ul class="catalog-product__meta">
-                    <li><span>Артикул:</span> SK-CH-004</li>
-                    <li><span>Коллекция:</span> Шантал Милорд</li>
-                    <li><span>Габариты:</span> 560 × 610 × 990 мм</li>
-                  </ul>
-                  <p class="catalog-product__price">51 000 ₽</p>
-                </div>
-              </article>
-
-              <article
-                class="catalog-product"
-                data-style="modern"
-                data-collection="turin"
-                data-price="29900"
-              >
-                <a class="catalog-product__image" href="#">
-                  <img src="https://picsum.photos/seed/chair-turin/600/450" alt="Стул Турин" />
-                </a>
-                <div class="catalog-product__body">
-                  <h3 class="catalog-product__title">
-                    <a href="#">Стул Турин</a>
-                  </h3>
-                  <ul class="catalog-product__meta">
-                    <li><span>Артикул:</span> SK-CH-005</li>
-                    <li><span>Коллекция:</span> Турин</li>
-                    <li><span>Габариты:</span> 510 × 560 × 960 мм</li>
-                  </ul>
-                  <p class="catalog-product__price">29 900 ₽</p>
-                </div>
-              </article>
-
-              <article
-                class="catalog-product"
-                data-style="classic"
-                data-collection="scarlett"
-                data-price="67500"
-              >
-                <a class="catalog-product__image" href="#">
-                  <img src="https://picsum.photos/seed/chair-scarlett/600/450" alt="Стул Скарлет" />
-                </a>
-                <div class="catalog-product__body">
-                  <h3 class="catalog-product__title">
-                    <a href="#">Стул Скарлет</a>
-                  </h3>
-                  <ul class="catalog-product__meta">
-                    <li><span>Артикул:</span> SK-CH-006</li>
-                    <li><span>Коллекция:</span> Скарлет</li>
-                    <li><span>Габариты:</span> 580 × 630 × 1010 мм</li>
-                  </ul>
-                  <p class="catalog-product__price">67 500 ₽</p>
-                </div>
-              </article>
-            </div>
+            <div class="catalog-products-grid" data-catalog-grid></div>
           </div>
         </div>
 
         <section class="catalog-seo" data-readmore>
           <h2>Как выбрать стул для столовой или гостиной</h2>
-          <p>
-            Стул — важная часть обеденной группы: от него зависит комфорт за столом и общий
-            вид интерьера. При выборе учитывайте высоту сиденья относительно столешницы
-            (оптимальный зазор — 25–30 см), ширину посадочного места и тип обивки.
-          </p>
+          <p>Стул — важная часть обеденной группы: от него зависит комфорт за столом и общий вид интерьера. При выборе учитывайте высоту сиденья относительно столешницы (оптимальный зазор — 25–30 см), ширину посадочного места и тип обивки.</p>
           <div class="catalog-seo__hidden">
-            <p>
-              Фабрика «Ск-классик» предлагает стулья в классическом и современном исполнении.
-              Каркас из массива и фанеры, наполнитель из ППУ, обивка на выбор из каталога
-              тканей. Возможна комплектация подлокотниками и декоративной отделкой ножек.
-            </p>
-            <p>
-              Для кухни и столовой рекомендуем ткани с пропиткой Easy Clean; для гостиной —
-              более декоративные материалы. Менеджер поможет подобрать комплект стульев под
-              ваш стол и интерьер, рассчитает срок изготовления и доставку.
-            </p>
+            <p>Фабрика «Ск-классик» предлагает стулья и кресла в классическом и современном исполнении. Каркас из массива и фанеры, наполнитель из ППУ, обивка на выбор из каталога тканей.</p>
+            <p>Для кухни и столовой рекомендуем ткани с пропиткой Easy Clean; для гостиной — более декоративные материалы. Менеджер поможет подобрать комплект под ваш стол и интерьер.</p>
           </div>
           <button class="catalog-seo__toggle" type="button" data-readmore-btn>Читать подробнее</button>
         </section>
@@ -288,10 +129,10 @@
     </main>
 
     <div id="site-consultation"></div>
-
     <div id="site-footer"></div>
 
     <script src="../../layout.js"></script>
+    <script src="../../catalog-data.js"></script>
     <script src="../../index.js" defer></script>
     <script src="../../catalog.js" defer></script>
   </body>
