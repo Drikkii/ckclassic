@@ -156,17 +156,32 @@ img {
   color: var(--color-text);
 }
 
-.head-messengers {
+.head-messengers,
+.footer__messengers {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
 
+.footer__messengers {
+  margin-top: 14px;
+}
+
+.messenger-icon,
 .call-logo {
+  display: block;
   width: 1.5rem;
   height: 1.5rem;
   transition: transform 0.25s ease;
 }
 
+.footer__messengers .messenger-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.head-messengers a:hover .messenger-icon,
+.footer__messengers a:hover .messenger-icon,
 .call-logo:hover {
   transform: scale(1.15);
 }
@@ -641,6 +656,7 @@ body.page-simple {
     gap: 8px;
   }
 
+  .messenger-icon,
   .call-logo {
     width: 1.35rem;
     height: 1.35rem;
@@ -661,10 +677,6 @@ body.page-simple {
 }
 
 @media (max-width: 480px) {
-  .head-messengers {
-    display: none;
-  }
-
   .phone {
     font-size: 0.8rem;
   }
@@ -1231,6 +1243,7 @@ body.page-simple {
 }
 
 .footer__col a {
+  display: block;
   font-size: 0.9rem;
   color: var(--color-muted);
 }
@@ -1387,6 +1400,30 @@ body.page-simple {
 
 .callback-modal .lead-form__note a:hover {
   color: var(--color-text);
+}
+
+.lead-thanks-modal__btn {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 14px 20px;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+  background: var(--color-accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lead-thanks-modal__btn:hover {
+  background: var(--color-accent-dark);
+}
+
+.lead-thanks-modal .callback-modal__text {
+  margin-bottom: 20px;
 }
 
 /* LEGAL / PRIVACY PAGE */

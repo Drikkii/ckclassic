@@ -319,7 +319,7 @@
     el.addEventListener("click", closeOrderModal);
   });
 
-  orderForm?.addEventListener("submit", (e) => {
+  orderForm?.addEventListener("submit", async (e) => {
     e.preventDefault();
     const formData = new FormData(orderForm);
     const requestId = String(Math.floor(1000 + Math.random() * 9000));
@@ -330,6 +330,39 @@
     const orders = JSON.parse(localStorage.getItem("ck_orders") || "[]");
     orders.push(payload);
     localStorage.setItem("ck_orders", JSON.stringify(orders));
+
+    const submitBtn = orderForm.querySelector('[type="submit"]');
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.dataset.originalText = submitBtn.textContent;
+      submitBtn.textContent = "Отправка…";
+    }
+
+    try {
+      if (window.CKForms?.sendLead) {
+        await window.CKForms.sendLead({
+          _subject: "Заявка на товар",
+          fields: {
+            "Тип заявки": "Заявка на товар",
+            "Номер заявки": requestId,
+            "Страница": document.title,
+            "URL": window.location.href,
+            ...payload,
+          },
+        });
+      }
+    } catch (error) {
+      console.error(error);
+      window.alert(
+        "Заявка сохранена, но письмо не отправилось. Мы всё равно свяжемся с вами.",
+      );
+    } finally {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent =
+          submitBtn.dataset.originalText || "Отправить заявку";
+      }
+    }
 
     orderForm.reset();
     document.querySelector("[data-order-model]").value = product.name;

@@ -6,6 +6,20 @@
     return `<p class="lead-form__note">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href="${href}">политикой конфиденциальности</a>.</p>`;
   }
 
+  function renderMessengers(b, className = "head-messengers") {
+    return `<div class="${className}">
+              <a href="https://wa.me/78888888888" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <img class="messenger-icon" src="${b}img/logo/messenger-whatsapp.svg" alt="" width="24" height="24" />
+              </a>
+              <a href="https://t.me/Drikki" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                <img class="messenger-icon" src="${b}img/logo/messenger-telegram.svg" alt="" width="24" height="24" />
+              </a>
+              <a href="https://max.ru" target="_blank" rel="noopener noreferrer" aria-label="Max">
+                <img class="messenger-icon" src="${b}img/logo/messenger-max.svg" alt="" width="24" height="24" />
+              </a>
+            </div>`;
+  }
+
   function renderHeader(base) {
     const b = base;
     const pages = `${b}pages/`;
@@ -26,11 +40,7 @@
           </div>
           <div class="head-callback">
             <a href="javascript:void(0)" class="callback js-callback-popup-btn">Заказать обратный звонок</a>
-            <div class="head-messengers">
-              <a href="https://wa.me/78888888888" target="_blank" rel="noopener"><img class="call-logo" src="${b}img/logo/whatsapp-svg.svg" alt="WhatsApp" /></a>
-              <a href="https://t.me/Drikki" target="_blank" rel="noopener"><img class="call-logo" src="${b}img/logo/telegram-tg.svg" alt="Telegram" /></a>
-              <a href="https://max.ru" target="_blank" rel="noopener"><img class="call-logo" src="${b}img/logo/max-messenger-white-on-black-icon.svg" alt="Max" /></a>
-            </div>
+            ${renderMessengers(b)}
           </div>
         </div>
         <button class="nav-burger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню">
@@ -161,7 +171,7 @@
           <h2>Нужна консультация?</h2>
           <p>Оставьте контакты — менеджер свяжется с вами, поможет с подбором модели, ткани и условиями доставки.</p>
         </div>
-        <form class="consultation__form lead-form" action="#" method="post">
+        <form class="consultation__form lead-form" data-lead-form="consultation" action="#" method="post">
           <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required />
           <input type="tel" name="phone" placeholder="Ваш телефон" autocomplete="tel" required />
           <button type="submit">Перезвоните мне</button>
@@ -169,6 +179,22 @@
         </form>
       </div>
     </section>`;
+  }
+
+  function renderThanksModal() {
+    return `<div class="callback-modal lead-thanks-modal" id="lead-thanks-modal" hidden>
+      <div class="callback-modal__overlay" data-lead-thanks-close tabindex="-1" aria-hidden="true"></div>
+      <div class="callback-modal__dialog lead-thanks-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="lead-thanks-title">
+        <button class="callback-modal__close" type="button" data-lead-thanks-close aria-label="Закрыть">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <h2 class="callback-modal__title" id="lead-thanks-title">Спасибо!</h2>
+        <p class="callback-modal__text" data-lead-thanks-text>Менеджер скоро свяжется с вами и ответит на все вопросы.</p>
+        <button type="button" class="lead-thanks-modal__btn" data-lead-thanks-close>Закрыть</button>
+      </div>
+    </div>`;
   }
 
   function renderCallbackModal(base) {
@@ -182,7 +208,7 @@
         </button>
         <h2 class="callback-modal__title" id="callback-modal-title">Обратный звонок</h2>
         <p class="callback-modal__text">Оставьте имя и номер телефона — наш менеджер свяжется с вами и ответит на все вопросы.</p>
-        <form class="callback-modal__form lead-form" action="#" method="post">
+        <form class="callback-modal__form lead-form" data-lead-form="callback" action="#" method="post">
           <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required />
           <input type="tel" name="phone" placeholder="Ваш телефон" autocomplete="tel" required />
           <button type="submit">Заказать звонок</button>
@@ -223,6 +249,7 @@
           <h4>Контакты</h4>
           <a href="tel:+78888888888">8 (888) 888-88-88</a>
           <a href="javascript:void(0)" class="js-callback-popup-btn">Обратный звонок</a>
+          ${renderMessengers(b, "footer__messengers")}
         </div>
       </div>
     </footer>`;
@@ -252,6 +279,30 @@
   document.body.appendChild(modalMount);
   mount("site-callback-modal", renderCallbackModal(base));
 
+  const thanksMount = document.createElement("div");
+  thanksMount.id = "site-thanks-modal";
+  document.body.appendChild(thanksMount);
+  mount("site-thanks-modal", renderThanksModal());
+
   const modalEl = document.getElementById("callback-modal");
   if (modalEl) document.body.appendChild(modalEl);
+
+  const thanksEl = document.getElementById("lead-thanks-modal");
+  if (thanksEl) document.body.appendChild(thanksEl);
+
+  const basePath = document.body.getAttribute("data-base") || "";
+  const loadScript = (src) =>
+    new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = `${basePath}${src}`;
+      script.onload = resolve;
+      script.onerror = reject;
+      document.body.appendChild(script);
+    });
+
+  loadScript("forms-config.js")
+    .then(() => loadScript("forms.js"))
+    .catch(() => {
+      console.warn("[CK Forms] Не удалось загрузить forms-config.js или forms.js");
+    });
 })();
