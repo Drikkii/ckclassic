@@ -71,6 +71,61 @@
               </div>
 
               <div class="catalog-filters__group">
+                <span class="catalog-filters__label">Механизм трансформации</span>
+                <div class="catalog-filters__options">
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism" value="yes" />
+                    Есть механизм
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism" value="no" />
+                    Без механизма
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="puma" />
+                    Пума
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="rollout" />
+                    Выкатной
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="npb" />
+                    НПБ
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="sofa-bed" />
+                    Диван-кровать
+                  </label>
+                </div>
+              </div>
+
+              <div class="catalog-filters__group">
+                <span class="catalog-filters__label">Ширина, см</span>
+                <div class="catalog-filters__width">
+                  <input
+                    class="catalog-filters__width-input"
+                    type="number"
+                    name="width_from"
+                    data-width-from
+                    placeholder="от"
+                    min="58"
+                    max="300"
+                  />
+                  <span class="catalog-filters__width-sep">—</span>
+                  <input
+                    class="catalog-filters__width-input"
+                    type="number"
+                    name="width_to"
+                    data-width-to
+                    placeholder="до"
+                    min="58"
+                    max="300"
+                  />
+                </div>
+              </div>
+
+              <div class="catalog-filters__group">
                 <span class="catalog-filters__label">По цене, до</span>
                 <input
                   class="catalog-filters__range"
@@ -100,15 +155,25 @@
           <div class="catalog-main">
             <div class="catalog-main__toolbar">
               <p class="catalog-main__count" data-catalog-count>Показано: 0 из 84</p>
-              <label class="catalog-main__sort">
-                Сортировка
-                <select data-catalog-sort>
-                  <option value="name-asc">По алфавиту ↑</option>
-                  <option value="name-desc">По алфавиту ↓</option>
-                  <option value="price-asc">По возрастанию цены</option>
-                  <option value="price-desc">По убыванию цены</option>
-                </select>
-              </label>
+              <div class="catalog-main__controls">
+                <input
+                  class="catalog-main__search"
+                  type="search"
+                  name="q"
+                  data-catalog-search
+                  placeholder="Поиск по названию или артикулу"
+                  autocomplete="off"
+                />
+                <label class="catalog-main__sort">
+                  Сортировка
+                  <select data-catalog-sort>
+                    <option value="new">По новизне</option>
+                    <option value="popular">По популярности</option>
+                    <option value="price-asc">По цене ↑</option>
+                    <option value="price-desc">По цене ↓</option>
+                  </select>
+                </label>
+              </div>
             </div>
 
             <div class="catalog-products-grid" data-catalog-grid></div>

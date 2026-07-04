@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Модель — Ск-классик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../catalog.css" />
+    <link rel="stylesheet" href="../../product.css" />
+    <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
+  </head>
+  <body class="page-product" data-base="../../">
+    <div id="site-header"></div>
+
+    <main class="main product-page">
+      <div class="container">
+        <nav class="catalog-breadcrumbs" data-product-breadcrumbs aria-label="Хлебные крошки">
+          <a href="../../index.html">Главная</a><span>/</span>
+          <a href="../../index.html#materials">Каталог</a><span>/</span>
+          <span>Модель</span>
+        </nav>
+
+        <div class="product-not-found" data-product-not-found hidden>
+          <h1>Модель не найдена</h1>
+          <p>Проверьте ссылку или вернитесь в <a href="living.html">каталог</a>.</p>
+        </div>
+
+        <article class="product-detail" data-product-root hidden>
+          <div class="product-detail__gallery" data-product-gallery>
+            <div class="product-gallery">
+              <div class="product-gallery__stage">
+                <button
+                  class="product-gallery__nav product-gallery__nav--prev"
+                  type="button"
+                  data-gallery-prev
+                  aria-label="Предыдущее фото"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M15.5 4.5 7.5 12l8 7.5"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <button class="product-gallery__main" type="button" data-gallery-open aria-label="Открыть фото">
+                  <img src="" alt="" data-gallery-main loading="eager" />
+                </button>
+                <button
+                  class="product-gallery__nav product-gallery__nav--next"
+                  type="button"
+                  data-gallery-next
+                  aria-label="Следующее фото"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M8.5 4.5 16.5 12l-8 7.5"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="product-gallery__thumbs" data-gallery-thumbs></div>
+            </div>
+            <div class="product-gallery__about">
+              <h2 class="product-gallery__about-title">О модели</h2>
+              <p class="product-gallery__about-text" data-product-gallery-description></p>
+            </div>
+          </div>
+
+          <div class="product-detail__info">
+            <p class="product-detail__sku" data-product-sku></p>
+            <h1 class="product-detail__title" data-product-title></h1>
+            <p class="product-detail__collection" data-product-collection></p>
+
+            <div class="product-detail__price-block">
+              <p class="product-detail__price" data-product-price></p>
+              <p class="product-detail__price-base" data-product-price-base hidden></p>
+            </div>
+
+            <div class="product-detail__fabric">
+              <span class="product-detail__label" id="product-fabric-label">Ткань / декор</span>
+              <div class="fabric-picker" data-fabric-picker>
+                <button
+                  type="button"
+                  class="fabric-picker__trigger"
+                  id="product-fabric-trigger"
+                  data-fabric-trigger
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="product-fabric-label product-fabric-trigger"
+                >
+                  <span class="fabric-picker__value" data-fabric-value></span>
+                  <span class="fabric-picker__chevron" aria-hidden="true"></span>
+                </button>
+                <div class="fabric-picker__backdrop" data-fabric-backdrop hidden></div>
+                <ul class="fabric-picker__list" data-fabric-list role="listbox" aria-labelledby="product-fabric-label" hidden></ul>
+                <select id="product-fabric" data-product-fabric hidden tabindex="-1" aria-hidden="true"></select>
+              </div>
+            </div>
+
+            <dl class="product-detail__specs" data-product-specs></dl>
+
+            <form class="product-order-form" data-product-order-form>
+              <h2 class="product-order-form__title">Оставить заявку</h2>
+              <input type="hidden" name="model" data-order-model />
+              <input type="hidden" name="fabric" data-order-fabric />
+              <input type="hidden" name="sku" data-order-sku />
+              <label>
+                ФИО
+                <input type="text" name="name" required autocomplete="name" />
+              </label>
+              <label>
+                Телефон
+                <input type="tel" name="phone" required autocomplete="tel" />
+              </label>
+              <label>
+                Город / ТЦ (необязательно)
+                <input type="text" name="city" autocomplete="address-level2" />
+              </label>
+              <label>
+                Комментарий
+                <textarea name="comment" rows="3"></textarea>
+              </label>
+              <button type="submit">Отправить заявку</button>
+              <p class="product-order-form__note">
+                Нажимая кнопку, вы соглашаетесь с
+                <a href="../privacy.html">политикой конфиденциальности</a>.
+              </p>
+            </form>
+          </div>
+        </article>
+
+        <section class="product-similar" data-product-similar hidden>
+          <h2 class="product-similar__title">Похожие модели</h2>
+          <div class="catalog-products-grid" data-product-similar-grid></div>
+        </section>
+      </div>
+    </main>
+
+    <div id="site-consultation"></div>
+    <div id="site-footer"></div>
+
+    <div class="product-lightbox" data-product-lightbox hidden>
+      <div class="product-lightbox__chrome">
+        <button class="product-lightbox__close" type="button" data-lightbox-close aria-label="Закрыть">×</button>
+      </div>
+      <div class="product-lightbox__stage">
+        <button class="product-lightbox__nav product-lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Назад">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M15.5 4.5 7.5 12l8 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <img class="product-lightbox__img" src="" alt="" data-lightbox-img />
+        <button class="product-lightbox__nav product-lightbox__nav--next" type="button" data-lightbox-next aria-label="Вперёд">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8.5 4.5 16.5 12l-8 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="product-order-modal" data-order-modal hidden>
+      <div class="product-order-modal__overlay" data-order-modal-close tabindex="-1"></div>
+      <div class="product-order-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="order-modal-title">
+        <button class="product-order-modal__close" type="button" data-order-modal-close aria-label="Закрыть">×</button>
+        <h2 id="order-modal-title">Спасибо!</h2>
+        <p data-order-modal-text></p>
+        <button type="button" class="product-order-modal__btn" data-order-modal-close>Закрыть</button>
+      </div>
+    </div>
+
+    <script src="../../layout.js"></script>
+    <script src="../../catalog-data.js"></script>
+    <script src="../../fabrics-data.js"></script>
+    <script src="../../index.js" defer></script>
+    <script src="../../product.js" defer></script>
+  </body>
+</html>

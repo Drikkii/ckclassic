@@ -76,21 +76,172 @@ function productDisplayName(label, pageTitle) {
   return `${pageTitle} ${label}`;
 }
 
-function buildProducts(images, collection, prefix, priceBase, group) {
+function isChairProduct(text) {
+  const t = text.toLowerCase();
+  if (/диван|углов|модуль|набор|комплект|оттоман/i.test(t)) return false;
+  return /кресл|стул|пуф/i.test(t);
+}
+
+function detectMechanism(text) {
+  const t = text.toLowerCase();
+  if (/панел|камин|спинк/i.test(t) || isChairProduct(text)) {
+    return { hasMechanism: false, mechanismType: null, mechanismLabel: "—" };
+  }
+  if (/пум|puma/i.test(t)) {
+    return { hasMechanism: true, mechanismType: "puma", mechanismLabel: "Пума" };
+  }
+  if (/выкат/i.test(t)) {
+    return { hasMechanism: true, mechanismType: "rollout", mechanismLabel: "Выкатной" };
+  }
+  if (/нпб/i.test(t)) {
+    return { hasMechanism: true, mechanismType: "npb", mechanismLabel: "НПБ" };
+  }
+  if (/диван-кровать|кроват|расклад|раскл/i.test(t)) {
+    return { hasMechanism: true, mechanismType: "sofa-bed", mechanismLabel: "Диван-кровать" };
+  }
+  return { hasMechanism: false, mechanismType: null, mechanismLabel: "—" };
+}
+
+function detectType(text) {
+  const t = text.toLowerCase();
+  if (/углов|уг\b/i.test(t)) return "corner";
+  if (/модуль|набор/i.test(t)) return "modular";
+  return "straight";
+}
+
+function computeWidth(i, text) {
+  const t = text.toLowerCase();
+  if (isChairProduct(t)) return 58 + (i % 3) * 4;
+  if (/уг/i.test(t)) return 240 + (i % 4) * 20;
+  if (/модуль|набор/i.test(t)) return 200 + (i % 5) * 16;
+  return 170 + (i % 6) * 15;
+}
+
+function buildDimensions(widthCm, text) {
+  if (isChairProduct(text)) return "520 × 580 × 980 мм";
+  const w = widthCm * 10;
+  const d = /уг/i.test(text) ? 1600 : 950;
+  return `${w} × ${d} × 880 мм`;
+}
+
+const COLLECTION_INTERIOR = {
+  living: "Фото, вписанные в интерьер/Ливинг в интерьере",
+  hermes: "Фото, вписанные в интерьер/Гермес в интерьере",
+  dante: "Фото, вписанные в интерьер/Данте в интерьере",
+  shantal: "Фото, вписанные в интерьер/Шантал Милорд в интерьере",
+  jamaica: "Фото, вписанные в интерьер/Ямайка в интерьере",
+  scarlett: "Фото, вписанные в интерьер/Скарлет в интерьере",
+  teseo: "Фото, вписанные в интерьер/Тесео в интерьере",
+  turin: "Фото, вписанные в интерьер/Турин в интерьере",
+  baxter: "Фото, вписанные в интерьер/Бакстер в интерьере",
+  dionis: "Фото, вписанные в интерьер/Дионис в интерьере",
+};
+
+function buildGallery(mainImg, pool, maxPhotos = 8) {
+  const types = [
+    "general",
+    "detail",
+    "interior",
+    "mechanism",
+    "detail",
+    "interior",
+    "detail",
+    "mechanism",
+  ];
+  const uniquePool = [...new Set((pool || []).filter(Boolean))];
+  const rest = uniquePool.filter((img) => img !== mainImg);
+  return [mainImg, ...rest.slice(0, maxPhotos - 1)].map((img, idx) => ({
+    src: photoHref(img),
+    alt: cleanName(img),
+    type: types[idx] || "detail",
+  }));
+}
+
+function hashSku(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+function buildDescription(name, colLabel, mech, type, style, i, text) {
+  const parts = [`${name} — модель коллекции «${colLabel}».`];
+
+  if (isChairProduct(text)) {
+    parts.push("Удобная посадка и классический силуэт для столовой или гостиной.");
+  } else if (type === "corner") {
+    parts.push("Угловая компоновка экономит место и формирует уютную зону отдыха.");
+  } else if (type === "modular") {
+    parts.push("Модульная система — можно подобрать состав под планировку комнаты.");
+  } else {
+    parts.push("Сбалансированные пропорции и мягкая посадка для повседневного комфорта.");
+  }
+
+  if (mech.hasMechanism) {
+    parts.push(`Механизм трансформации: ${mech.mechanismLabel}.`);
+  } else if (!isChairProduct(text)) {
+    parts.push("Статичная конструкция рассчитана на ежедневное использование.");
+  }
+
+  const tails = [
+    "Обивка выбирается из каталога тканей и декора фабрики.",
+    "Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "Менеджер поможет подобрать комплектацию и рассчитать стоимость.",
+    style === "modern"
+      ? "Современное исполнение сочетается с фабричным контролем качества."
+      : "Классическая отделка соответствует стилю коллекции «Ск-классик».",
+  ];
+  parts.push(tails[i % tails.length]);
+
+  return parts.join(" ");
+}
+
+function buildProducts(images, collection, prefix, priceBase, group, imagePool) {
   const styles = ["classic", "classic", "modern", "classic", "modern", "classic"];
   return images.slice(0, 6).map((img, i) => {
     const label = cleanName(img);
     const col = detectCollection(img, collection.col);
+    const name = productDisplayName(label, collection.title);
+    const sku = `${prefix}-${String(i + 1).padStart(3, "0")}`;
+    const text = `${img} ${label} ${name}`;
+    const mech = detectMechanism(text);
+    const type = detectType(text);
+    const width = computeWidth(i, text);
+    const price = priceBase + i * 8500 + (i % 2) * 3200;
+
     return {
       image: photoHref(img),
-      name: productDisplayName(label, collection.title),
-      sku: `${prefix}-${String(i + 1).padStart(3, "0")}`,
+      gallery: buildGallery(img, imagePool || images, 8),
+      name,
+      sku,
       collectionLabel: COLLECTION_LABELS[col] || collection.title,
       collection: col,
       group,
       style: styles[i] || "classic",
-      dims: collection.dims || "по запросу",
-      price: priceBase + i * 8500 + (i % 2) * 3200,
+      type,
+      dims: buildDimensions(width, text),
+      width,
+      hasMechanism: mech.hasMechanism,
+      mechanismType: mech.mechanismType,
+      mechanismLabel: mech.mechanismLabel,
+      price,
+      basePrice: price,
+      isNew: i === 0 || /новин|bellezza/i.test(text),
+      popularity: 40 + (hashSku(sku) % 60),
+      description: buildDescription(
+        name,
+        COLLECTION_LABELS[col] || collection.title,
+        mech,
+        type,
+        styles[i] || "classic",
+        i,
+        text,
+      ),
+      frame: isChairProduct(text)
+        ? "массив бука, фанера"
+        : "массив бука, фанера, берёзовая латофлекс",
+      filler: "ППУ высокой плотности, синтепон",
+      base: type === "corner" ? "угловая композиция" : type === "modular" ? "модульная система" : "прямой диван",
+      fabrics: ["standard", "velvet-classic", "chenille", "jacquard", "boucle"],
     };
   });
 }
@@ -133,7 +284,7 @@ function renderTags(collection) {
   return tags.join("\n            ");
 }
 
-function renderPage(page, globalPriceMin, globalPriceMax, productCount) {
+function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, globalWidthMax, productCount) {
   const defaultCollections =
     page.defaultCollections !== undefined
       ? page.defaultCollections
@@ -211,6 +362,61 @@ function renderPage(page, globalPriceMin, globalPriceMax, productCount) {
               </div>
 
               <div class="catalog-filters__group">
+                <span class="catalog-filters__label">Механизм трансформации</span>
+                <div class="catalog-filters__options">
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism" value="yes" />
+                    Есть механизм
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism" value="no" />
+                    Без механизма
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="puma" />
+                    Пума
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="rollout" />
+                    Выкатной
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="npb" />
+                    НПБ
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="sofa-bed" />
+                    Диван-кровать
+                  </label>
+                </div>
+              </div>
+
+              <div class="catalog-filters__group">
+                <span class="catalog-filters__label">Ширина, см</span>
+                <div class="catalog-filters__width">
+                  <input
+                    class="catalog-filters__width-input"
+                    type="number"
+                    name="width_from"
+                    data-width-from
+                    placeholder="от"
+                    min="${globalWidthMin}"
+                    max="${globalWidthMax}"
+                  />
+                  <span class="catalog-filters__width-sep">—</span>
+                  <input
+                    class="catalog-filters__width-input"
+                    type="number"
+                    name="width_to"
+                    data-width-to
+                    placeholder="до"
+                    min="${globalWidthMin}"
+                    max="${globalWidthMax}"
+                  />
+                </div>
+              </div>
+
+              <div class="catalog-filters__group">
                 <span class="catalog-filters__label">По цене, до</span>
                 <input
                   class="catalog-filters__range"
@@ -240,15 +446,25 @@ function renderPage(page, globalPriceMin, globalPriceMax, productCount) {
           <div class="catalog-main">
             <div class="catalog-main__toolbar">
               <p class="catalog-main__count" data-catalog-count>Показано: 0 из ${productCount}</p>
-              <label class="catalog-main__sort">
-                Сортировка
-                <select data-catalog-sort>
-                  <option value="name-asc">По алфавиту ↑</option>
-                  <option value="name-desc">По алфавиту ↓</option>
-                  <option value="price-asc">По возрастанию цены</option>
-                  <option value="price-desc">По убыванию цены</option>
-                </select>
-              </label>
+              <div class="catalog-main__controls">
+                <input
+                  class="catalog-main__search"
+                  type="search"
+                  name="q"
+                  data-catalog-search
+                  placeholder="Поиск по названию или артикулу"
+                  autocomplete="off"
+                />
+                <label class="catalog-main__sort">
+                  Сортировка
+                  <select data-catalog-sort>
+                    <option value="new">По новизне</option>
+                    <option value="popular">По популярности</option>
+                    <option value="price-asc">По цене ↑</option>
+                    <option value="price-desc">По цене ↓</option>
+                  </select>
+                </label>
+              </div>
             </div>
 
             <div class="catalog-products-grid" data-catalog-grid></div>
@@ -512,17 +728,40 @@ const pages = [
   },
 ];
 
+const FABRICS = [
+  { id: "standard", name: "Стандарт (базовая)", delta: 0 },
+  { id: "velvet-classic", name: "Велюр «Классик»", delta: 8500 },
+  { id: "chenille", name: "Шенилл «Комфорт»", delta: 12000 },
+  { id: "jacquard", name: "Жаккард «Премиум»", delta: 18500 },
+  { id: "leather-eco", name: "Экокожа «Soft»", delta: 22000 },
+  { id: "boucle", name: "Букле «Тренд»", delta: 15000 },
+  { id: "fringe-gold", name: "Бахрома золото", delta: 9500 },
+  { id: "fringe-silver", name: "Бахрома серебро", delta: 9500 },
+];
+
 const allProducts = [];
 
 for (const page of pages) {
   let images = [];
+  let imagePool = [];
   for (const folder of page.folders) {
-    images = images.concat(listImages(folder).filter(page.filter));
+    const allInFolder = listImages(folder);
+    const folderImgs = allInFolder.filter(page.filter);
+    imagePool = imagePool.concat(allInFolder);
+    images = images.concat(folderImgs);
   }
+
+  const interiorDir = COLLECTION_INTERIOR[page.collection.col];
+  if (interiorDir) {
+    imagePool = imagePool.concat(listImages(interiorDir));
+  }
+
   images = [...new Set(images)];
+  imagePool = [...new Set(imagePool)];
   if (images.length < 6) {
     const extra = listImages(...page.folders).filter((f) => !images.includes(f));
     images = [...new Set([...images, ...extra])].slice(0, 6);
+    imagePool = [...new Set([...imagePool, ...extra])];
   } else {
     images = images.slice(0, 6);
   }
@@ -534,6 +773,7 @@ for (const page of pages) {
     page.prefix,
     page.priceMin + 12000,
     page.slug,
+    imagePool,
   );
   allProducts.push(...page.products);
 
@@ -549,13 +789,26 @@ for (const page of pages) {
 
 const globalPriceMin = Math.min(...allProducts.map((p) => p.price));
 const globalPriceMax = Math.max(...allProducts.map((p) => p.price));
+const globalWidthMin = Math.min(...allProducts.map((p) => p.width));
+const globalWidthMax = Math.max(...allProducts.map((p) => p.width));
 
 const dataJs = `window.CATALOG_PRODUCTS = ${JSON.stringify(allProducts, null, 2)};\n`;
 fs.writeFileSync(path.join(ROOT, "catalog-data.js"), dataJs, "utf8");
 console.log("catalog-data.js:", allProducts.length, "products");
 
+const fabricsJs = `window.FABRICS = ${JSON.stringify(FABRICS, null, 2)};\n`;
+fs.writeFileSync(path.join(ROOT, "fabrics-data.js"), fabricsJs, "utf8");
+console.log("fabrics-data.js:", FABRICS.length, "fabrics");
+
 for (const page of pages) {
-  const html = renderPage(page, globalPriceMin, globalPriceMax, allProducts.length);
+  const html = renderPage(
+    page,
+    globalPriceMin,
+    globalPriceMax,
+    globalWidthMin,
+    globalWidthMax,
+    allProducts.length,
+  );
   const outPath = path.join(OUT_DIR, `${page.slug}.html`);
   fs.writeFileSync(outPath, html, "utf8");
   console.log("OK", page.slug);

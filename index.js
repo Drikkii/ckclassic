@@ -156,6 +156,7 @@
 
   function openNav() {
     mobileNav.hidden = false;
+    header?.classList.add("is-nav-open");
     lockScroll();
     requestAnimationFrame(() => mobileNav.classList.add("is-open"));
     burger.setAttribute("aria-expanded", "true");
@@ -165,6 +166,7 @@
 
   function closeNav() {
     mobileNav.classList.remove("is-open");
+    header?.classList.remove("is-nav-open");
     burger.setAttribute("aria-expanded", "false");
     burger.setAttribute("aria-label", "Открыть меню");
     unlockScroll();

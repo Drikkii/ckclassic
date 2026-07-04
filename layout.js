@@ -91,7 +91,6 @@
           </li>
         </ul>
       </nav>
-      ${renderMobileNav(b, pages, catalog, blank)}
     </header>`;
   }
 
@@ -235,10 +234,18 @@
   }
 
   const base = document.body.getAttribute("data-base") || "";
+  const pages = `${base}pages/`;
+  const catalog = `${pages}catalog/`;
+  const blank = ' target="_blank" rel="noopener noreferrer"';
 
   mount("site-header", renderHeader(base));
   mount("site-consultation", renderConsultation(base));
   mount("site-footer", renderFooter(base));
+
+  document.body.insertAdjacentHTML(
+    "beforeend",
+    renderMobileNav(base, pages, catalog, blank),
+  );
 
   const modalMount = document.createElement("div");
   modalMount.id = "site-callback-modal";
