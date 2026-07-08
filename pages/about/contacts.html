@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Контакты — Ск-классик</title>
+    <meta
+      name="description"
+      content="Контакты мебельной фабрики «СК-классик»: адрес, телефоны, режим работы, e-mail и реквизиты."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,14 +16,108 @@
     />
     <link rel="stylesheet" href="../../style.css" />
   </head>
-  <body class="page-stub-body" data-base="../../">
+  <body data-base="../../">
     <div id="site-header"></div>
 
-    <main class="main page-stub">
+    <main class="main page-contacts">
       <div class="container">
-        <h1 class="page-stub__title">Контакты</h1>
-        <p class="page-stub__text">Раздел в разработке.</p>
-        <a class="page-stub__back" href="../../index.html">← На главную</a>
+        <nav class="contacts-breadcrumbs" aria-label="Хлебные крошки">
+          <a href="../../index.html">Главная</a><span>/</span><span>Контакты</span>
+        </nav>
+
+        <nav class="page-about__nav" aria-label="Разделы о фабрике">
+          <a class="page-about__nav-link" href="business.html">О бизнесе</a>
+          <a class="page-about__nav-link" href="history.html">История</a>
+          <a class="page-about__nav-link is-active" href="contacts.html" aria-current="page">Контакты</a>
+        </nav>
+
+        <header class="page-contacts__header">
+          <h1 class="page-contacts__title">Контакты</h1>
+          <div class="page-contacts__intro">
+            <p>
+              Мебельная фабрика «СК-классик» производит мягкую мебель премиум-класса с&nbsp;2002&nbsp;года.
+            </p>
+            <p>
+              Мы постоянно обновляем модельный ряд и&nbsp;каталоги тканей, чтобы наши клиенты могли
+              подобрать мебель под свой интерьер и&nbsp;бюджет.
+            </p>
+          </div>
+        </header>
+
+        <div class="contacts-layout">
+          <figure class="contacts-layout__photo">
+            <img
+              src="../../img/photo-mebeli/Фото, вписанные в интерьер/Милтон в интерьере/Мебельная фабрика СК классик Пушкино (11).JPG"
+              alt="Мебельная фабрика СК-классик"
+              loading="lazy"
+            />
+          </figure>
+
+          <div class="contacts-layout__info">
+            <div class="contacts-row">
+              <h2 class="contacts-row__label">Адрес</h2>
+              <div class="contacts-row__value">
+                <p>
+                  141200, Московская область, г.&nbsp;Пушкино,<br />
+                  ул.&nbsp;Примерная, д.&nbsp;1, офис 12
+                </p>
+                <p class="contacts-row__note">(укажите актуальный адрес фабрики или офиса)</p>
+              </div>
+            </div>
+
+            <div class="contacts-row">
+              <h2 class="contacts-row__label">Телефон</h2>
+              <div class="contacts-row__value">
+                <p>
+                  <a href="tel:+78888888888">8 (888) 888-88-88</a><br />
+                  <a href="tel:+79999999999">8 (999) 999-99-99</a>
+                </p>
+                <a href="javascript:void(0)" class="contacts-row__link js-callback-popup-btn">Обратный звонок</a>
+              </div>
+            </div>
+
+            <div class="contacts-row">
+              <h2 class="contacts-row__label">Режим работы</h2>
+              <div class="contacts-row__value">
+                <p>Менеджеры по телефону:<br />Пн–Сб с 10:00 до 19:00</p>
+                <p>Посещение офиса:<br />по предварительному звонку</p>
+              </div>
+            </div>
+
+            <div class="contacts-row">
+              <h2 class="contacts-row__label">E-mail</h2>
+              <div class="contacts-row__value">
+                <p><a href="mailto:info@sk-classic.ru">info@sk-classic.ru</a></p>
+              </div>
+            </div>
+
+            <div class="contacts-row contacts-row--requisites">
+              <h2 class="contacts-row__label">Наши реквизиты</h2>
+              <div class="contacts-row__value">
+                <p>ООО «СК-КЛАССИК»</p>
+                <p>ИНН 0000000000</p>
+                <p>ОГРН 0000000000000</p>
+              </div>
+            </div>
+
+            <div class="contacts-row contacts-row--social">
+              <h2 class="contacts-row__label">Мы в мессенджерах</h2>
+              <div class="contacts-row__value">
+                <div class="contacts-social__links">
+                  <a href="https://wa.me/78888888888" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <img src="../../img/logo/messenger-whatsapp.svg" alt="" width="24" height="24" />
+                  </a>
+                  <a href="https://t.me/Drikki" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <img src="../../img/logo/messenger-telegram.svg" alt="" width="24" height="24" />
+                  </a>
+                  <a href="https://max.ru" target="_blank" rel="noopener noreferrer" aria-label="Max">
+                    <img src="../../img/logo/messenger-max.svg" alt="" width="24" height="24" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 

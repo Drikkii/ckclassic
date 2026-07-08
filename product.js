@@ -27,6 +27,7 @@
   const orderModal = document.querySelector("[data-order-modal]");
   const similarSection = document.querySelector("[data-product-similar]");
   const similarGrid = document.querySelector("[data-product-similar-grid]");
+  const shopActionsEl = document.querySelector("[data-product-shop-actions]");
 
   const product = products.find((p) => p.sku === sku);
 
@@ -108,6 +109,18 @@
 
     const orderFabric = document.querySelector("[data-order-fabric]");
     if (orderFabric) orderFabric.value = fabric?.name || "";
+
+    updateProductShopActions();
+  }
+
+  function updateProductShopActions() {
+    if (!shopActionsEl || !window.CKShop) return;
+    const fabric = getSelectedFabric();
+    shopActionsEl.innerHTML = window.CKShop.renderActionsHtml(product.sku, {
+      fabricId: fabric?.id,
+    });
+    const cartBtn = shopActionsEl.querySelector("[data-cart-btn]");
+    if (cartBtn) window.CKShop.syncAllActions();
   }
 
   let selectedFabricId = "";
@@ -205,6 +218,9 @@
   });
 
   updatePrice();
+
+  if (window.CKShop) updateProductShopActions();
+  else window.addEventListener("ck-shop-ready", updateProductShopActions, { once: true });
 
   document.querySelector("[data-order-model]").value = product.name;
   document.querySelector("[data-order-sku]").value = product.sku;
@@ -372,6 +388,10 @@
   });
 
   function renderSimilarCard(p) {
+    if (window.CKShop?.renderProductCardHtml) {
+      return window.CKShop.renderProductCardHtml(p, { compact: true });
+    }
+
     const href = `product.html?sku=${encodeURIComponent(p.sku)}`;
     return `<article class="catalog-product">
       <a class="catalog-product__image" href="${href}">
@@ -394,8 +414,14 @@
     .slice(0, 4);
 
   if (similar.length && similarGrid) {
-    similarSection.hidden = false;
-    similarGrid.innerHTML = similar.map(renderSimilarCard).join("");
+    function renderSimilarGrid() {
+      similarSection.hidden = false;
+      similarGrid.innerHTML = similar.map(renderSimilarCard).join("");
+      window.CKShop?.syncAllActions();
+    }
+
+    if (window.CKShop) renderSimilarGrid();
+    else window.addEventListener("ck-shop-ready", renderSimilarGrid, { once: true });
   }
 
   document.addEventListener("keydown", (e) => {

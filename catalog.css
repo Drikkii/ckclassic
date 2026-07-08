@@ -70,6 +70,8 @@
   align-items: start;
 }
 
+@import url("shop.css");
+
 .catalog-main {
   min-width: 0;
 }
@@ -301,6 +303,10 @@
   aspect-ratio: var(--product-photo-ratio);
   overflow: hidden;
   background: #fff;
+}
+
+.catalog-product__image-wrap > .catalog-product__image {
+  display: flex;
 }
 
 .catalog-product__image img {

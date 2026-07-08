@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>О бизнесе — Ск-классик</title>
+    <meta
+      name="description"
+      content="Мебельная фабрика «СК-классик» с 2002 года — премиальная мягкая мебель в классическом и современном стиле, на заказ и из модельного ряда."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,14 +16,140 @@
     />
     <link rel="stylesheet" href="../../style.css" />
   </head>
-  <body class="page-stub-body" data-base="../../">
+  <body data-base="../../">
     <div id="site-header"></div>
 
-    <main class="main page-stub">
+    <main class="main page-about">
       <div class="container">
-        <h1 class="page-stub__title">О бизнесе</h1>
-        <p class="page-stub__text">Раздел в разработке.</p>
-        <a class="page-stub__back" href="../../index.html">← На главную</a>
+        <nav class="page-about__nav" aria-label="Разделы о фабрике">
+          <a class="page-about__nav-link is-active" href="business.html" aria-current="page">О бизнесе</a>
+          <a class="page-about__nav-link" href="history.html">История</a>
+          <a class="page-about__nav-link" href="contacts.html">Контакты</a>
+        </nav>
+
+        <header class="page-about__hero">
+          <h1 class="page-about__title">О бизнесе</h1>
+          <p class="page-about__lead">
+            Фабрика мягкой мебели «СК-классик» с&nbsp;2002&nbsp;года производит мягкую мебель
+            премиум-класса в&nbsp;классическом и&nbsp;современном стиле, которая благодаря
+            уникальному дизайну и&nbsp;потрясающему комфорту создаёт атмосферу уюта
+            и&nbsp;респектабельности.
+          </p>
+        </header>
+
+        <div class="about-split">
+          <div class="about-split__text">
+            <p>
+              Наша продукция&nbsp;— мягкая мебель типовая из&nbsp;модельного ряда фабрики
+              или по&nbsp;вашим эскизам на&nbsp;заказ.
+            </p>
+            <p>
+              Также есть возможность внесения изменений в&nbsp;типовые модели по&nbsp;желанию
+              клиента: изменение наполнения, механизма, габаритных размеров, декора и&nbsp;отделки.
+            </p>
+          </div>
+          <figure class="about-split__image">
+            <img
+              src="../../img/photo-mebeli/Фото, вписанные в интерьер/СК -классик МФ.jpg"
+              alt="Мебельная фабрика СК-классик"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+
+        <section class="about-panel" aria-labelledby="about-materials-title">
+          <h2 class="about-panel__title" id="about-materials-title">Материалы и&nbsp;комплектация</h2>
+          <p>
+            Для изготовления мебели используются материалы самого высокого качества:
+          </p>
+          <ul class="about-panel__list">
+            <li>импортная фурнитура;</li>
+            <li>массив дерева и&nbsp;высококачественная мебельная фанера;</li>
+            <li>
+              элитные наполнители ППУ HR&nbsp;/ Cold Foam&nbsp;/ Memory Foam&nbsp;/ Elax&nbsp;/ LL
+              или другие;
+            </li>
+            <li>ткани и&nbsp;мебельные ткани премиум-класса;</li>
+            <li>буковые ножки.</li>
+          </ul>
+        </section>
+
+        <h2 class="about-section-title">Виды мягкой мебели МФ&nbsp;«СК-классик»</h2>
+
+        <div class="about-products">
+          <article class="about-product-card">
+            <h3 class="about-product-card__title">
+              Диваны, диваны-кровати, кресла и&nbsp;кресла-кровати
+            </h3>
+            <ul class="about-product-card__list">
+              <li>прямые, угловые, модульные;</li>
+              <li>механизм трансформации: «Пума», «Спартак», высоковыкатные;</li>
+              <li>со&nbsp;спальными местами и&nbsp;местами хранения или без них;</li>
+              <li>назначение: для ежедневного сна или для гостей;</li>
+              <li>
+                декор: бастонные изделия, Капитоне, драпировка или другой декор по&nbsp;вашим
+                эскизам;
+              </li>
+              <li>материалы уточняются при заказе.</li>
+            </ul>
+          </article>
+
+          <article class="about-product-card">
+            <h3 class="about-product-card__title">Мягкие панели и&nbsp;кровати</h3>
+            <p class="about-product-card__text">
+              Изготовление по&nbsp;типовым моделям и&nbsp;индивидуальным проектам с&nbsp;подбором
+              обивки, декора и&nbsp;габаритов под интерьер.
+            </p>
+          </article>
+
+          <article class="about-product-card">
+            <h3 class="about-product-card__title">
+              Мягкие стулья, пуфы, оттоманки, банкетки
+            </h3>
+            <p class="about-product-card__text">
+              На&nbsp;заказ в&nbsp;классическом, неоклассическом или современном стиле,
+              в&nbsp;том числе сложной формы.
+            </p>
+          </article>
+        </div>
+
+        <h2 class="about-section-title">С&nbsp;кем мы&nbsp;сотрудничаем</h2>
+
+        <div class="about-partners">
+          <article class="about-partner-card">
+            <h3>Торговые партнёры</h3>
+            <p>
+              Магазины, мебельные салоны и&nbsp;интернет-магазины — поставки мебели
+              из&nbsp;модельного ряда и&nbsp;под индивидуальные проекты.
+            </p>
+          </article>
+          <article class="about-partner-card">
+            <h3>Дизайнеры интерьера</h3>
+            <p>
+              Реализация авторских эскизов, подбор материалов и&nbsp;отделки, адаптация типовых
+              моделей под проект.
+            </p>
+          </article>
+          <article class="about-partner-card">
+            <h3>HoReCa</h3>
+            <p>
+              Базы отдыха, гостиницы, рестораны, загородные клубы, кафе, бары, пиццерии
+              и&nbsp;другие заведения.
+            </p>
+          </article>
+          <article class="about-partner-card">
+            <h3>Ремонт и&nbsp;реставрация</h3>
+            <p>
+              Осуществляем ремонт и&nbsp;реставрацию обивки мебели — возвращаем изделиям
+              первоначальный вид и&nbsp;комфорт.
+            </p>
+          </article>
+        </div>
+
+        <p class="about-note">
+          Хотите узнать больше о&nbsp;том, как создавалась фабрика? Читайте раздел
+          <a href="history.html">«История»</a>.
+        </p>
       </div>
     </main>
 

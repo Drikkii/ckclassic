@@ -227,6 +227,7 @@
   let trackIndex = 1;
   let autoplayTimer = null;
   let isAnimating = false;
+  let fallbackTimer = null;
   let prefersReducedMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)",
   ).matches;
@@ -249,11 +250,19 @@
     track.style.transform = `translate3d(${offset}px, 0, 0)`;
   }
 
+  function getDisplayIndex() {
+    const allTrackSlides = track.children.length;
+    if (trackIndex <= 0) return totalSlides - 1;
+    if (trackIndex >= allTrackSlides - 1) return 0;
+    return trackIndex - 1;
+  }
+
   function updateDots() {
+    const activeIndex = getDisplayIndex();
     const dots = dotsContainer.querySelectorAll(".carousel__dot");
     dots.forEach((dot, i) => {
-      dot.classList.toggle("is-active", i === currentIndex);
-      dot.setAttribute("aria-selected", i === currentIndex ? "true" : "false");
+      dot.classList.toggle("is-active", i === activeIndex);
+      dot.setAttribute("aria-selected", i === activeIndex ? "true" : "false");
     });
   }
 
@@ -287,21 +296,45 @@
       setTrackPosition(false);
     }
 
-    currentIndex = trackIndex - 1;
+    currentIndex = getDisplayIndex();
     updateDots();
     isAnimating = false;
+    setNavLocked(false);
+  }
+
+  function finishTransition() {
+    if (!isAnimating) return;
+    clearTimeout(fallbackTimer);
+    fallbackTimer = null;
+    handleLoopEnd();
+  }
+
+  function setNavLocked(locked) {
+    carousel.classList.toggle("carousel--busy", locked);
+    btnPrev.disabled = locked;
+    btnNext.disabled = locked;
+    btnPrev.setAttribute("aria-disabled", locked ? "true" : "false");
+    btnNext.setAttribute("aria-disabled", locked ? "true" : "false");
+    dotsContainer.querySelectorAll(".carousel__dot").forEach((dot) => {
+      dot.disabled = locked;
+      dot.setAttribute("aria-disabled", locked ? "true" : "false");
+    });
   }
 
   function goToTrackIndex(index, animate) {
-    if (isAnimating && animate) return;
+    if (animate && isAnimating) return;
 
     trackIndex = index;
-    currentIndex = trackIndex - 1;
+    currentIndex = getDisplayIndex();
 
     if (animate && !prefersReducedMotion) {
       isAnimating = true;
+      setNavLocked(true);
       setTrackPosition(true);
+      fallbackTimer = window.setTimeout(finishTransition, TRANSITION_MS + 150);
     } else {
+      clearTimeout(fallbackTimer);
+      fallbackTimer = null;
       setTrackPosition(false);
       handleLoopEnd();
     }
@@ -321,16 +354,18 @@
   }
 
   function goToSlide(index) {
-    if (isAnimating || index === currentIndex) return;
+    if (isAnimating) return;
+    if (index === currentIndex) return;
     goToTrackIndex(index + 1, true);
   }
 
   function onTransitionEnd(e) {
     if (e.target !== track || e.propertyName !== "transform") return;
-    handleLoopEnd();
+    finishTransition();
   }
 
   function onPointerDown(e) {
+    if (isAnimating) return;
     if (e.pointerType === "mouse" && e.button !== 0) return;
 
     isDragging = true;
@@ -376,8 +411,10 @@
       } else {
         prevSlide();
       }
-    } else {
+    } else if (!isAnimating) {
       setTrackPosition(true);
+      resetAutoplay();
+    } else {
       resetAutoplay();
     }
 
@@ -393,8 +430,20 @@
     setTrackPosition(false);
     resetAutoplay();
 
-    btnNext.addEventListener("click", nextSlide);
-    btnPrev.addEventListener("click", prevSlide);
+    btnNext.addEventListener("click", (event) => {
+      if (isAnimating) {
+        event.preventDefault();
+        return;
+      }
+      nextSlide();
+    });
+    btnPrev.addEventListener("click", (event) => {
+      if (isAnimating) {
+        event.preventDefault();
+        return;
+      }
+      prevSlide();
+    });
     track.addEventListener("transitionend", onTransitionEnd);
 
     track.addEventListener("pointerdown", onPointerDown);

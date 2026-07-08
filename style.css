@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600&display=swap");
+@import url("shop.css");
+@import url("about.css");
 
 *,
 *::before,
@@ -656,6 +658,10 @@ body.page-simple {
     gap: 8px;
   }
 
+  .head-shop {
+    margin-left: 4px;
+  }
+
   .messenger-icon,
   .call-logo {
     width: 1.35rem;
@@ -772,6 +778,20 @@ body.page-simple {
   color: #fff;
   cursor: pointer;
   transition: background 0.25s ease;
+}
+
+.carousel--busy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 9;
+  cursor: default;
+}
+
+.carousel__btn:disabled,
+.carousel__dot:disabled {
+  opacity: 0.45;
+  cursor: default;
 }
 
 .carousel__btn:focus-visible {
@@ -1219,13 +1239,31 @@ body.page-simple {
 }
 
 .footer__logo {
-  width: 80px;
+  width: min(100%, 168px);
+  height: auto;
   margin-bottom: 12px;
+  object-fit: contain;
 }
 
 .footer__copy {
+  margin: 0;
   font-size: 0.85rem;
   color: var(--color-muted);
+}
+
+.footer__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.footer__credit {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  white-space: nowrap;
 }
 
 .footer__col h4 {
@@ -1250,6 +1288,17 @@ body.page-simple {
 
 .footer__col a:hover {
   color: var(--color-text);
+}
+
+.footer__credit a {
+  color: var(--color-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.footer__credit a:hover {
+  color: var(--color-accent-dark);
 }
 
 @media (max-width: 768px) {

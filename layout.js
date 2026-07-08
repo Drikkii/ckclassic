@@ -6,6 +6,23 @@
     return `<p class="lead-form__note">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href="${href}">политикой конфиденциальности</a>.</p>`;
   }
 
+  function renderShopLinks(b) {
+    const pages = `${b}pages/`;
+    const heartIcon = `<svg class="head-shop__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>`;
+    const cartIcon = `<svg class="head-shop__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 20a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm10 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM7 7h15l-1.5 9h-11L5 3H2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+    return `<div class="head-shop">
+      <a href="${pages}favorites.html" class="head-shop__item">
+        <span class="head-shop__text">Избранное <span class="head-shop__count" data-favorites-count>0</span></span>
+        ${heartIcon}
+      </a>
+      <a href="${pages}cart.html" class="head-shop__item">
+        <span class="head-shop__text">Корзина <span class="head-shop__count" data-cart-count>0</span></span>
+        ${cartIcon}
+      </a>
+    </div>`;
+  }
+
   function renderMessengers(b, className = "head-messengers") {
     return `<div class="${className}">
               <a href="https://wa.me/78888888888" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
@@ -29,7 +46,7 @@
     return `<header class="header">
       <div class="head">
         <div class="head-logo">
-          <a href="${b}index.html"><img class="logo" src="${b}img/logo/logotip.png" alt="Ск-классик" /></a>
+          <a href="${b}index.html"><img class="logo" src="${b}img/logo/logotipBig.png" alt="Ск-классик" /></a>
         </div>
         <div class="head-tagline">
           <p class="paragraf-tagline">Классическая мягкая мебель от производителя</p>
@@ -43,6 +60,7 @@
             ${renderMessengers(b)}
           </div>
         </div>
+        ${renderShopLinks(b)}
         <button class="nav-burger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню">
           <span class="nav-burger__line" aria-hidden="true"></span>
           <span class="nav-burger__line" aria-hidden="true"></span>
@@ -129,6 +147,8 @@
             <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="products">О продукции и материалах</button></li>
             <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="catalog">Модельный ряд</button></li>
             <li><a class="mobile-nav__link" href="${pages}fabrics.html"${blank}>Ткани и декор</a></li>
+            <li><a class="mobile-nav__link" href="${pages}favorites.html">Избранное</a></li>
+            <li><a class="mobile-nav__link" href="${pages}cart.html">Корзина</a></li>
             <li><a class="mobile-nav__link" href="${pages}where-to-buy.html"${blank}>Где купить</a></li>
             <li><a class="mobile-nav__link" href="${pages}works.html"${blank}>Наши работы / Отзывы</a></li>
           </ul>
@@ -223,10 +243,10 @@
     const pages = `${b}pages/`;
 
     return `<footer class="footer">
-      <div class="container footer__grid">
+      <div class="container">
+        <div class="footer__grid">
         <div class="footer__col">
-          <img class="footer__logo" src="${b}img/logo/logotip.png" alt="Ск-классик" />
-          <p class="footer__copy">© Фабрика «Ск-классик» 2026</p>
+          <img class="footer__logo" src="${b}img/logo/logotipBig.png" alt="Ск-классик" />
         </div>
         <div class="footer__col">
           <h4>Каталог</h4>
@@ -250,6 +270,13 @@
           <a href="tel:+78888888888">8 (888) 888-88-88</a>
           <a href="javascript:void(0)" class="js-callback-popup-btn">Обратный звонок</a>
           ${renderMessengers(b, "footer__messengers")}
+        </div>
+        </div>
+        <div class="footer__bar">
+          <p class="footer__copy">© Фабрика «Ск-классик» 2026</p>
+          <p class="footer__credit">
+            Made by <a href="https://github.com/drikkii" target="_blank" rel="noopener noreferrer">Drikki</a>
+          </p>
         </div>
       </div>
     </footer>`;
@@ -300,9 +327,10 @@
       document.body.appendChild(script);
     });
 
-  loadScript("forms-config.js")
+  loadScript("shop.js")
+    .then(() => loadScript("forms-config.js"))
     .then(() => loadScript("forms.js"))
     .catch(() => {
-      console.warn("[CK Forms] Не удалось загрузить forms-config.js или forms.js");
+      console.warn("[CK] Не удалось загрузить shop.js или forms");
     });
 })();

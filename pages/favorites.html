@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Избранное — Ск-классик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../catalog.css" />
+    <link rel="stylesheet" href="../shop.css" />
+  </head>
+  <body data-base="../">
+    <div id="site-header"></div>
+
+    <main class="main page-shop" data-favorites-page>
+      <div class="container">
+        <nav class="shop-breadcrumbs" aria-label="Хлебные крошки">
+          <a href="../index.html">Главная</a><span>/</span><span>Избранное</span>
+        </nav>
+
+        <h1 class="section__title shop-page__title">Избранное</h1>
+        <p class="shop-page__intro">Модели, которые вы отметили сердечком. Нажмите на иконку ещё раз, чтобы убрать из списка.</p>
+
+        <div class="shop-empty" data-favorites-empty hidden>
+          <p class="shop-empty__title">Список избранного пуст</p>
+          <p class="shop-empty__text">Добавляйте понравившиеся модели, нажимая на сердечко в каталоге.</p>
+          <a class="shop-empty__link" href="catalog/living.html">Перейти в каталог</a>
+        </div>
+
+        <div class="catalog-products-grid" data-favorites-grid></div>
+      </div>
+    </main>
+
+    <div id="site-consultation"></div>
+    <div id="site-footer"></div>
+
+    <script src="../layout.js"></script>
+    <script src="../catalog-data.js"></script>
+    <script src="../index.js" defer></script>
+    <script src="../shop-pages.js" defer></script>
+  </body>
+</html>

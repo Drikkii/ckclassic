@@ -35,6 +35,10 @@
   }
 
   function renderProductCard(p) {
+    if (window.CKShop?.createProductCardElement) {
+      return window.CKShop.createProductCardElement(p);
+    }
+
     const article = document.createElement("article");
     article.className = "catalog-product";
     const href = productUrl(p.sku);
@@ -383,5 +387,10 @@
 
   if (!catalogItems.length) return;
 
-  initFromUrlOrDefaults();
+  function startCatalog() {
+    initFromUrlOrDefaults();
+  }
+
+  if (window.CKShop) startCatalog();
+  else window.addEventListener("ck-shop-ready", startCatalog, { once: true });
 })();

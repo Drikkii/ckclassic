@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Оформление заказа — Ск-классик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../catalog.css" />
+    <link rel="stylesheet" href="../shop.css" />
+  </head>
+  <body data-base="../">
+    <div id="site-header"></div>
+
+    <main class="main page-shop page-cart" data-cart-page>
+      <div class="container">
+        <nav class="shop-breadcrumbs" aria-label="Хлебные крошки">
+          <a href="../index.html">Главная</a><span>/</span><span>Корзина</span>
+        </nav>
+
+        <h1 class="section__title shop-page__title">Оформление заказа</h1>
+
+        <div class="shop-empty shop-empty--cart" data-cart-empty hidden>
+          <p class="shop-empty__title">Ваша корзина пуста</p>
+          <p class="shop-empty__text">Добавляйте модели в корзину из каталога или со страницы товара.</p>
+          <a class="shop-empty__link" href="catalog/living.html">Нажмите здесь, чтобы продолжить покупки</a>
+        </div>
+
+        <div class="cart-layout">
+          <div class="cart-layout__items" data-cart-content></div>
+
+          <aside class="cart-layout__form" data-cart-form-wrap hidden>
+            <div class="cart-order">
+              <h2 class="cart-order__title">Контактные данные</h2>
+              <p class="cart-order__text">Оставьте заявку — менеджер свяжется с вами для подтверждения заказа и уточнения доставки.</p>
+              <form class="cart-order__form lead-form" data-cart-order-form action="#" method="post">
+                <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required />
+                <input type="tel" name="phone" placeholder="Ваш телефон" autocomplete="tel" required />
+                <textarea name="comment" rows="3" placeholder="Комментарий к заказу (необязательно)"></textarea>
+                <button type="submit">Оформить заказ</button>
+                <p class="lead-form__note">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>.</p>
+              </form>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <div id="site-consultation"></div>
+    <div id="site-footer"></div>
+
+    <script src="../layout.js"></script>
+    <script src="../catalog-data.js"></script>
+    <script src="../fabrics-data.js"></script>
+    <script src="../index.js" defer></script>
+    <script src="../shop-pages.js" defer></script>
+  </body>
+</html>
