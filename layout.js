@@ -301,6 +301,7 @@
     if (el) el.outerHTML = html;
   }
 
+  function run() {
   const base = document.body.getAttribute("data-base") || "";
   const pages = `${base}pages/`;
   const catalog = `${pages}catalog/`;
@@ -332,6 +333,19 @@
   if (thanksEl) document.body.appendChild(thanksEl);
 
   const basePath = document.body.getAttribute("data-base") || "";
+
+  function scriptQueued(srcPart) {
+    return Boolean(document.querySelector(`script[src*="${srcPart}"]`));
+  }
+
+  function needsCatalogData() {
+    return Boolean(
+      document.querySelector(
+        "[data-catalog-grid], [data-product-page], [data-cart-page], [data-favorites-page]",
+      ),
+    );
+  }
+
   const loadScript = (src) =>
     new Promise((resolve, reject) => {
       const script = document.createElement("script");
@@ -342,7 +356,11 @@
     });
 
   const ensureCatalogLoaded = () => {
-    if (Array.isArray(window.CATALOG_PRODUCTS)) {
+    if (
+      Array.isArray(window.CATALOG_PRODUCTS) ||
+      scriptQueued("catalog.js.php") ||
+      !needsCatalogData()
+    ) {
       return Promise.resolve();
     }
     return loadScript("api/catalog.js.php").catch(() => {
@@ -353,16 +371,30 @@
   };
 
   const ensureShopLoaded = () => {
-    if (window.CKShop) {
+    if (window.CKShop || scriptQueued("shop.js")) {
       return Promise.resolve();
     }
     return loadScript("shop.js");
   };
 
+  const ensureFormsLoaded = () => {
+    if (window.CKForms || scriptQueued("forms.js")) {
+      return Promise.resolve();
+    }
+    return loadScript("forms.js");
+  };
+
   ensureCatalogLoaded()
     .then(ensureShopLoaded)
-    .then(() => loadScript("forms.js"))
+    .then(ensureFormsLoaded)
     .catch(() => {
-      console.warn("[CK] Не удалось загрузить shop.js или forms");
+      console.warn("[CK] Не удалось загрузить скрипты сайта");
     });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run);
+  } else {
+    run();
+  }
 })();

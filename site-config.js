@@ -13,7 +13,7 @@ window.CK_SITE_CONFIG = {
   phoneDisplay: "+7 (964) 510-67-47",
   phoneTel: "+79645106747",
   phoneWa: "79645106747",
-  email: "chev_P@mail.ru",
+  email: "sk-classic@mail.ru",
   mailFrom: "noreply@mebel-sk-classic.ru",
   mailFromName: "Ск-классик",
   siteUrl: "https://mebel-sk-classic.ru",

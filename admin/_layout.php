@@ -44,6 +44,6 @@ $flash = admin_take_flash();
 
       <?= $content ?>
     </main>
-    <script src="admin.js"></script>
+    <script src="admin.js" defer></script>
   </body>
 </html>

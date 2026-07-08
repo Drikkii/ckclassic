@@ -17,8 +17,7 @@ require_once dirname(__DIR__) . '/admin/lib/Database.php';
 require_once dirname(__DIR__) . '/admin/lib/ProductRepository.php';
 
 header('Content-Type: application/javascript; charset=utf-8');
-header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
-header('Pragma: no-cache');
+header('Cache-Control: public, max-age=120, stale-while-revalidate=300');
 
 try {
     $pdo = Database::connection($config['db']);

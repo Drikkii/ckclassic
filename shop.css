@@ -420,11 +420,52 @@
 
 @media (max-width: 480px) {
   .head-shop__text {
-    font-size: 0.68rem;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   .head-shop__icon {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .cart-table__row {
+    padding: 10px 0;
+  }
+
+  .cart-table td {
+    padding: 4px 10px;
+  }
+
+  .cart-order__form input,
+  .cart-order__form textarea,
+  .cart-order__form button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-shop .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .shop-page__title {
+    font-size: 1.35rem;
+  }
+
+  .cart-layout {
+    gap: 16px;
+  }
+
+  .cart-order {
+    padding: 14px 12px;
   }
 }

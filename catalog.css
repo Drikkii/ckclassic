@@ -724,4 +724,8 @@
   .catalog-breadcrumbs span {
     margin: 0 4px;
   }
+
+  .catalog-main__search input {
+    font-size: 16px;
+  }
 }

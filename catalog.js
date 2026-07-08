@@ -370,6 +370,14 @@
     }
   }
 
+  function debounce(fn, ms) {
+    let timer = null;
+    return (...args) => {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn(...args), ms);
+    };
+  }
+
   function applyFilters() {
     let state = getFilterState();
 
@@ -501,6 +509,8 @@
 
   widthFromInput?.addEventListener("change", applyFilters);
   widthToInput?.addEventListener("change", applyFilters);
+  const debouncedApplyFilters = debounce(applyFilters, 200);
+
   searchInput?.addEventListener("input", () => {
     if (!searchInput.value.trim() && defaultCollections.length) {
       defaultCollections.forEach((value) => {
@@ -509,7 +519,7 @@
       });
       groupFilterActive = false;
     }
-    applyFilters();
+    debouncedApplyFilters();
   });
   sortSelect?.addEventListener("change", applyFilters);
 
