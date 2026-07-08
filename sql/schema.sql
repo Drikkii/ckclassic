@@ -1,0 +1,33 @@
+-- СК-классик — схема БД для админки (MySQL 5.7+ / MariaDB)
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(64) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS products (
+  sku VARCHAR(64) NOT NULL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  collection_label VARCHAR(128) NOT NULL DEFAULT '',
+  collection_slug VARCHAR(64) NOT NULL DEFAULT '',
+  description TEXT NOT NULL,
+  data_json LONGTEXT NOT NULL,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_products_collection (collection_slug),
+  INDEX idx_products_name (name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS slider_slides (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  sort_order INT NOT NULL DEFAULT 0,
+  image_src VARCHAR(512) NOT NULL,
+  image_alt VARCHAR(255) NOT NULL DEFAULT '',
+  title VARCHAR(255) NOT NULL DEFAULT '',
+  subtitle VARCHAR(512) NOT NULL DEFAULT '',
+  use_h1 TINYINT(1) NOT NULL DEFAULT 0,
+  is_active TINYINT(1) NOT NULL DEFAULT 1,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_slider_sort (sort_order)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

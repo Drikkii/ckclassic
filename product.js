@@ -39,6 +39,14 @@
   root.hidden = false;
   document.title = `${product.name} — Ск-классик`;
 
+  if (
+    product.isOutOfStock === true ||
+    product.isOutOfStock === 1 ||
+    product.isOutOfStock === "1"
+  ) {
+    root.classList.add("product-detail--out-of-stock");
+  }
+
   let galleryIndex = 0;
   const gallery = product.gallery?.length ? product.gallery : [{ src: product.image, alt: product.name, type: "general" }];
 
@@ -84,6 +92,11 @@
     return `${Number(value).toLocaleString("ru-RU")} ₽`;
   }
 
+  function isOutOfStock() {
+    const value = product.isOutOfStock;
+    return value === true || value === 1 || value === "1";
+  }
+
   function getFabricById(id) {
     return fabrics.find((f) => f.id === id);
   }
@@ -93,6 +106,18 @@
   }
 
   function updatePrice() {
+    if (isOutOfStock()) {
+      priceEl.textContent = "Нет в наличии";
+      priceEl.classList.add("product-detail__price--unavailable");
+      priceBaseEl.hidden = true;
+      updateFabricTrigger();
+      const orderFabric = document.querySelector("[data-order-fabric]");
+      if (orderFabric) orderFabric.value = fabricSelect?.value ? getSelectedFabric()?.name || "" : "";
+      updateProductShopActions();
+      return;
+    }
+
+    priceEl.classList.remove("product-detail__price--unavailable");
     const fabric = getSelectedFabric();
     const delta = fabric?.delta || 0;
     const total = product.basePrice + delta;
@@ -128,6 +153,12 @@
   function updateFabricTrigger() {
     const fabric = getSelectedFabric();
     if (!fabric || !fabricValueEl) return;
+    if (isOutOfStock()) {
+      fabricValueEl.innerHTML = `
+      <span class="fabric-picker__value-main">${fabric.name}</span>
+      <span class="fabric-picker__value-sub">Нет в наличии</span>`;
+      return;
+    }
     const total = product.basePrice + (fabric.delta || 0);
     const deltaText = fabric.delta ? ` (+${formatPrice(fabric.delta)})` : "";
     fabricValueEl.innerHTML = `
@@ -151,6 +182,7 @@
       .map((f) => {
         const total = product.basePrice + f.delta;
         const deltaText = f.delta ? `+${formatPrice(f.delta)} · ` : "";
+        const priceText = isOutOfStock() ? "Нет в наличии" : formatPrice(total);
         return `<li>
           <button
             type="button"
@@ -160,7 +192,7 @@
             aria-selected="${f.id === selectedFabricId}"
           >
             <span class="fabric-picker__option-name">${f.name}</span>
-            <span class="fabric-picker__option-price">${deltaText}${formatPrice(total)}</span>
+            <span class="fabric-picker__option-price">${deltaText}${priceText}</span>
           </button>
         </li>`;
       })
@@ -370,7 +402,7 @@
     } catch (error) {
       console.error(error);
       window.alert(
-        "Заявка сохранена, но письмо не отправилось. Мы всё равно свяжемся с вами.",
+        `Заявка сохранена, но письмо не отправилось. Позвоните нам: ${window.CK_SITE_CONFIG?.phoneDisplay || "+7 (964) 510-67-47"}`,
       );
     } finally {
       if (submitBtn) {
@@ -393,7 +425,9 @@
     }
 
     const href = `product.html?sku=${encodeURIComponent(p.sku)}`;
-    return `<article class="catalog-product">
+    const outOfStock =
+      p.isOutOfStock === true || p.isOutOfStock === 1 || p.isOutOfStock === "1";
+    return `<article class="catalog-product${outOfStock ? " catalog-product--out-of-stock" : ""}">
       <a class="catalog-product__image" href="${href}">
         <img src="${p.image}" alt="${p.name}" loading="lazy" />
       </a>
@@ -403,7 +437,11 @@
           <li><span>Артикул:</span> ${p.sku}</li>
           <li><span>Коллекция:</span> ${p.collectionLabel}</li>
         </ul>
-        <p class="catalog-product__price">${formatPrice(p.basePrice || p.price)}</p>
+        <p class="catalog-product__price${outOfStock ? " catalog-product__price--unavailable" : ""}">${
+          outOfStock
+            ? "Нет в наличии"
+            : formatPrice(p.basePrice || p.price)
+        }</p>
       </div>
     </article>`;
   }

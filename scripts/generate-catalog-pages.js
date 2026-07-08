@@ -418,13 +418,28 @@ function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, global
 
               <div class="catalog-filters__group">
                 <span class="catalog-filters__label">По цене, до</span>
+                <div class="catalog-filters__price-control">
+                  <input
+                    class="catalog-filters__price-input"
+                    type="text"
+                    name="price_to"
+                    data-price-input
+                    min="${globalPriceMin}"
+                    max="${globalPriceMax}"
+                    value="${globalPriceMax}"
+                    inputmode="numeric"
+                    autocomplete="off"
+                    placeholder="Например, 177 777"
+                  />
+                  <span class="catalog-filters__price-control-suffix" aria-hidden="true">₽</span>
+                </div>
                 <input
                   class="catalog-filters__range"
                   type="range"
                   name="price"
                   min="${globalPriceMin}"
                   max="${globalPriceMax}"
-                  step="1000"
+                  step="1"
                   value="${globalPriceMax}"
                   data-price-range
                 />
@@ -445,7 +460,7 @@ function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, global
 
           <div class="catalog-main">
             <div class="catalog-main__toolbar">
-              <p class="catalog-main__count" data-catalog-count>Показано: 0 из ${productCount}</p>
+              <p class="catalog-main__count" data-catalog-count>Показано: …</p>
               <div class="catalog-main__controls">
                 <input
                   class="catalog-main__search"
@@ -486,8 +501,9 @@ function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, global
     <div id="site-footer"></div>
 
     <script src="../../layout.js"></script>
-    <script src="../../catalog-data.js"></script>
+    <script src="../../api/catalog.js.php"></script>
     <script src="../../index.js" defer></script>
+    <script src="../../shop.js" defer></script>
     <script src="../../catalog.js" defer></script>
   </body>
 </html>
@@ -788,7 +804,7 @@ for (const page of pages) {
 }
 
 const globalPriceMin = Math.min(...allProducts.map((p) => p.price));
-const globalPriceMax = Math.max(...allProducts.map((p) => p.price));
+const globalPriceMax = Math.max(500000, ...allProducts.map((p) => p.price));
 const globalWidthMin = Math.min(...allProducts.map((p) => p.width));
 const globalWidthMax = Math.max(...allProducts.map((p) => p.width));
 

@@ -86,7 +86,15 @@
           </td>
         </tr>`;
       })
+      .filter(Boolean)
       .join("");
+
+    if (!rows) {
+      content.innerHTML = "";
+      if (empty) empty.hidden = false;
+      if (formWrap) formWrap.hidden = true;
+      return;
+    }
 
     content.innerHTML = `
       <div class="cart-table-wrap">
@@ -201,7 +209,9 @@
         form.reset();
       } catch (error) {
         console.error(error);
-        window.alert("Не удалось отправить заявку. Попробуйте позже или позвоните нам.");
+        window.alert(
+          `Не удалось отправить заявку. Попробуйте позже или позвоните нам: ${window.CK_SITE_CONFIG?.phoneDisplay || "+7 (964) 510-67-47"}`,
+        );
       } finally {
         if (submitBtn) {
           submitBtn.disabled = false;
@@ -212,6 +222,8 @@
   }
 
   whenShopReady(() => {
+    window.CKShop.syncWithCatalog?.();
+
     if (favoritesRoot) {
       renderFavorites();
       window.addEventListener("ck-shop-change", renderFavorites);

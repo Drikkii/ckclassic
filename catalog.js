@@ -10,6 +10,7 @@
   const filterForm = document.querySelector("[data-catalog-filters-form]");
   const searchInput = document.querySelector("[data-catalog-search]");
   const priceRange = document.querySelector("[data-price-range]");
+  const priceInput = document.querySelector("[data-price-input]");
   const priceMaxLabel = document.querySelector("[data-price-max]");
   const widthFromInput = document.querySelector("[data-width-from]");
   const widthToInput = document.querySelector("[data-width-to]");
@@ -28,7 +29,106 @@
   let groupFilterActive = Boolean(focusGroup);
   let syncingFromUrl = false;
 
-  const priceMax = Number(priceRange?.max || 1000000);
+  const CATALOG_PRICE_CEILING = 500000;
+  const CATALOG_PRICE_MIN = Number(priceRange?.min || priceInput?.min || 27000);
+
+  let priceMax = Number(priceRange?.max || priceInput?.max || CATALOG_PRICE_CEILING);
+
+  function formatPriceLabel(value) {
+    return `${Number(value).toLocaleString("ru-RU")} ₽`;
+  }
+
+  function parsePriceValue(value) {
+    const digits = String(value ?? "").replace(/\s/g, "").replace(/[^\d]/g, "");
+    if (digits === "") return null;
+    return Number(digits);
+  }
+
+  function formatPriceInputValue(value) {
+    const num = Number(value);
+    if (Number.isNaN(num)) return "";
+    return num.toLocaleString("ru-RU");
+  }
+
+  function clampPrice(value) {
+    const num = Number(value);
+    if (Number.isNaN(num)) return priceMax;
+    return Math.max(CATALOG_PRICE_MIN, Math.min(priceMax, Math.round(num)));
+  }
+
+  function getCurrentMaxPrice() {
+    if (priceInput) {
+      const parsed = parsePriceValue(priceInput.value);
+      if (parsed !== null) return clampPrice(parsed);
+    }
+    if (priceRange?.value) {
+      return clampPrice(priceRange.value);
+    }
+    return priceMax;
+  }
+
+  function setCurrentMaxPrice(value, options = {}) {
+    const { syncPartner = true, updateLabel = true } = options;
+    const clamped = clampPrice(value);
+
+    if (priceRange) priceRange.value = String(clamped);
+    if (syncPartner && priceInput) {
+      priceInput.value = formatPriceInputValue(clamped);
+    }
+    if (updateLabel && priceMaxLabel) {
+      priceMaxLabel.textContent = formatPriceLabel(clamped);
+    }
+
+    return clamped;
+  }
+
+  function setPriceLimit(nextMax) {
+    const limit = Math.max(CATALOG_PRICE_CEILING, Math.ceil(nextMax));
+    priceMax = limit;
+
+    if (priceRange) {
+      priceRange.max = String(limit);
+      if (Number(priceRange.value) > limit) {
+        priceRange.value = String(limit);
+      }
+    }
+
+    if (priceInput) {
+      priceInput.max = String(limit);
+      if (Number(priceInput.value) > limit) {
+        priceInput.value = String(limit);
+      }
+    }
+
+    if (priceMaxLabel) {
+      priceMaxLabel.textContent = formatPriceLabel(limit);
+    }
+
+    return limit;
+  }
+
+  function syncPriceRangeFromCatalog() {
+    if (!catalogItems.length) return;
+
+    const prices = catalogItems
+      .map((p) => Number(p.price) || 0)
+      .filter((price) => price > 0);
+    if (!prices.length) return;
+
+    const catalogMax = Math.max(...prices);
+    const catalogMin = Math.floor(Math.min(...prices) / 1000) * 1000;
+    const limit = setPriceLimit(Math.max(CATALOG_PRICE_CEILING, catalogMax));
+
+    const minLabel = priceRange?.parentElement?.querySelector(
+      ".catalog-filters__range-values span:first-child",
+    );
+    if (minLabel && catalogMin > 0) {
+      minLabel.textContent = formatPriceLabel(catalogMin);
+    }
+
+    setCurrentMaxPrice(limit, { syncPartner: true, updateLabel: true });
+    return limit;
+  }
 
   function productUrl(sku) {
     return `product.html?sku=${encodeURIComponent(sku)}`;
@@ -40,8 +140,14 @@
     }
 
     const article = document.createElement("article");
-    article.className = "catalog-product";
+    const outOfStock =
+      p.isOutOfStock === true || p.isOutOfStock === 1 || p.isOutOfStock === "1";
+    article.className = `catalog-product${outOfStock ? " catalog-product--out-of-stock" : ""}`;
     const href = productUrl(p.sku);
+    const priceText = outOfStock
+      ? "Нет в наличии"
+      : `${Number(p.price).toLocaleString("ru-RU")} ₽`;
+    const priceClass = outOfStock ? " catalog-product__price--unavailable" : "";
     article.innerHTML = `
       <a class="catalog-product__image" href="${href}">
         <img src="${p.image}" alt="${p.name}" loading="lazy" />
@@ -56,7 +162,7 @@
           <li><span>Габариты:</span> ${p.dims}</li>
           ${p.hasMechanism ? `<li><span>Механизм:</span> ${p.mechanismLabel}</li>` : ""}
         </ul>
-        <p class="catalog-product__price">${Number(p.price).toLocaleString("ru-RU")} ₽</p>
+        <p class="catalog-product__price${priceClass}">${priceText}</p>
       </div>`;
     return article;
   }
@@ -74,7 +180,7 @@
       collections: getCheckedValues("collection"),
       mechanisms: getCheckedValues("mechanism"),
       mechanismTypes: getCheckedValues("mechanism_type"),
-      maxPrice: priceRange ? Number(priceRange.value) : priceMax,
+      maxPrice: getCurrentMaxPrice(),
       widthFrom: widthFromInput?.value ? Number(widthFromInput.value) : null,
       widthTo: widthToInput?.value ? Number(widthToInput.value) : null,
       q: (searchInput?.value || "").trim().toLowerCase(),
@@ -83,11 +189,14 @@
   }
 
   function matchesFilters(p, state) {
+    const globalSearch = Boolean(state.q);
+
     const styleMatch = !state.styles.length || state.styles.includes(p.style);
     const collectionMatch =
-      !state.collections.length || state.collections.includes(p.collection);
+      globalSearch || !state.collections.length || state.collections.includes(p.collection);
     const priceMatch = p.price <= state.maxPrice;
-    const groupMatch = !groupFilterActive || !focusGroup || p.group === focusGroup;
+    const groupMatch =
+      globalSearch || !groupFilterActive || !focusGroup || p.group === focusGroup;
 
     const mechFlags = state.mechanisms;
     let mechanismMatch = true;
@@ -114,7 +223,7 @@
 
     let searchMatch = true;
     if (state.q) {
-      const hay = `${p.name} ${p.sku}`.toLowerCase();
+      const hay = `${p.name} ${p.sku} ${p.collectionLabel || ""} ${p.description || ""}`.toLowerCase();
       searchMatch = hay.includes(state.q);
     }
 
@@ -148,14 +257,26 @@
     return sorted;
   }
 
+  function getScopeItems() {
+    if (defaultCollections.length) {
+      return catalogItems.filter((p) => defaultCollections.includes(p.collection));
+    }
+    if (focusGroup) {
+      return catalogItems.filter((p) => p.group === focusGroup);
+    }
+    return catalogItems;
+  }
+
   function renderGrid(items) {
     grid.innerHTML = "";
     items.forEach((p) => grid.appendChild(renderProductCard(p)));
+    window.CKShop?.syncAllActions?.();
   }
 
   function updateCount(visibleCount) {
     if (!countEl) return;
-    countEl.textContent = `Показано: ${visibleCount} из ${catalogItems.length}`;
+    const total = getScopeItems().length;
+    countEl.textContent = `Показано: ${visibleCount} из ${total}`;
   }
 
   function stateToParams(state) {
@@ -196,9 +317,10 @@
       if (input) input.checked = true;
     });
 
-    if (priceRange && state.maxPrice) priceRange.value = state.maxPrice;
-    if (priceMaxLabel && priceRange) {
-      priceMaxLabel.textContent = `${Number(priceRange.value).toLocaleString("ru-RU")} ₽`;
+    if (priceRange && state.maxPrice) {
+      setCurrentMaxPrice(state.maxPrice, { syncPartner: true, updateLabel: true });
+    } else if (priceInput && state.maxPrice) {
+      setCurrentMaxPrice(state.maxPrice, { syncPartner: true, updateLabel: true });
     }
     if (widthFromInput) widthFromInput.value = state.widthFrom ?? "";
     if (widthToInput) widthToInput.value = state.widthTo ?? "";
@@ -249,16 +371,21 @@
   }
 
   function applyFilters() {
-    const state = getFilterState();
+    let state = getFilterState();
 
-    if (
+    if (state.q) {
+      groupFilterActive = false;
+      filterForm?.querySelectorAll('input[name="collection"]').forEach((input) => {
+        input.checked = false;
+      });
+      state = { ...state, collections: [] };
+    } else if (
       state.collections.length ||
       state.styles.length ||
       state.mechanisms.length ||
       state.mechanismTypes.length ||
       state.widthFrom != null ||
-      state.widthTo != null ||
-      state.q
+      state.widthTo != null
     ) {
       groupFilterActive = false;
     }
@@ -292,10 +419,9 @@
     }
 
     if (priceRange) {
-      priceRange.value = priceRange.max;
-      if (priceMaxLabel) {
-        priceMaxLabel.textContent = `${Number(priceRange.max).toLocaleString("ru-RU")} ₽`;
-      }
+      setCurrentMaxPrice(priceRange.max, { syncPartner: true, updateLabel: true });
+    } else if (priceInput) {
+      setCurrentMaxPrice(priceInput.max || priceMax, { syncPartner: true, updateLabel: true });
     }
 
     if (widthFromInput) widthFromInput.value = "";
@@ -344,12 +470,30 @@
 
   if (priceRange) {
     priceRange.addEventListener("input", () => {
-      if (priceMaxLabel) {
-        priceMaxLabel.textContent = `${Number(priceRange.value).toLocaleString("ru-RU")} ₽`;
-      }
+      setCurrentMaxPrice(priceRange.value, { syncPartner: true, updateLabel: true });
       applyFilters();
     });
   }
+
+  priceInput?.addEventListener("input", () => {
+    const parsed = parsePriceValue(priceInput.value);
+    if (parsed === null) return;
+
+    const clamped = clampPrice(parsed);
+    if (priceRange) priceRange.value = String(clamped);
+    if (priceMaxLabel) priceMaxLabel.textContent = formatPriceLabel(clamped);
+    applyFilters();
+  });
+
+  priceInput?.addEventListener("change", () => {
+    const parsed = parsePriceValue(priceInput.value);
+    if (parsed === null) {
+      setCurrentMaxPrice(priceMax, { syncPartner: true, updateLabel: true });
+    } else {
+      setCurrentMaxPrice(parsed, { syncPartner: true, updateLabel: true });
+    }
+    applyFilters();
+  });
 
   filterForm?.querySelectorAll('input[type="checkbox"]').forEach((input) => {
     input.addEventListener("change", applyFilters);
@@ -357,7 +501,16 @@
 
   widthFromInput?.addEventListener("change", applyFilters);
   widthToInput?.addEventListener("change", applyFilters);
-  searchInput?.addEventListener("input", applyFilters);
+  searchInput?.addEventListener("input", () => {
+    if (!searchInput.value.trim() && defaultCollections.length) {
+      defaultCollections.forEach((value) => {
+        const input = filterForm?.querySelector(`input[name="collection"][value="${value}"]`);
+        if (input) input.checked = true;
+      });
+      groupFilterActive = false;
+    }
+    applyFilters();
+  });
   sortSelect?.addEventListener("change", applyFilters);
 
   filterForm?.addEventListener("submit", (e) => {
@@ -381,16 +534,41 @@
     });
   });
 
-  if (priceMaxLabel && priceRange) {
-    priceMaxLabel.textContent = `${Number(priceRange.value).toLocaleString("ru-RU")} ₽`;
+  if (priceMaxLabel && (priceRange || priceInput)) {
+    priceMaxLabel.textContent = formatPriceLabel(getCurrentMaxPrice());
   }
 
-  if (!catalogItems.length) return;
+  if (priceInput?.value) {
+    const initialPrice = parsePriceValue(priceInput.value);
+    if (initialPrice !== null) {
+      priceInput.value = formatPriceInputValue(initialPrice);
+    }
+  }
+
+  function whenShopReady(fn) {
+    if (window.CKShop) {
+      fn();
+      return;
+    }
+    window.addEventListener("ck-shop-ready", fn, { once: true });
+  }
 
   function startCatalog() {
+    catalogItems = Array.isArray(window.CATALOG_PRODUCTS)
+      ? window.CATALOG_PRODUCTS.map((item) => ({
+          ...item,
+          isOutOfStock:
+            item.isOutOfStock === true || item.isOutOfStock === 1 || item.isOutOfStock === "1",
+        }))
+      : [];
+    window.CKShop?.syncWithCatalog?.();
+    syncPriceRangeFromCatalog();
     initFromUrlOrDefaults();
   }
 
-  if (window.CKShop) startCatalog();
-  else window.addEventListener("ck-shop-ready", startCatalog, { once: true });
+  if (countEl) {
+    countEl.textContent = "Показано: …";
+  }
+
+  whenShopReady(startCatalog);
 })();

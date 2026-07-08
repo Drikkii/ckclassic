@@ -75,10 +75,44 @@
   }
 
   async function sendLead(payload) {
-    const email = (config.email || "").trim();
+    const base = document.body.getAttribute("data-base") || "";
+    const fields = payload.fields || {};
+
+    try {
+      const phpResponse = await fetch(`${base}api/lead.php`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          subject: payload._subject || "Заявка с сайта Ск-классик",
+          fields,
+        }),
+      });
+
+      const phpData = await phpResponse.json().catch(() => ({}));
+      if (phpResponse.ok && phpData.success) {
+        return phpData;
+      }
+
+      if (phpData.message) {
+        throw new Error(phpData.message);
+      }
+    } catch (phpError) {
+      console.warn("[CK Forms] PHP lead endpoint failed, trying FormSubmit", phpError);
+    }
+
+    const email = (
+      window.CK_FORMS_CONFIG?.email ||
+      window.CK_SITE_CONFIG?.email ||
+      config.email ||
+      ""
+    ).trim();
+
     if (!email || email === "your@email.com") {
       console.warn(
-        "[CK Forms] Укажите email в forms-config.js (поле CK_FORMS_CONFIG.email)",
+        "[CK Forms] Укажите email в site-config.js (поле CK_SITE_CONFIG.email)",
       );
       return { success: true, demo: true };
     }
@@ -95,7 +129,8 @@
           _subject: payload._subject || "Заявка с сайта Ск-классик",
           _template: "table",
           _captcha: "false",
-          ...payload.fields,
+          _replyto: fields.email || fields.Email || "",
+          ...fields,
         }),
       },
     );
@@ -155,8 +190,9 @@
           openThanksModal();
         } catch (error) {
           console.error(error);
+          const phone = window.CK_SITE_CONFIG?.phoneDisplay || "+7 (964) 510-67-47";
           window.alert(
-            "Не удалось отправить заявку. Попробуйте позже или позвоните нам.",
+            `Не удалось отправить заявку. Попробуйте позже или позвоните нам: ${phone}`,
           );
         } finally {
           if (submitBtn) {

@@ -1,6 +1,8 @@
 (function () {
   "use strict";
 
+  if (window.CKShop) return;
+
   const FAVORITES_KEY = "ck_favorites";
   const CART_KEY = "ck_cart";
 
@@ -42,6 +44,25 @@
     return `${Number(value || 0).toLocaleString("ru-RU")} ₽`;
   }
 
+  function isOutOfStock(product) {
+    if (!product) return false;
+    const value = product.isOutOfStock;
+    return value === true || value === 1 || value === "1";
+  }
+
+  function normalizeOutOfStock(product) {
+    if (!product || typeof product !== "object") return product;
+    return {
+      ...product,
+      isOutOfStock: isOutOfStock(product),
+    };
+  }
+
+  function formatProductPrice(product) {
+    if (isOutOfStock(product)) return "Нет в наличии";
+    return formatPrice(product?.basePrice ?? product?.price ?? 0);
+  }
+
   function getFabricById(id) {
     return (window.FABRICS || []).find((f) => f.id === id) || null;
   }
@@ -49,15 +70,20 @@
   function getDefaultFabric(product) {
     const fabricId = product.fabrics?.[0] || "standard";
     const fabric = getFabricById(fabricId);
+    const base = Number(product.basePrice || product.price || 0);
     return {
       fabricId,
       fabricLabel: fabric?.name || fabricId,
-      price: (product.basePrice || product.price || 0) + (fabric?.delta || 0),
+      price: base + (fabric?.delta || 0),
     };
   }
 
   function getFavorites() {
     return readJson(FAVORITES_KEY, []);
+  }
+
+  function getCart() {
+    return readJson(CART_KEY, []);
   }
 
   function saveFavorites(list) {
@@ -78,8 +104,31 @@
     return index < 0;
   }
 
-  function getCart() {
-    return readJson(CART_KEY, []);
+  function getScopeProductSkus() {
+    return new Set(getProducts().map((p) => p.sku));
+  }
+
+  function syncWithCatalog() {
+    if (!Array.isArray(window.CATALOG_PRODUCTS)) return false;
+
+    const validSkus = getScopeProductSkus();
+    let changed = false;
+
+    const favorites = getFavorites();
+    const nextFavorites = favorites.filter((sku) => validSkus.has(sku));
+    if (nextFavorites.length !== favorites.length) {
+      saveFavorites(nextFavorites);
+      changed = true;
+    }
+
+    const cart = getCart();
+    const nextCart = cart.filter((item) => validSkus.has(item.sku));
+    if (nextCart.length !== cart.length) {
+      saveCart(nextCart);
+      changed = true;
+    }
+
+    return changed;
   }
 
   function saveCart(list) {
@@ -101,7 +150,7 @@
 
   function addToCart(sku, options) {
     const product = getProduct(sku);
-    if (!product) return false;
+    if (!product || isOutOfStock(product)) return false;
 
     const fabricId = options?.fabricId || product.fabrics?.[0] || "standard";
     const fabric = getFabricById(fabricId);
@@ -136,7 +185,7 @@
 
   function toggleCart(sku, options) {
     const product = getProduct(sku);
-    if (!product) return false;
+    if (!product || isOutOfStock(product)) return false;
 
     const fabricId = options?.fabricId || product.fabrics?.[0] || "standard";
     if (findCartItem(sku, fabricId)) {
@@ -174,40 +223,46 @@
   }
 
   function renderActionsHtml(sku, options) {
+    const product = getProduct(sku);
+    const unavailable = isOutOfStock(product);
     const favActive = isFavorite(sku) ? " is-active" : "";
     const cartActive = isInCart(sku, options?.fabricId) ? " is-active" : "";
     const fabricAttr = options?.fabricId
       ? ` data-fabric-id="${options.fabricId}"`
       : "";
+    const cartDisabled = unavailable ? " disabled aria-disabled=\"true\"" : "";
 
     return `<div class="catalog-product__actions">
       <button type="button" class="product-action product-action--favorite${favActive}" data-favorite-btn data-sku="${sku}" aria-label="В избранное" aria-pressed="${isFavorite(sku)}">${HEART_ICON}</button>
-      <button type="button" class="product-action product-action--cart${cartActive}" data-cart-btn data-sku="${sku}"${fabricAttr} aria-label="В корзину" aria-pressed="${isInCart(sku, options?.fabricId)}">${CART_ICON}</button>
+      <button type="button" class="product-action product-action--cart${cartActive}" data-cart-btn data-sku="${sku}"${fabricAttr}${cartDisabled} aria-label="В корзину" aria-pressed="${isInCart(sku, options?.fabricId)}">${CART_ICON}</button>
     </div>`;
   }
 
   function renderProductCardHtml(p, options) {
-    const href = options?.href || productUrl(p.sku, options?.fromPagesRoot);
-    const image = resolveImage(p.image);
+    const product = normalizeOutOfStock(p);
+    const href = options?.href || productUrl(product.sku, options?.fromPagesRoot);
+    const image = resolveImage(product.image);
     const meta = options?.compact
-      ? `<li><span>Артикул:</span> ${p.sku}</li><li><span>Коллекция:</span> ${p.collectionLabel}</li>`
-      : `<li><span>Артикул:</span> ${p.sku}</li>
-          <li><span>Коллекция:</span> ${p.collectionLabel}</li>
-          <li><span>Габариты:</span> ${p.dims}</li>
-          ${p.hasMechanism ? `<li><span>Механизм:</span> ${p.mechanismLabel}</li>` : ""}`;
+      ? `<li><span>Артикул:</span> ${product.sku}</li><li><span>Коллекция:</span> ${product.collectionLabel}</li>`
+      : `<li><span>Артикул:</span> ${product.sku}</li>
+          <li><span>Коллекция:</span> ${product.collectionLabel}</li>
+          <li><span>Габариты:</span> ${product.dims}</li>
+          ${product.hasMechanism ? `<li><span>Механизм:</span> ${product.mechanismLabel}</li>` : ""}`;
+    const outOfStockClass = isOutOfStock(product) ? " catalog-product--out-of-stock" : "";
+    const priceClass = isOutOfStock(product) ? " catalog-product__price--unavailable" : "";
 
-    return `<article class="catalog-product">
+    return `<article class="catalog-product${outOfStockClass}">
       <div class="catalog-product__image-wrap">
         <a class="catalog-product__image" href="${href}">
-          <img src="${image}" alt="${p.name}" loading="lazy" />
+          <img src="${image}" alt="${product.name}" loading="lazy" />
         </a>
       </div>
       <div class="catalog-product__body">
-        <h3 class="catalog-product__title"><a href="${href}">${p.name}</a></h3>
+        <h3 class="catalog-product__title"><a href="${href}">${product.name}</a></h3>
         <ul class="catalog-product__meta">${meta}</ul>
         <div class="catalog-product__footer">
-          <p class="catalog-product__price">${formatPrice(p.basePrice || p.price)}</p>
-          ${renderActionsHtml(p.sku, options?.actions)}
+          <p class="catalog-product__price${priceClass}">${formatProductPrice(product)}</p>
+          ${renderActionsHtml(product.sku, options?.actions)}
         </div>
       </div>
     </article>`;
@@ -295,6 +350,8 @@
     getProducts,
     resolveImage,
     formatPrice,
+    formatProductPrice,
+    isOutOfStock,
     getFavorites,
     getCart,
     isFavorite,
@@ -313,8 +370,12 @@
     createProductCardElement,
     syncAllActions,
     updateBadges,
+    syncWithCatalog,
   };
 
+  syncWithCatalog();
   syncAllActions();
-  window.dispatchEvent(new Event("ck-shop-ready"));
+  window.setTimeout(() => {
+    window.dispatchEvent(new Event("ck-shop-ready"));
+  }, 0);
 })();

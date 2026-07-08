@@ -225,6 +225,31 @@
   font-weight: 600;
 }
 
+.product-detail__price--request,
+.product-detail__price--unavailable {
+  font-size: 1.35rem;
+  color: var(--color-muted);
+}
+
+.product-detail--out-of-stock {
+  position: relative;
+}
+
+.product-detail--out-of-stock::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(72, 66, 58, 0.06);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.product-detail--out-of-stock .product-gallery__main img,
+.product-detail--out-of-stock .product-gallery__thumb img {
+  filter: grayscale(0.25);
+  opacity: 0.88;
+}
+
 .product-detail__price-base {
   margin-top: 6px;
   font-size: 0.9rem;

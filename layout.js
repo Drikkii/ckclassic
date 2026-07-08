@@ -1,6 +1,19 @@
 (function () {
   "use strict";
 
+  window.CK_SITE_CONFIG = window.CK_SITE_CONFIG || {
+    phoneDisplay: "+7 (964) 510-67-47",
+    phoneTel: "+79645106747",
+    phoneWa: "79645106747",
+    email: "sk-classic@mail.ru",
+  };
+
+  window.CK_FORMS_CONFIG = window.CK_FORMS_CONFIG || {
+    email: window.CK_SITE_CONFIG.email,
+  };
+
+  const contact = window.CK_SITE_CONFIG;
+
   function privacyNote(base) {
     const href = `${base}pages/privacy.html`;
     return `<p class="lead-form__note">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с <a href="${href}">политикой конфиденциальности</a>.</p>`;
@@ -25,7 +38,7 @@
 
   function renderMessengers(b, className = "head-messengers") {
     return `<div class="${className}">
-              <a href="https://wa.me/78888888888" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <a href="https://wa.me/${contact.phoneWa}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                 <img class="messenger-icon" src="${b}img/logo/messenger-whatsapp.svg" alt="" width="24" height="24" />
               </a>
               <a href="https://t.me/Drikki" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
@@ -53,7 +66,7 @@
         </div>
         <div class="head-call">
           <div class="head-call-number">
-            <a href="tel:+78888888888" class="phone">8 (888) 888-88-88</a>
+            <a href="tel:${contact.phoneTel}" class="phone">${contact.phoneDisplay}</a>
           </div>
           <div class="head-callback">
             <a href="javascript:void(0)" class="callback js-callback-popup-btn">Заказать обратный звонок</a>
@@ -267,7 +280,8 @@
         </div>
         <div class="footer__col">
           <h4>Контакты</h4>
-          <a href="tel:+78888888888">8 (888) 888-88-88</a>
+          <a href="tel:${contact.phoneTel}">${contact.phoneDisplay}</a>
+          <a href="mailto:${contact.email}">${contact.email}</a>
           <a href="javascript:void(0)" class="js-callback-popup-btn">Обратный звонок</a>
           ${renderMessengers(b, "footer__messengers")}
         </div>
@@ -327,8 +341,26 @@
       document.body.appendChild(script);
     });
 
-  loadScript("shop.js")
-    .then(() => loadScript("forms-config.js"))
+  const ensureCatalogLoaded = () => {
+    if (Array.isArray(window.CATALOG_PRODUCTS)) {
+      return Promise.resolve();
+    }
+    return loadScript("api/catalog.js.php").catch(() => {
+      if (!Array.isArray(window.CATALOG_PRODUCTS)) {
+        window.CATALOG_PRODUCTS = [];
+      }
+    });
+  };
+
+  const ensureShopLoaded = () => {
+    if (window.CKShop) {
+      return Promise.resolve();
+    }
+    return loadScript("shop.js");
+  };
+
+  ensureCatalogLoaded()
+    .then(ensureShopLoaded)
     .then(() => loadScript("forms.js"))
     .catch(() => {
       console.warn("[CK] Не удалось загрузить shop.js или forms");

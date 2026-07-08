@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -126,21 +126,36 @@
                 </div>
               </div>
 
-              <div class="catalog-filters__group">
+                            <div class="catalog-filters__group">
                 <span class="catalog-filters__label">По цене, до</span>
+                <div class="catalog-filters__price-control">
+                  <input
+                    class="catalog-filters__price-input"
+                    type="text"
+                    name="price_to"
+                    data-price-input
+                    min="27000"
+                    max="500000"
+                    value="500000"
+                    inputmode="numeric"
+                    autocomplete="off"
+                    placeholder="Например, 177 777"
+                  />
+                  <span class="catalog-filters__price-control-suffix" aria-hidden="true">₽</span>
+                </div>
                 <input
                   class="catalog-filters__range"
                   type="range"
                   name="price"
                   min="27000"
-                  max="207700"
-                  step="1000"
-                  value="207700"
+                  max="500000"
+                  step="1"
+                  value="500000"
                   data-price-range
                 />
                 <div class="catalog-filters__range-values">
                   <span>27 000 ₽</span>
-                  <span data-price-max>207 700 ₽</span>
+                  <span data-price-max>500 000 ₽</span>
                 </div>
               </div>
 
@@ -155,7 +170,7 @@
 
           <div class="catalog-main">
             <div class="catalog-main__toolbar">
-              <p class="catalog-main__count" data-catalog-count>Показано: 0 из 84</p>
+              <p class="catalog-main__count" data-catalog-count>Показано: …</p>
               <div class="catalog-main__controls">
                 <input
                   class="catalog-main__search"
@@ -196,9 +211,11 @@
     <div id="site-consultation"></div>
     <div id="site-footer"></div>
 
+    <script src="../../site-config.js"></script>
     <script src="../../layout.js"></script>
-    <script src="../../catalog-data.js"></script>
+    <script src="../../api/catalog.js.php"></script>
     <script src="../../index.js" defer></script>
+    <script src="../../shop.js" defer></script>
     <script src="../../catalog.js" defer></script>
   </body>
 </html>
