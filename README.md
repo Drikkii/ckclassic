@@ -28,11 +28,6 @@
 
 HTML · CSS · JavaScript · PHP · MySQL · Apache (`.htaccess`)
 
-### Запуск локально
-
-1. Скопировать `admin/config.example.php` → `admin/config.php` и указать данные MySQL
-2. Импортировать `sql/schema.sql`
-3. Разместить проект на PHP-хостинге (например, Beget)
 
 ---
 
@@ -56,13 +51,6 @@ End-to-end website for **SK-Classic**, a furniture factory in Pushkino, Russia: 
 
 HTML · CSS · JavaScript · PHP · MySQL · Apache (`.htaccess`)
 
-### Local setup
-
-1. Copy `admin/config.example.php` → `admin/config.php` and fill in MySQL credentials
-2. Import `sql/schema.sql`
-3. Deploy to a PHP hosting environment (e.g. Beget)
-
----
 
 ## Структура / Structure
 
@@ -75,8 +63,3 @@ HTML · CSS · JavaScript · PHP · MySQL · Apache (`.htaccess`)
 └── site-config.js         # Контакты и настройки сайта / Site config
 ```
 
-## Конфиденциальные данные / Secrets
-
-Не коммитить: `admin/config.php`, `.env` — пароли БД и серверные настройки.
-
-Do not commit: `admin/config.php`, `.env` — database passwords and server secrets.
