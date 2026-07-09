@@ -14,7 +14,7 @@ return [
     // Корень сайта (папка с index.html, catalog-data.js, img/)
     'site_root' => dirname(__DIR__),
     // Почта для заявок с форм (необязательно — иначе берётся из site-config.js)
-    // 'lead_email' => 'chev_P@mail.ru',
+    // 'lead_email' => 'sk-classic@mail.ru',
     // Адрес отправителя на домене сайта (создайте ящик в Beget → Почта)
     // 'lead_from_email' => 'noreply@mebel-sk-classic.ru',
     // 'lead_from_name' => 'Ск-классик',

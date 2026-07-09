@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = require("path");
+const { pages: SEO_PAGES, SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } = require("./seo-data");
+const { renderSeoHead, buildCanonical } = require("./seo-meta");
 
 const ROOT = path.join(__dirname, "..");
 const PHOTO_ROOT = path.join(ROOT, "img", "photo-mebeli");
@@ -290,17 +292,31 @@ function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, global
       ? page.defaultCollections
       : page.collection.col;
   const catalogFocus = page.catalogFocus ? ` data-catalog-focus="${page.catalogFocus}"` : "";
+  const pagePath = `/pages/catalog/${page.slug}.html`;
+  const seoConfig = SEO_PAGES[pagePath];
+  const pageTitle = seoConfig?.title || `${page.title} — Ск-классик`;
+  const pageDescription = seoConfig?.description || page.seoIntro;
+  const seoBlock = `<!-- ck-seo:start -->
+${renderSeoHead({
+  title: pageTitle,
+  description: pageDescription,
+  canonical: buildCanonical(SITE_URL, pagePath),
+  ogImage: DEFAULT_OG_IMAGE,
+  siteName: SITE_NAME,
+}).trimEnd()}
+<!-- ck-seo:end -->`;
 
   return `<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${page.title} — Ск-классик</title>
+    <title>${pageTitle}</title>
+${seoBlock}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../../style.css" />
@@ -500,9 +516,12 @@ function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, global
     <div id="site-consultation"></div>
     <div id="site-footer"></div>
 
-    <script src="../../layout.js"></script>
+    <script src="../../site-config.js" defer></script>
+    <script src="../../seo-config.js" defer></script>
+    <script src="../../seo.js" defer></script>
+    <script src="../../layout.js" defer></script>
     <script src="../../api/catalog.js.php"></script>
-    <script src="../../index.js" defer></script>
+    <script src="../../site.js" defer></script>
     <script src="../../shop.js" defer></script>
     <script src="../../catalog.js" defer></script>
   </body>

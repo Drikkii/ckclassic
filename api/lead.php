@@ -11,6 +11,15 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+if (lead_rate_limited()) {
+    http_response_code(429);
+    echo json_encode(
+        ['success' => false, 'message' => 'Слишком много заявок. Попробуйте позже.'],
+        JSON_UNESCAPED_UNICODE,
+    );
+    exit;
+}
+
 function lead_read_site_config(): array
 {
     $config = [
@@ -69,6 +78,50 @@ function lead_read_email(): string
     return '';
 }
 
+function lead_strip_header_value(string $value): string
+{
+    return str_replace(["\r", "\n", "\0"], '', trim($value));
+}
+
+function lead_rate_limited(): bool
+{
+    $ip = (string) ($_SERVER['REMOTE_ADDR'] ?? 'unknown');
+    $key = preg_replace('/[^a-zA-Z0-9._:-]/', '_', $ip) ?? 'unknown';
+    $dir = sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'ckclassic-leads';
+    $file = $dir . DIRECTORY_SEPARATOR . $key . '.json';
+
+    if (!is_dir($dir) && !mkdir($dir, 0700, true) && !is_dir($dir)) {
+        return false;
+    }
+
+    $now = time();
+    $window = 300;
+    $max = 8;
+    $data = ['times' => []];
+
+    if (is_file($file)) {
+        $raw = file_get_contents($file);
+        $decoded = json_decode($raw !== false ? $raw : '', true);
+        if (is_array($decoded) && isset($decoded['times']) && is_array($decoded['times'])) {
+            $data['times'] = $decoded['times'];
+        }
+    }
+
+    $data['times'] = array_values(array_filter(
+        $data['times'],
+        static fn ($ts) => is_int($ts) && $ts > $now - $window,
+    ));
+
+    if (count($data['times']) >= $max) {
+        return true;
+    }
+
+    $data['times'][] = $now;
+    file_put_contents($file, json_encode($data), LOCK_EX);
+
+    return false;
+}
+
 function lead_sanitize_fields(array $fields): array
 {
     $clean = [];
@@ -79,7 +132,11 @@ function lead_sanitize_fields(array $fields): array
         if (is_array($value)) {
             $value = implode(', ', array_map('strval', $value));
         }
-        $clean[$key] = trim((string) $value);
+        $value = mb_substr(trim((string) $value), 0, 2000);
+        if ($value === '') {
+            continue;
+        }
+        $clean[mb_substr($key, 0, 80)] = $value;
     }
 
     return $clean;
@@ -105,7 +162,9 @@ if ($to === '') {
     exit;
 }
 
-$subject = trim((string) ($payload['subject'] ?? 'Заявка с сайта Ск-классик'));
+$subject = lead_strip_header_value(
+    mb_substr(trim((string) ($payload['subject'] ?? 'Заявка с сайта Ск-классик')), 0, 200),
+);
 $fields = lead_sanitize_fields(is_array($payload['fields'] ?? null) ? $payload['fields'] : []);
 
 if (!$fields) {
@@ -126,12 +185,15 @@ $body = implode("\n", $lines);
 $host = (string) ($_SERVER['HTTP_HOST'] ?? 'localhost');
 $host = preg_replace('/[^a-zA-Z0-9.-]/', '', $host) ?? 'localhost';
 
-$fromEmail = trim($siteConfig['mailFrom']);
+$fromEmail = lead_strip_header_value(trim($siteConfig['mailFrom']));
 if ($fromEmail === '' || !filter_var($fromEmail, FILTER_VALIDATE_EMAIL)) {
     $fromEmail = 'noreply@' . $host;
 }
 
-$fromName = trim($siteConfig['mailFromName']) !== '' ? trim($siteConfig['mailFromName']) : 'Ск-классик';
+$fromName = lead_strip_header_value(
+    trim($siteConfig['mailFromName']) !== '' ? trim($siteConfig['mailFromName']) : 'Ск-классик',
+);
+$fromName = mb_substr($fromName, 0, 80);
 $encodedFromName = '=?UTF-8?B?' . base64_encode($fromName) . '?=';
 
 $encodedSubject = '=?UTF-8?B?' . base64_encode($subject) . '?=';
@@ -141,7 +203,7 @@ $headers = [
     'Content-Transfer-Encoding: 8bit',
     'From: ' . $encodedFromName . ' <' . $fromEmail . '>',
     'Reply-To: ' . $fromEmail,
-    'X-Mailer: PHP/' . PHP_VERSION,
+    'X-Mailer: CKClassic',
 ];
 
 $sent = @mail($to, $encodedSubject, $body, implode("\r\n", $headers));

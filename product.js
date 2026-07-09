@@ -38,6 +38,9 @@
 
   root.hidden = false;
   document.title = `${product.name} — Ск-классик`;
+  if (typeof window.CK_applyProductSeo === "function") {
+    window.CK_applyProductSeo(product);
+  }
 
   if (
     product.isOutOfStock === true ||

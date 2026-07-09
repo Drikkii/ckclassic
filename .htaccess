@@ -1,0 +1,12 @@
+# Принудительный редирект на HTTPS
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# Своя страница «не найдено»
+ErrorDocument 404 /404.html

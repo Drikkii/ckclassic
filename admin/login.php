@@ -30,7 +30,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } elseif (Auth::attempt(admin_pdo(), $username, $password)) {
         admin_redirect('index.php');
     } else {
-        $error = 'Неверный логин или пароль.';
+        Auth::startSession();
+        $blockedUntil = (int) ($_SESSION['admin_login_attempts']['until'] ?? 0);
+        if ($blockedUntil > time()) {
+            $mins = (int) ceil(($blockedUntil - time()) / 60);
+            $error = "Слишком много попыток. Повторите через {$mins} мин.";
+        } else {
+            $error = 'Неверный логин или пароль.';
+        }
     }
 }
 

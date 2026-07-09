@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /pages/cart.html
+Disallow: /pages/favorites.html
+
+Sitemap: https://mebel-sk-classic.ru/sitemap.xml

@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+require __DIR__ . '/bootstrap.php';
+
+Auth::requireLogin();
+
 header('Content-Type: text/plain; charset=utf-8');
 
 echo "PHP: " . PHP_VERSION . "\n\n";
@@ -36,4 +40,4 @@ try {
     echo "\nMySQL ОШИБКА: " . $e->getMessage() . "\n";
 }
 
-echo "\n---\nЕсли всё OK — откройте install.php\nПосле проверки удалите этот файл (check.php)\n";
+echo "\n---\nДиагностика доступна только после входа в админку.\n";

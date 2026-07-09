@@ -188,6 +188,14 @@
           }
 
           openThanksModal();
+          if (typeof window.ym === "function") {
+            const metrikaId = Number(
+              window.CK_SITE_CONFIG?.yandexMetrikaId || 110539365,
+            );
+            if (metrikaId) {
+              window.ym(metrikaId, "reachGoal", "lead_submit", { formType });
+            }
+          }
         } catch (error) {
           console.error(error);
           const phone = window.CK_SITE_CONFIG?.phoneDisplay || "+7 (964) 510-67-47";

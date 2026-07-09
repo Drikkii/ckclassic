@@ -5,6 +5,7 @@
  * mailFrom — с какого адреса отправляется (ящик на домене сайта в Beget).
  * mailFromName — имя отправителя в списке писем («Ск-классик»).
  * siteUrl — адрес сайта (для favicon/иконки в почте).
+ * yandexMetrikaId — номер счётчика Яндекс.Метрики (metrika.yandex.ru).
  *
  * Иконка письма в Mail.ru/Gmail берётся с домена отправителя (favicon.ico в корне сайта),
  * а не из картинки внутри письма.
@@ -17,6 +18,7 @@ window.CK_SITE_CONFIG = {
   mailFrom: "noreply@mebel-sk-classic.ru",
   mailFromName: "Ск-классик",
   siteUrl: "https://mebel-sk-classic.ru",
+  yandexMetrikaId: "110539365",
 };
 
 window.CK_FORMS_CONFIG = {
