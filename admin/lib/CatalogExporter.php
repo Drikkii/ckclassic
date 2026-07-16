@@ -14,7 +14,12 @@ final class CatalogExporter
 
     public function write(string $siteRoot): int
     {
-        $items = $this->products->allData();
+        $items = array_map(
+            static function (array $item): array {
+                return CatalogOptions::enrichProduct($item);
+            },
+            $this->products->allData(),
+        );
         $json = json_encode($items, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 
         if ($json === false) {

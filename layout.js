@@ -59,7 +59,7 @@
     return `<header class="header">
       <div class="head">
         <div class="head-logo">
-          <a href="${b}index.html"><img class="logo" src="${b}img/logo/logotipBig.png" alt="Ск-классик" /></a>
+          <a href="${b}index.html"><img class="logo" src="${b}img/logo/logotipBig.webp" alt="Ск-классик" width="180" height="48" decoding="async" /></a>
         </div>
         <div class="head-tagline">
           <p class="paragraf-tagline">Классическая мягкая мебель от производителя</p>
@@ -113,7 +113,6 @@
               <li><a href="${catalog}scarlett.html">Скарлет</a></li>
               <li><a href="${catalog}teseo.html">Тесео</a></li>
               <li><a href="${catalog}turin.html">Турин</a></li>
-              <li><a href="${catalog}baxter.html">Бакстер</a></li>
               <li><a href="${catalog}dionis.html">Дионис</a></li>
               <li><a href="${catalog}custom.html">Проектные изделия</a></li>
               <li><a href="${catalog}beds.html">Кровати</a></li>
@@ -185,7 +184,6 @@
             <li><a class="mobile-nav__link" href="${catalog}scarlett.html">Скарлет</a></li>
             <li><a class="mobile-nav__link" href="${catalog}teseo.html">Тесео</a></li>
             <li><a class="mobile-nav__link" href="${catalog}turin.html">Турин</a></li>
-            <li><a class="mobile-nav__link" href="${catalog}baxter.html">Бакстер</a></li>
             <li><a class="mobile-nav__link" href="${catalog}dionis.html">Дионис</a></li>
             <li><a class="mobile-nav__link" href="${catalog}custom.html">Проектные изделия</a></li>
             <li><a class="mobile-nav__link" href="${catalog}beds.html">Кровати</a></li>
@@ -259,13 +257,13 @@
       <div class="container">
         <div class="footer__grid">
         <div class="footer__col">
-          <img class="footer__logo" src="${b}img/logo/logotipBig.png" alt="Ск-классик" />
+          <img class="footer__logo" src="${b}img/logo/logotipBig.webp" alt="Ск-классик" width="180" height="48" decoding="async" />
         </div>
         <div class="footer__col">
           <h4>Каталог</h4>
           <ul>
-            <li><a href="${b}index.html#rooms">По комнатам</a></li>
-            <li><a href="${pages}catalog/chairs.html">Стулья</a></li>
+            <li><a href="${b}index.html#new-products">Новинки</a></li>
+            <li><a href="${pages}catalog/chairs.html?type=armchair">Кресла</a></li>
             <li><a href="${pages}fabrics.html">Ткани и декор</a></li>
           </ul>
         </div>
@@ -289,7 +287,7 @@
         <div class="footer__bar">
           <p class="footer__copy">© Фабрика «Ск-классик» 2026</p>
           <p class="footer__credit">
-            Made by <a href="https://github.com/drikkii" target="_blank" rel="noopener noreferrer">Drikki</a>
+            Made by <a href="https://github.com/Drikkii/ckclassic/tree/gh-pages" target="_blank" rel="noopener noreferrer">Drikki</a>
           </p>
         </div>
       </div>

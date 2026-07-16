@@ -87,6 +87,12 @@ final class SliderRepository
         ]);
     }
 
+    public function updateImage(int $id, string $imageSrc): void
+    {
+        $stmt = $this->pdo->prepare('UPDATE slider_slides SET image_src = ? WHERE id = ?');
+        $stmt->execute([$imageSrc, $id]);
+    }
+
     public function delete(int $id): bool
     {
         $stmt = $this->pdo->prepare('DELETE FROM slider_slides WHERE id = ?');
@@ -143,12 +149,25 @@ final class SliderRepository
             return 0;
         }
 
-        $defaults = SliderHelper::defaultSlides();
-        foreach ($defaults as $slide) {
-            $this->create($slide);
+        return $this->replaceAll(SliderHelper::defaultSlides());
+    }
+
+    /** @param list<array<string, mixed>> $slides */
+    public function replaceAll(array $slides): int
+    {
+        $this->pdo->beginTransaction();
+        try {
+            $this->pdo->exec('DELETE FROM slider_slides');
+            foreach ($slides as $slide) {
+                $this->create($slide);
+            }
+            $this->pdo->commit();
+        } catch (Throwable $e) {
+            $this->pdo->rollBack();
+            throw $e;
         }
 
-        return count($defaults);
+        return count($slides);
     }
 
     private function nextSortOrder(): int

@@ -60,17 +60,20 @@
         if (!product) return "";
 
         const href = window.CKShop.productUrl(item.sku, true);
-        const image = window.CKShop.resolveImage(product.image);
+        const imageTag = window.CKShop.renderCatalogImageTag
+          ? window.CKShop.renderCatalogImageTag(product.image, product.name, {
+              attrs: 'loading="lazy"',
+            })
+          : `<img src="${window.CKShop.resolveImage(product.image)}" alt="${product.name}" loading="lazy" />`;
         const lineTotal = item.price * item.qty;
 
         return `<tr class="cart-table__row" data-cart-row data-sku="${item.sku}" data-fabric-id="${item.fabricId}">
           <td class="cart-table__photo">
-            <a href="${href}"><img src="${image}" alt="${product.name}" loading="lazy" /></a>
+            <a href="${href}">${imageTag}</a>
           </td>
           <td class="cart-table__info">
             <a class="cart-table__title" href="${href}">${product.name}</a>
             <p class="cart-table__meta">Артикул: ${item.sku}</p>
-            <p class="cart-table__meta">Ткань: ${item.fabricLabel}</p>
           </td>
           <td class="cart-table__price">${window.CKShop.formatPrice(item.price)}</td>
           <td class="cart-table__qty">
@@ -181,7 +184,7 @@
       const itemsText = cart
         .map((item, index) => {
           const product = window.CKShop.getProduct(item.sku);
-          return `${index + 1}. ${product?.name || item.sku} (${item.fabricLabel}) × ${item.qty} — ${window.CKShop.formatPrice(item.price * item.qty)}`;
+          return `${index + 1}. ${product?.name || item.sku} × ${item.qty} — ${window.CKShop.formatPrice(item.price * item.qty)}`;
         })
         .join("\n");
 

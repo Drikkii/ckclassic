@@ -35,7 +35,6 @@ function interiorItems() {
     { dir: `${base}/Скарлет в интерьере`, title: "Гостиная — Скарлет", href: "catalog/scarlett.html" },
     { dir: `${base}/Турин в интерьере`, title: "Кабинет — Турин", href: "catalog/turin.html" },
     { dir: `${base}/Дионис в интерьере`, title: "Гостиная — Дионис", href: "catalog/dionis.html" },
-    { dir: `${base}/Бакстер в интерьере`, title: "Гостиная — Бакстер", href: "catalog/baxter.html" },
     { dir: `${base}/Бренди в интерьере`, title: "Гостиная — Бренди", href: "catalog/living.html" },
   ];
   return cols
@@ -47,12 +46,6 @@ function interiorItems() {
     .filter(Boolean);
 }
 
-function fabricItems() {
-  return imagesFrom("Бахрома и тесьма", 11).map((rel, i) => ({
-    img: p(rel),
-    title: `Ткань и декор ${i + 1}`,
-  }));
-}
 
 function renderWorks() {
   const items = interiorItems();
@@ -107,20 +100,6 @@ ${cards}
 }
 
 function renderFabrics() {
-  const items = fabricItems();
-  const cards = items
-    .map(
-      (f) => `            <article class="fabric-card">
-              <div class="fabric-card__image">
-                <img src="${f.img}" alt="${f.title}" loading="lazy" />
-              </div>
-              <div class="fabric-card__body">
-                <p class="fabric-card__title">${f.title}</p>
-              </div>
-            </article>`,
-    )
-    .join("\n");
-
   return `<!doctype html>
 <html lang="ru">
   <head>
@@ -141,10 +120,7 @@ function renderFabrics() {
     <main class="main page-fabrics">
       <div class="container">
         <h1 class="section__title">Ткани и декор</h1>
-        <p class="page-fabrics__intro">Каталоги декоративных материалов, бахромы и тесьмы для обивки мебели «Ск-классик».</p>
-        <div class="fabrics-grid">
-${cards}
-        </div>
+        <p class="page-fabrics__intro">Каталоги декоративных материалов, бахромы и тесьмы для обивки мебели «Ск-классик». Актуальные образцы и подбор ткани — у менеджера при оформлении заказа или в салоне.</p>
       </div>
     </main>
 

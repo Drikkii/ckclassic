@@ -40,6 +40,64 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         admin_redirect('slider.php');
     }
 
+    if ($action === 'publish_slider') {
+        try {
+            $count = SliderHelper::publishSlider($repo, $exporter, $siteRoot);
+            admin_flash("Слайдер опубликован на сайте: {$count} слайдов.");
+        } catch (Throwable $e) {
+            admin_flash('Не удалось опубликовать слайдер: ' . $e->getMessage(), 'error');
+        }
+        admin_redirect('slider.php');
+    }
+
+    if ($action === 'replace_slide_photo') {
+        $id = (int) ($_POST['slide_id'] ?? 0);
+        $slide = $repo->find($id);
+        if (!$slide) {
+            admin_flash('Слайд не найден.', 'error');
+            admin_redirect('slider.php');
+        }
+
+        if (empty($_FILES['photo'])) {
+            admin_flash('Выберите файл для загрузки.', 'error');
+            admin_redirect('slider.php');
+        }
+
+        try {
+            $src = $uploader->upload(
+                $_FILES['photo'],
+                trim((string) ($slide['image_alt'] ?? ''))
+            );
+            if ($src === null) {
+                admin_flash('Файл не был загружен.', 'error');
+            } else {
+                $oldSrc = (string) ($slide['image_src'] ?? '');
+                $repo->updateImage($id, $src);
+                if ($oldSrc !== '' && $oldSrc !== $src) {
+                    SliderHelper::deleteImageFile($siteRoot, $oldSrc);
+                }
+                admin_publish_slider($repo, $exporter, $siteRoot, 'Фото слайда обновлено.');
+            }
+        } catch (Throwable $e) {
+            admin_flash($e->getMessage(), 'error');
+        }
+        admin_redirect('slider.php');
+    }
+
+    if ($action === 'remove_slide_photo') {
+        $id = (int) ($_POST['slide_id'] ?? 0);
+        $slide = $repo->find($id);
+        if ($slide) {
+            $oldSrc = (string) ($slide['image_src'] ?? '');
+            $repo->updateImage($id, '');
+            if ($oldSrc !== '') {
+                SliderHelper::deleteImageFile($siteRoot, $oldSrc);
+            }
+            admin_publish_slider($repo, $exporter, $siteRoot, 'Фото слайда удалено.');
+        }
+        admin_redirect('slider.php');
+    }
+
     if ($action === 'delete_slide') {
         $id = (int) ($_POST['slide_id'] ?? 0);
         $slide = $repo->find($id);
@@ -53,7 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($action === 'upload_slide') {
         if (empty($_FILES['photo'])) {
-            admin_flash('Выберите файл WebP для загрузки.', 'error');
+            admin_flash('Выберите файл для загрузки.', 'error');
             admin_redirect('slider.php');
         }
 
@@ -124,15 +182,23 @@ ob_start();
   </div>
   <p class="admin-subtitle">
     Перетащите слайды для смены порядка. Первый слайд показывается сразу при открытии сайта.
-    После изменения подписей нажмите «Сохранить порядок и подписи». Формат фото: только WebP.
+    После изменения подписей нажмите «Сохранить порядок и подписи». У каждого слайда можно заменить или удалить только фото, не удаляя сам слайд.
   </p>
+
+  <div class="admin-actions" style="margin-bottom: 16px; flex-wrap: wrap; gap: 8px;">
+    <form method="post" style="display: inline;">
+      <?= Csrf::field() ?>
+      <input type="hidden" name="action" value="publish_slider" />
+      <button class="admin-btn admin-btn--secondary" type="submit">Опубликовать на сайте</button>
+    </form>
+  </div>
 
   <?php if (!$slides): ?>
     <p class="admin-muted" style="margin-bottom: 16px;">Слайдов пока нет.</p>
     <form method="post" style="margin-bottom: 20px;">
       <?= Csrf::field() ?>
       <input type="hidden" name="action" value="seed_defaults" />
-      <button class="admin-btn" type="submit">Импортировать текущие слайды с сайта</button>
+      <button class="admin-btn" type="submit">Импортировать слайды по умолчанию</button>
     </form>
   <?php else: ?>
     <form class="admin-form" method="post" id="slider-edit-form">
@@ -145,10 +211,26 @@ ob_start();
           <?php $id = (int) $slide['id']; ?>
           <article class="admin-slider-item" data-slide-item data-slide-id="<?= $id ?>" draggable="true">
             <div class="admin-slider-item__preview">
-              <img src="<?= admin_h(SliderHelper::adminImageUrl((string) $slide['image_src'])) ?>" alt="" />
+              <?php if (!empty($slide['image_src'])): ?>
+                <img src="<?= admin_h(SliderHelper::adminImageUrl((string) $slide['image_src'])) ?>" alt="" />
+              <?php else: ?>
+                <div class="admin-slider-item__placeholder">Нет фото</div>
+              <?php endif; ?>
               <span class="admin-slider-item__drag" aria-hidden="true">⋮⋮</span>
             </div>
             <div class="admin-slider-item__fields">
+              <div class="admin-slider-item__photo-actions">
+                <div class="admin-field" style="margin-bottom: 0;">
+                  <label for="photo_<?= $id ?>"><?= !empty($slide['image_src']) ? 'Заменить фото' : 'Загрузить фото' ?></label>
+                  <input id="photo_<?= $id ?>" form="replace-slide-photo-<?= $id ?>" type="file" name="photo" accept="<?= admin_h(ImageConverter::acceptAttribute()) ?>" required />
+                </div>
+                <button class="admin-btn admin-btn--secondary" type="submit" form="replace-slide-photo-<?= $id ?>" style="width: 100%; margin-top: 8px;">
+                  <?= !empty($slide['image_src']) ? 'Обновить фото' : 'Загрузить фото' ?>
+                </button>
+                <?php if (!empty($slide['image_src'])): ?>
+                  <button class="admin-btn admin-btn--danger" type="submit" form="remove-slide-photo-<?= $id ?>" style="width: 100%; margin-top: 8px;">Удалить фото</button>
+                <?php endif; ?>
+              </div>
               <div class="admin-field">
                 <label for="alt_<?= $id ?>">Подпись к фото (alt)</label>
                 <input id="alt_<?= $id ?>" name="alt_<?= $id ?>" value="<?= admin_h((string) $slide['image_alt']) ?>" />
@@ -184,6 +266,18 @@ ob_start();
 
     <?php foreach ($slides as $slide): ?>
       <?php $id = (int) $slide['id']; ?>
+      <form id="replace-slide-photo-<?= $id ?>" method="post" enctype="multipart/form-data" hidden>
+        <?= Csrf::field() ?>
+        <input type="hidden" name="action" value="replace_slide_photo" />
+        <input type="hidden" name="slide_id" value="<?= $id ?>" />
+      </form>
+      <?php if (!empty($slide['image_src'])): ?>
+        <form id="remove-slide-photo-<?= $id ?>" method="post" onsubmit="return confirm('Удалить фото этого слайда? Сам слайд и подписи сохранятся.');" hidden>
+          <?= Csrf::field() ?>
+          <input type="hidden" name="action" value="remove_slide_photo" />
+          <input type="hidden" name="slide_id" value="<?= $id ?>" />
+        </form>
+      <?php endif; ?>
       <form id="delete-slide-<?= $id ?>" method="post" onsubmit="return confirm('Удалить этот слайд?');" hidden>
         <?= Csrf::field() ?>
         <input type="hidden" name="action" value="delete_slide" />
@@ -200,8 +294,9 @@ ob_start();
     <input type="hidden" name="action" value="upload_slide" />
     <div class="admin-form-grid">
       <div class="admin-field">
-        <label for="photo">Фото (WebP)</label>
-        <input id="photo" type="file" name="photo" accept="image/webp,.webp" required />
+        <label for="photo">Фото (JPEG, PNG или WebP)</label>
+        <input id="photo" type="file" name="photo" accept="<?= admin_h(ImageConverter::acceptAttribute()) ?>" required />
+        <p class="admin-muted" style="margin-top: 6px;">Файл сохраняется в <code>img/slider/</code> как WebP (1280 и 1920 px). Исходник — от 1920 px, горизонтальный кадр.</p>
       </div>
       <div class="admin-field">
         <label for="image_alt">Подпись к фото (alt)</label>

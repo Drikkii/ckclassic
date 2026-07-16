@@ -23,6 +23,7 @@ function buildCanonical(siteUrl, pagePath) {
 function renderSeoHead({
   title,
   description,
+  keywords,
   canonical,
   robots,
   ogImage,
@@ -35,6 +36,10 @@ function renderSeoHead({
     lines.push(
       `    <meta name="description" content="${escapeAttr(trimDescription(description))}" />`,
     );
+  }
+
+  if (keywords) {
+    lines.push(`    <meta name="keywords" content="${escapeAttr(keywords)}" />`);
   }
 
   if (robots) {

@@ -28,6 +28,7 @@
   let catalogItems = Array.isArray(window.CATALOG_PRODUCTS) ? [...window.CATALOG_PRODUCTS] : [];
   let groupFilterActive = Boolean(focusGroup);
   let syncingFromUrl = false;
+  let presetProductTypes = [];
 
   const CATALOG_PRICE_CEILING = 500000;
   const CATALOG_PRICE_MIN = Number(priceRange?.min || priceInput?.min || 27000);
@@ -134,20 +135,34 @@
     return `product.html?sku=${encodeURIComponent(sku)}`;
   }
 
+  function normalizeCatalogProduct(product) {
+    const item = { ...product };
+    if (Array.isArray(item.mechanisms)) {
+      if (!item.mechanismLabel) {
+        item.mechanismLabel = window.CKShop?.formatMechanismLabel?.(item.mechanisms) || "";
+      }
+      return item;
+    }
+    item.mechanisms = ["none"];
+    item.mechanismLabel = "Без механизма";
+    return item;
+  }
+
+  function renderMechanismLine(product) {
+    const label = product?.mechanismLabel;
+    if (!label || label === "—") return "";
+    return `<li><span>Механизм:</span> ${label}</li>`;
+  }
+
   function renderProductCard(p) {
     if (window.CKShop?.createProductCardElement) {
       return window.CKShop.createProductCardElement(p);
     }
 
     const article = document.createElement("article");
-    const outOfStock =
-      p.isOutOfStock === true || p.isOutOfStock === 1 || p.isOutOfStock === "1";
-    article.className = `catalog-product${outOfStock ? " catalog-product--out-of-stock" : ""}`;
+    article.className = "catalog-product";
     const href = productUrl(p.sku);
-    const priceText = outOfStock
-      ? "Нет в наличии"
-      : `${Number(p.price).toLocaleString("ru-RU")} ₽`;
-    const priceClass = outOfStock ? " catalog-product__price--unavailable" : "";
+    const priceText = `от ${Number(p.price).toLocaleString("ru-RU")} ₽`;
     article.innerHTML = `
       <a class="catalog-product__image" href="${href}">
         <img src="${p.image}" alt="${p.name}" loading="lazy" />
@@ -160,11 +175,67 @@
           <li><span>Артикул:</span> ${p.sku}</li>
           <li><span>Коллекция:</span> ${p.collectionLabel}</li>
           <li><span>Габариты:</span> ${p.dims}</li>
-          ${p.hasMechanism ? `<li><span>Механизм:</span> ${p.mechanismLabel}</li>` : ""}
+          ${renderMechanismLine(p)}
         </ul>
-        <p class="catalog-product__price${priceClass}">${priceText}</p>
+        <p class="catalog-product__price">${priceText}</p>
       </div>`;
     return article;
+  }
+
+  function isShowAllCatalog() {
+    const input = filterForm?.querySelector("[data-filter-all]");
+    return Boolean(input?.checked);
+  }
+
+  function isNewOnlyFilter() {
+    const input = filterForm?.querySelector("[data-filter-new]");
+    return Boolean(input?.checked);
+  }
+
+  function isProductNew(product) {
+    if (window.CKShop?.isProductNew) {
+      return window.CKShop.isProductNew(product);
+    }
+    const value = product?.isNew;
+    return value === true || value === 1 || value === "1";
+  }
+
+  function expandProductTypes(types) {
+    const result = [];
+    types.forEach((type) => {
+      if (type === "corner") {
+        result.push("corner-classic", "corner-ottoman");
+      } else {
+        result.push(type);
+      }
+    });
+    return [...new Set(result)];
+  }
+
+  function normalizeProductTypesForUrl(types) {
+    const set = new Set(types);
+    const params = [];
+    if (set.has("corner-classic") && set.has("corner-ottoman")) {
+      params.push("corner");
+      set.delete("corner-classic");
+      set.delete("corner-ottoman");
+    }
+    set.forEach((type) => params.push(type));
+    return params;
+  }
+
+  function matchesProductType(product, productTypes) {
+    if (!productTypes.length) return true;
+    return productTypes.includes(product.type);
+  }
+
+  function clearCategoryFilters() {
+    if (!filterForm) return;
+    filterForm
+      .querySelectorAll('input[name="style"], input[name="collection"], input[name="mechanism_type"]')
+      .forEach((input) => {
+        input.checked = false;
+      });
   }
 
   function getCheckedValues(name) {
@@ -176,9 +247,11 @@
 
   function getFilterState() {
     return {
+      showAll: isShowAllCatalog(),
+      newOnly: isNewOnlyFilter(),
+      productTypes: [...presetProductTypes],
       styles: getCheckedValues("style"),
       collections: getCheckedValues("collection"),
-      mechanisms: getCheckedValues("mechanism"),
       mechanismTypes: getCheckedValues("mechanism_type"),
       maxPrice: getCurrentMaxPrice(),
       widthFrom: widthFromInput?.value ? Number(widthFromInput.value) : null,
@@ -190,28 +263,33 @@
 
   function matchesFilters(p, state) {
     const globalSearch = Boolean(state.q);
+    const showAll = state.showAll;
+    const scopeFree = showAll || state.newOnly;
 
-    const styleMatch = !state.styles.length || state.styles.includes(p.style);
+    const styleMatch = showAll || !state.styles.length || state.styles.includes(p.style);
     const collectionMatch =
-      globalSearch || !state.collections.length || state.collections.includes(p.collection);
+      scopeFree ||
+      globalSearch ||
+      !state.collections.length ||
+      state.collections.includes(p.collection);
     const priceMatch = p.price <= state.maxPrice;
     const groupMatch =
-      globalSearch || !groupFilterActive || !focusGroup || p.group === focusGroup;
+      scopeFree ||
+      globalSearch ||
+      !groupFilterActive ||
+      !focusGroup ||
+      p.group === focusGroup;
 
-    const mechFlags = state.mechanisms;
-    let mechanismMatch = true;
-    if (mechFlags.length) {
-      const wantsYes = mechFlags.includes("yes");
-      const wantsNo = mechFlags.includes("no");
-      mechanismMatch =
-        (wantsYes && p.hasMechanism) ||
-        (wantsNo && !p.hasMechanism) ||
-        (!wantsYes && !wantsNo);
-    }
-
-    const typeMatch =
+    const mechanismMatch =
+      showAll ||
       !state.mechanismTypes.length ||
-      (p.mechanismType && state.mechanismTypes.includes(p.mechanismType));
+      (Array.isArray(p.mechanisms) &&
+        state.mechanismTypes.some((type) => p.mechanisms.includes(type)));
+
+    const productTypeMatch =
+      !state.productTypes.length || matchesProductType(p, state.productTypes);
+
+    const newMatch = !state.newOnly || isProductNew(p);
 
     let widthMatch = true;
     if (state.widthFrom != null && !Number.isNaN(state.widthFrom)) {
@@ -233,7 +311,8 @@
       priceMatch &&
       groupMatch &&
       mechanismMatch &&
-      typeMatch &&
+      productTypeMatch &&
+      newMatch &&
       widthMatch &&
       searchMatch
     );
@@ -249,6 +328,11 @@
           return a.price - b.price;
         case "price-desc":
           return b.price - a.price;
+        case "collection":
+          return String(a.collectionLabel || a.collection || "").localeCompare(
+            String(b.collectionLabel || b.collection || ""),
+            "ru",
+          ) || String(a.name || "").localeCompare(String(b.name || ""), "ru");
         case "new":
         default:
           return Number(b.isNew) - Number(a.isNew) || b.popularity - a.popularity;
@@ -258,6 +342,9 @@
   }
 
   function getScopeItems() {
+    if (isShowAllCatalog()) {
+      return catalogItems;
+    }
     if (defaultCollections.length) {
       return catalogItems.filter((p) => defaultCollections.includes(p.collection));
     }
@@ -281,9 +368,11 @@
 
   function stateToParams(state) {
     const params = new URLSearchParams();
+    if (state.showAll) params.set("all", "1");
+    if (state.newOnly) params.set("new", "1");
+    normalizeProductTypesForUrl(state.productTypes).forEach((v) => params.append("type", v));
     state.styles.forEach((v) => params.append("style", v));
     state.collections.forEach((v) => params.append("collection", v));
-    state.mechanisms.forEach((v) => params.append("mechanism", v));
     state.mechanismTypes.forEach((v) => params.append("mechanism_type", v));
     if (state.widthFrom != null) params.set("width_from", String(state.widthFrom));
     if (state.widthTo != null) params.set("width_to", String(state.widthTo));
@@ -297,8 +386,22 @@
     syncingFromUrl = true;
 
     filterForm?.querySelectorAll('input[type="checkbox"]').forEach((input) => {
-      input.checked = false;
+      if (!input.matches("[data-filter-all], [data-filter-new]")) {
+        input.checked = false;
+      }
     });
+
+    const allInput = filterForm?.querySelector("[data-filter-all]");
+    if (allInput) allInput.checked = Boolean(state.showAll);
+
+    const newInput = filterForm?.querySelector("[data-filter-new]");
+    if (newInput) newInput.checked = Boolean(state.newOnly);
+
+    presetProductTypes = [...(state.productTypes || [])];
+
+    if (state.showAll) {
+      clearCategoryFilters();
+    }
 
     state.styles.forEach((v) => {
       const input = filterForm?.querySelector(`input[name="style"][value="${v}"]`);
@@ -306,10 +409,6 @@
     });
     state.collections.forEach((v) => {
       const input = filterForm?.querySelector(`input[name="collection"][value="${v}"]`);
-      if (input) input.checked = true;
-    });
-    state.mechanisms.forEach((v) => {
-      const input = filterForm?.querySelector(`input[name="mechanism"][value="${v}"]`);
       if (input) input.checked = true;
     });
     state.mechanismTypes.forEach((v) => {
@@ -335,9 +434,11 @@
     const readMulti = (key) => params.getAll(key);
 
     return {
+      showAll: params.get("all") === "1",
+      newOnly: params.get("new") === "1",
+      productTypes: expandProductTypes(readMulti("type")),
       styles: readMulti("style"),
       collections: readMulti("collection"),
-      mechanisms: readMulti("mechanism"),
       mechanismTypes: readMulti("mechanism_type"),
       maxPrice: params.has("price_to") ? Number(params.get("price_to")) : priceMax,
       widthFrom: params.has("width_from") ? Number(params.get("width_from")) : null,
@@ -349,9 +450,11 @@
 
   function hasActiveUrlFilters(state) {
     return (
+      state.showAll ||
+      state.newOnly ||
+      state.productTypes.length ||
       state.styles.length ||
       state.collections.length ||
-      state.mechanisms.length ||
       state.mechanismTypes.length ||
       state.widthFrom != null ||
       state.widthTo != null ||
@@ -378,10 +481,35 @@
     };
   }
 
+  function getFilterBaseItems(state) {
+    if (state.showAll) {
+      return catalogItems;
+    }
+    if (
+      state.q ||
+      state.styles.length ||
+      state.collections.length ||
+      state.mechanismTypes.length ||
+      state.productTypes.length ||
+      state.newOnly
+    ) {
+      return catalogItems;
+    }
+    return getScopeItems();
+  }
+
   function applyFilters() {
     let state = getFilterState();
 
-    if (state.q) {
+    if (state.showAll) {
+      groupFilterActive = false;
+    } else if (state.newOnly) {
+      groupFilterActive = false;
+      filterForm?.querySelectorAll('input[name="collection"]').forEach((input) => {
+        input.checked = false;
+      });
+      state = { ...state, collections: [] };
+    } else if (state.q) {
       groupFilterActive = false;
       filterForm?.querySelectorAll('input[name="collection"]').forEach((input) => {
         input.checked = false;
@@ -390,8 +518,9 @@
     } else if (
       state.collections.length ||
       state.styles.length ||
-      state.mechanisms.length ||
       state.mechanismTypes.length ||
+      state.productTypes.length ||
+      state.newOnly ||
       state.widthFrom != null ||
       state.widthTo != null
     ) {
@@ -399,7 +528,7 @@
     }
 
     const filtered = sortItems(
-      catalogItems.filter((p) => matchesFilters(p, state)),
+      getFilterBaseItems(state).filter((p) => matchesFilters(p, state)),
       state.sort,
     );
 
@@ -415,6 +544,11 @@
     filterForm.querySelectorAll("input[type=checkbox]").forEach((input) => {
       input.checked = false;
     });
+
+    const allInput = filterForm.querySelector("[data-filter-all]");
+    if (allInput) allInput.checked = false;
+
+    presetProductTypes = [];
 
     if (defaultCollections.length) {
       defaultCollections.forEach((value) => {
@@ -467,6 +601,7 @@
 
   function initFromUrlOrDefaults() {
     const urlState = readStateFromUrl();
+    presetProductTypes = [...urlState.productTypes];
     if (hasActiveUrlFilters(urlState)) {
       groupFilterActive = false;
       applyStateToForm(urlState);
@@ -503,8 +638,43 @@
     applyFilters();
   });
 
-  filterForm?.querySelectorAll('input[type="checkbox"]').forEach((input) => {
-    input.addEventListener("change", applyFilters);
+  filterForm?.addEventListener("change", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLInputElement) || target.type !== "checkbox") return;
+
+    if (target.matches("[data-filter-all]")) {
+      if (target.checked) {
+        clearCategoryFilters();
+        presetProductTypes = [];
+        groupFilterActive = false;
+      }
+      applyFilters();
+      return;
+    }
+
+    if (target.matches("[data-filter-new]")) {
+      if (target.checked) {
+        filterForm?.querySelectorAll('input[name="collection"]').forEach((input) => {
+          input.checked = false;
+        });
+        groupFilterActive = false;
+      }
+      applyFilters();
+      return;
+    }
+
+    if (
+      target.name === "style" ||
+      target.name === "collection" ||
+      target.name === "mechanism_type"
+    ) {
+      if (target.checked) {
+        const allInput = filterForm.querySelector("[data-filter-all]");
+        if (allInput) allInput.checked = false;
+        presetProductTypes = [];
+      }
+      applyFilters();
+    }
   });
 
   widthFromInput?.addEventListener("change", applyFilters);
@@ -512,7 +682,7 @@
   const debouncedApplyFilters = debounce(applyFilters, 200);
 
   searchInput?.addEventListener("input", () => {
-    if (!searchInput.value.trim() && defaultCollections.length) {
+    if (!searchInput.value.trim() && !isShowAllCatalog() && defaultCollections.length) {
       defaultCollections.forEach((value) => {
         const input = filterForm?.querySelector(`input[name="collection"][value="${value}"]`);
         if (input) input.checked = true;
@@ -565,11 +735,7 @@
 
   function startCatalog() {
     catalogItems = Array.isArray(window.CATALOG_PRODUCTS)
-      ? window.CATALOG_PRODUCTS.map((item) => ({
-          ...item,
-          isOutOfStock:
-            item.isOutOfStock === true || item.isOutOfStock === 1 || item.isOutOfStock === "1",
-        }))
+      ? window.CATALOG_PRODUCTS.map((item) => normalizeCatalogProduct(item))
       : [];
     window.CKShop?.syncWithCatalog?.();
     syncPriceRangeFromCatalog();

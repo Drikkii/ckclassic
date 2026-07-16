@@ -5,18 +5,31 @@ const {
   SITE_NAME,
   DEFAULT_DESCRIPTION,
   DEFAULT_OG_IMAGE,
+  buildMetaKeywords,
+  getPageKeywords,
   pages,
 } = require("./seo-data");
 
 const ROOT = path.join(__dirname, "..");
 const outPath = path.join(ROOT, "seo-config.js");
 
+const seoPages = Object.fromEntries(
+  Object.entries(pages).map(([path, config]) => [
+    path,
+    {
+      ...config,
+      keywords: getPageKeywords(path, config),
+    },
+  ]),
+);
+
 const payload = {
   siteUrl: SITE_URL,
   siteName: SITE_NAME,
   defaultDescription: DEFAULT_DESCRIPTION,
   defaultOgImage: DEFAULT_OG_IMAGE,
-  pages,
+  defaultKeywords: buildMetaKeywords(),
+  pages: seoPages,
 };
 
 const file = `(function (root, factory) {

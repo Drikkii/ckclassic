@@ -1,0 +1,1 @@
+window.VACANCIES_CONTENT = "";

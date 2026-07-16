@@ -123,48 +123,38 @@ final class ProductHelper
     {
         $product['name'] = trim((string) ($post['name'] ?? $product['name'] ?? ''));
         $product['description'] = trim((string) ($post['description'] ?? $product['description'] ?? ''));
-        $product['dims'] = trim((string) ($post['dims'] ?? $product['dims'] ?? ''));
-        $product['frame'] = trim((string) ($post['frame'] ?? $product['frame'] ?? ''));
         $product['filler'] = trim((string) ($post['filler'] ?? $product['filler'] ?? ''));
         $product['base'] = trim((string) ($post['base'] ?? $product['base'] ?? ''));
 
         $product['price'] = (int) preg_replace('/\D+/', '', (string) ($post['price'] ?? $product['price'] ?? 0));
         $product['basePrice'] = $product['price'];
+        $product['length'] = max(0, (int) ($post['length'] ?? $product['length'] ?? 0));
         $product['width'] = max(0, (int) ($post['width'] ?? $product['width'] ?? 0));
+        $product['height'] = max(0, (int) ($post['height'] ?? $product['height'] ?? 0));
+        $product['dims'] = CatalogOptions::formatDimensions($product['length'], $product['width'], $product['height']);
         $product['popularity'] = max(0, min(100, (int) ($post['popularity'] ?? $product['popularity'] ?? 50)));
 
         $collection = (string) ($post['collection'] ?? $product['collection'] ?? 'living');
         $collections = CatalogOptions::collections();
         $product['collection'] = $collection;
         $product['collectionLabel'] = $collections[$collection] ?? (string) ($product['collectionLabel'] ?? '');
-        $product['group'] = trim((string) ($post['group'] ?? CatalogOptions::groupForCollection($collection)));
+        $product['group'] = CatalogOptions::resolveGroup(
+            $collection,
+            (string) ($product['group'] ?? ''),
+        );
 
-        $product['style'] = (string) ($post['style'] ?? $product['style'] ?? 'classic');
-        $product['type'] = (string) ($post['type'] ?? $product['type'] ?? 'straight');
+        $product['style'] = CatalogOptions::normalizeStyle((string) ($post['style'] ?? $product['style'] ?? 'classic'));
+        $product['type'] = CatalogOptions::normalizeType((string) ($post['type'] ?? $product['type'] ?? 'straight'));
+        $product['styleLabel'] = CatalogOptions::styles()[$product['style']] ?? $product['style'];
+        $product['typeLabel'] = CatalogOptions::types()[$product['type']] ?? $product['type'];
         $product['isNew'] = self::postFlag($post, 'is_new');
-        $product['isOutOfStock'] = self::postFlag($post, 'is_out_of_stock');
+        unset($product['isOutOfStock']);
 
-        $hasMechanism = !empty($post['has_mechanism']);
-        $product['hasMechanism'] = $hasMechanism;
-        if ($hasMechanism) {
-            $mechanismType = (string) ($post['mechanism_type'] ?? '');
-            $mechanisms = CatalogOptions::mechanisms();
-            $product['mechanismType'] = $mechanismType !== '' ? $mechanismType : null;
-            $product['mechanismLabel'] = $mechanisms[$mechanismType] ?? '—';
-        } else {
-            $product['mechanismType'] = null;
-            $product['mechanismLabel'] = '—';
-        }
+        $product['mechanisms'] = CatalogOptions::mechanismsFromPost($post);
+        unset($product['hasMechanism'], $product['mechanismType'], $product['mechanismLabel']);
 
-        $fabrics = $post['fabrics'] ?? [];
-        if (!is_array($fabrics)) {
-            $fabrics = [];
-        }
-        $allowedFabrics = array_keys(CatalogOptions::fabrics());
-        $product['fabrics'] = array_values(array_intersect($fabrics, $allowedFabrics));
-        if (!$product['fabrics']) {
-            $product['fabrics'] = ['standard'];
-        }
+        $product['fabrics'] = [];
+        unset($product['frame']);
 
         $gallery = is_array($product['gallery'] ?? null) ? $product['gallery'] : [];
         $orderCsv = (string) ($post['gallery_order'] ?? '');
@@ -189,7 +179,7 @@ final class ProductHelper
         }
         $product['gallery'] = $newGallery;
 
-        return self::syncProductImages($product);
+        return CatalogOptions::enrichProduct(self::syncProductImages($product));
     }
 
     /** @param array<string, mixed> $post */
@@ -218,21 +208,20 @@ final class ProductHelper
             'group' => 'living',
             'style' => 'classic',
             'type' => 'straight',
+            'typeLabel' => 'Прямой',
             'dims' => '',
-            'width' => 170,
-            'hasMechanism' => false,
-            'mechanismType' => null,
-            'mechanismLabel' => '—',
+            'length' => 0,
+            'width' => 0,
+            'height' => 0,
+            'mechanisms' => [],
             'price' => 0,
             'basePrice' => 0,
             'isNew' => true,
-            'isOutOfStock' => false,
             'popularity' => 50,
             'description' => '',
-            'frame' => 'массив бука, фанера, берёзовая латофлекс',
             'filler' => 'ППУ высокой плотности, синтепон',
             'base' => 'прямой диван',
-            'fabrics' => ['standard'],
+            'fabrics' => [],
             'gallery' => [],
             'image' => '',
         ];

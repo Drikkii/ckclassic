@@ -27,6 +27,9 @@ $flash = admin_take_flash();
           <nav class="admin-nav" aria-label="Разделы админки">
             <a class="admin-nav__link<?= $adminSection === 'catalog' ? ' is-active' : '' ?>" href="index.php">Каталог</a>
             <a class="admin-nav__link<?= $adminSection === 'slider' ? ' is-active' : '' ?>" href="slider.php">Слайдер</a>
+            <a class="admin-nav__link<?= $adminSection === 'vacancies' ? ' is-active' : '' ?>" href="vacancies.php">Вакансии</a>
+            <a class="admin-nav__link<?= $adminSection === 'privacy' ? ' is-active' : '' ?>" href="privacy.php">Конфиденциальность</a>
+            <a class="admin-nav__link<?= $adminSection === 'products-info' ? ' is-active' : '' ?>" href="products-info.php">О продукции</a>
           </nav>
           <div class="admin-header__meta">
             <span><?= admin_h(Auth::username()) ?></span>

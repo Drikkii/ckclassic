@@ -45,6 +45,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-bottom: 12px;
+}
+
+.catalog-tags--collections {
   margin-bottom: 20px;
 }
 
@@ -56,10 +60,26 @@
   font-size: 0.85rem;
   cursor: pointer;
   transition: background 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.catalog-tag--topic,
+.catalog-tag--link {
+  cursor: default;
+}
+
+.catalog-tag--link {
+  cursor: pointer;
+}
+
+.catalog-tag--current {
+  background: var(--color-accent);
 }
 
 .catalog-tag.is-active,
-.catalog-tag:hover {
+.catalog-tags--filters .catalog-tag:hover,
+.catalog-tag--link:hover {
   background: var(--color-accent);
 }
 
@@ -69,8 +89,6 @@
   gap: 24px;
   align-items: start;
 }
-
-@import url("shop.css");
 
 .catalog-main {
   min-width: 0;
@@ -129,6 +147,20 @@
 .catalog-filters__option input {
   margin-top: 3px;
   accent-color: var(--color-accent-dark);
+}
+
+.catalog-filters__group--all {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-border, #e8e4df);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.catalog-filters__option--all {
+  font-weight: 600;
+  color: var(--color-text, inherit);
 }
 
 .catalog-filters__range {
@@ -355,7 +387,11 @@
   width: 100%;
   aspect-ratio: var(--product-photo-ratio);
   overflow: hidden;
-  background: #fff;
+  background: var(--color-bg-alt);
+}
+
+.catalog-product__image--empty img {
+  opacity: 0;
 }
 
 .catalog-product__image-wrap > .catalog-product__image {
@@ -366,7 +402,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   transition: transform 0.35s ease;
 }
@@ -437,6 +473,27 @@
 .catalog-product__price--request,
 .catalog-product__price--unavailable {
   font-size: 0.95rem;
+  color: var(--color-muted);
+}
+
+.catalog-product__footer {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.catalog-product__footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.catalog-product__notice {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
   color: var(--color-muted);
 }
 

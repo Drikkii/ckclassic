@@ -12,6 +12,9 @@
   const CART_ICON =
     '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path class="product-action__shape" d="M9 20a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm10 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM7 7h15l-1.5 9h-11L5 3H2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
+  const CATALOG_ORDER_NOTICE =
+    "* Вся мебель изготавливается под заказ. Для уточнения деталей оставьте заявку.";
+
   function readJson(key, fallback) {
     try {
       const raw = localStorage.getItem(key);
@@ -25,8 +28,54 @@
     localStorage.setItem(key, JSON.stringify(value));
   }
 
+  function isProductNew(product) {
+    const value = product?.isNew;
+    return value === true || value === 1 || value === "1";
+  }
+
   function getProducts() {
-    return Array.isArray(window.CATALOG_PRODUCTS) ? window.CATALOG_PRODUCTS : [];
+    if (!Array.isArray(window.CATALOG_PRODUCTS)) return [];
+    return window.CATALOG_PRODUCTS.map((product) => normalizeProductMechanisms({ ...product }));
+  }
+
+  const MECHANISM_LABELS = {
+    none: "Без механизма",
+    puma: "Пума",
+    spartak: "Спартак",
+    rollout: "Выкатной",
+    "high-rollout": "Высоковыкатной",
+    gaslift: "Газлифт",
+  };
+
+  function formatMechanismLabel(mechanisms) {
+    if (!Array.isArray(mechanisms) || !mechanisms.length) return "";
+    return mechanisms
+      .map((key) => MECHANISM_LABELS[key] || "")
+      .filter(Boolean)
+      .join(" / ");
+  }
+
+  function normalizeProductMechanisms(product) {
+    if (!product || typeof product !== "object") return product;
+
+    if (Array.isArray(product.mechanisms)) {
+      product.mechanismLabel = formatMechanismLabel(product.mechanisms);
+      delete product.hasMechanism;
+      delete product.mechanismType;
+      return product;
+    }
+
+    product.mechanisms = ["none"];
+    product.mechanismLabel = MECHANISM_LABELS.none;
+    delete product.hasMechanism;
+    delete product.mechanismType;
+    return product;
+  }
+
+  function renderMechanismMeta(product) {
+    const label = product?.mechanismLabel;
+    if (!label || label === "—") return "";
+    return `<li><span>Механизм:</span> ${label}</li>`;
   }
 
   function getProduct(sku) {
@@ -40,27 +89,115 @@
     return `${base}${relative}`;
   }
 
+  function normalizeImageKey(src) {
+    const relative = String(src || "").replace(/^\.\.\/\.\.\//, "");
+    try {
+      return decodeURIComponent(relative).replace(/\\/g, "/");
+    } catch {
+      return relative.replace(/\\/g, "/");
+    }
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function encodeImageSrc(src) {
+    const value = String(src || "").trim();
+    if (!value) return "";
+    if (/%[0-9A-Fa-f]{2}/.test(value)) return value;
+    return value.split("/").map(encodeURIComponent).join("/");
+  }
+
+  function collectCatalogImageCandidates(src) {
+    const seen = new Set();
+    const list = [];
+
+    function add(raw) {
+      const url = String(raw || "").trim();
+      if (!url || seen.has(url)) return;
+      seen.add(url);
+      list.push(url);
+    }
+
+    const base = document.body.getAttribute("data-base") || "";
+    const relativeRaw = String(src || "").replace(/^\.\.\/\.\.\//, "");
+    const key = normalizeImageKey(src);
+    const full = resolveImage(src);
+    const thumbPath =
+      window.CK_IMAGE_THUMBS?.[key] ||
+      window.CK_IMAGE_THUMBS?.[relativeRaw];
+
+    if (thumbPath) add(`${base}${thumbPath}`);
+    add(full);
+
+    try {
+      const decodedRelative = decodeURIComponent(relativeRaw).replace(/\\/g, "/");
+      if (decodedRelative !== relativeRaw) {
+        add(`${base}${decodedRelative}`);
+      }
+    } catch {
+      /* ignore malformed URI */
+    }
+
+    if (/\.webp$/i.test(full)) {
+      add(full.replace(/\.webp$/i, ".jpg"));
+      add(full.replace(/\.webp$/i, ".jpeg"));
+      add(full.replace(/\.webp$/i, ".WEBP"));
+    }
+
+    return list;
+  }
+
+  window.__ckCatalogImgError = function (img) {
+    if (!img) return;
+
+    let candidates = [];
+    try {
+      candidates = JSON.parse(img.dataset.candidates || "[]");
+    } catch {
+      candidates = [];
+    }
+
+    const attempt = Number(img.dataset.attempt || "0") + 1;
+    img.dataset.attempt = String(attempt);
+
+    if (attempt < candidates.length) {
+      img.src = encodeImageSrc(candidates[attempt]);
+      return;
+    }
+
+    img.closest(".catalog-product__image")?.classList.add("catalog-product__image--empty");
+  };
+
+  function catalogCardImageSrc(src) {
+    const candidates = collectCatalogImageCandidates(src);
+    return {
+      src: candidates[0] || "",
+      fallback: candidates[1] || candidates[0] || "",
+      candidates,
+    };
+  }
+
+  function renderCatalogImageTag(src, alt, options) {
+    const { candidates } = catalogCardImageSrc(src);
+    const primary = candidates[0] || "";
+    const candidatesAttr = escapeHtml(JSON.stringify(candidates));
+    const attrs = options?.attrs || 'loading="lazy" decoding="async" width="480" height="360"';
+
+    return `<img src="${encodeImageSrc(primary)}" alt="${alt}" ${attrs} data-candidates="${candidatesAttr}" data-attempt="0" onerror="window.__ckCatalogImgError&&window.__ckCatalogImgError(this)" />`;
+  }
+
   function formatPrice(value) {
     return `${Number(value || 0).toLocaleString("ru-RU")} ₽`;
   }
 
-  function isOutOfStock(product) {
-    if (!product) return false;
-    const value = product.isOutOfStock;
-    return value === true || value === 1 || value === "1";
-  }
-
-  function normalizeOutOfStock(product) {
-    if (!product || typeof product !== "object") return product;
-    return {
-      ...product,
-      isOutOfStock: isOutOfStock(product),
-    };
-  }
-
   function formatProductPrice(product) {
-    if (isOutOfStock(product)) return "Нет в наличии";
-    return formatPrice(product?.basePrice ?? product?.price ?? 0);
+    return `от ${formatPrice(product?.basePrice ?? product?.price ?? 0)}`;
   }
 
   function getFabricById(id) {
@@ -68,13 +205,11 @@
   }
 
   function getDefaultFabric(product) {
-    const fabricId = product.fabrics?.[0] || "standard";
-    const fabric = getFabricById(fabricId);
     const base = Number(product.basePrice || product.price || 0);
     return {
-      fabricId,
-      fabricLabel: fabric?.name || fabricId,
-      price: base + (fabric?.delta || 0),
+      fabricId: "",
+      fabricLabel: "",
+      price: base,
     };
   }
 
@@ -150,13 +285,10 @@
 
   function addToCart(sku, options) {
     const product = getProduct(sku);
-    if (!product || isOutOfStock(product)) return false;
+    if (!product) return false;
 
-    const fabricId = options?.fabricId || product.fabrics?.[0] || "standard";
-    const fabric = getFabricById(fabricId);
-    const price =
-      options?.price ??
-      (product.basePrice || product.price || 0) + (fabric?.delta || 0);
+    const fabricId = options?.fabricId ?? "";
+    const price = options?.price ?? (product.basePrice || product.price || 0);
 
     const cart = getCart();
     const existing = findCartItem(sku, fabricId);
@@ -165,7 +297,7 @@
     cart.push({
       sku,
       fabricId,
-      fabricLabel: options?.fabricLabel || fabric?.name || fabricId,
+      fabricLabel: "",
       price,
       qty: 1,
       addedAt: Date.now(),
@@ -185,9 +317,9 @@
 
   function toggleCart(sku, options) {
     const product = getProduct(sku);
-    if (!product || isOutOfStock(product)) return false;
+    if (!product) return false;
 
-    const fabricId = options?.fabricId || product.fabrics?.[0] || "standard";
+    const fabricId = options?.fabricId ?? "";
     if (findCartItem(sku, fabricId)) {
       removeFromCart(sku, fabricId);
       return false;
@@ -223,46 +355,46 @@
   }
 
   function renderActionsHtml(sku, options) {
-    const product = getProduct(sku);
-    const unavailable = isOutOfStock(product);
     const favActive = isFavorite(sku) ? " is-active" : "";
-    const cartActive = isInCart(sku, options?.fabricId) ? " is-active" : "";
-    const fabricAttr = options?.fabricId
-      ? ` data-fabric-id="${options.fabricId}"`
-      : "";
-    const cartDisabled = unavailable ? " disabled aria-disabled=\"true\"" : "";
+    const cartActive = isInCart(sku) ? " is-active" : "";
 
     return `<div class="catalog-product__actions">
       <button type="button" class="product-action product-action--favorite${favActive}" data-favorite-btn data-sku="${sku}" aria-label="В избранное" aria-pressed="${isFavorite(sku)}">${HEART_ICON}</button>
-      <button type="button" class="product-action product-action--cart${cartActive}" data-cart-btn data-sku="${sku}"${fabricAttr}${cartDisabled} aria-label="В корзину" aria-pressed="${isInCart(sku, options?.fabricId)}">${CART_ICON}</button>
+      <button type="button" class="product-action product-action--cart${cartActive}" data-cart-btn data-sku="${sku}" aria-label="В корзину" aria-pressed="${isInCart(sku)}">${CART_ICON}</button>
+    </div>`;
+  }
+
+  function renderProductActionsRow(sku, options) {
+    const noticeClass = options?.noticeClass || "catalog-product__notice";
+    const rowClass = options?.rowClass || "catalog-product__footer-row";
+    return `<div class="${rowClass}">
+      <p class="${noticeClass}">${CATALOG_ORDER_NOTICE}</p>
+      ${renderActionsHtml(sku, options?.actions)}
     </div>`;
   }
 
   function renderProductCardHtml(p, options) {
-    const product = normalizeOutOfStock(p);
+    const product = p;
     const href = options?.href || productUrl(product.sku, options?.fromPagesRoot);
-    const image = resolveImage(product.image);
     const meta = options?.compact
       ? `<li><span>Артикул:</span> ${product.sku}</li><li><span>Коллекция:</span> ${product.collectionLabel}</li>`
       : `<li><span>Артикул:</span> ${product.sku}</li>
           <li><span>Коллекция:</span> ${product.collectionLabel}</li>
           <li><span>Габариты:</span> ${product.dims}</li>
-          ${product.hasMechanism ? `<li><span>Механизм:</span> ${product.mechanismLabel}</li>` : ""}`;
-    const outOfStockClass = isOutOfStock(product) ? " catalog-product--out-of-stock" : "";
-    const priceClass = isOutOfStock(product) ? " catalog-product__price--unavailable" : "";
+          ${renderMechanismMeta(product)}`;
 
-    return `<article class="catalog-product${outOfStockClass}">
+    return `<article class="catalog-product">
       <div class="catalog-product__image-wrap">
         <a class="catalog-product__image" href="${href}">
-          <img src="${image}" alt="${product.name}" loading="lazy" />
+          ${renderCatalogImageTag(product.image, product.name)}
         </a>
       </div>
       <div class="catalog-product__body">
         <h3 class="catalog-product__title"><a href="${href}">${product.name}</a></h3>
         <ul class="catalog-product__meta">${meta}</ul>
         <div class="catalog-product__footer">
-          <p class="catalog-product__price${priceClass}">${formatProductPrice(product)}</p>
-          ${renderActionsHtml(product.sku, options?.actions)}
+          <p class="catalog-product__price">${formatProductPrice(product)}</p>
+          ${renderProductActionsRow(product.sku, options?.actions ? { actions: options.actions } : undefined)}
         </div>
       </div>
     </article>`;
@@ -283,8 +415,7 @@
 
   function syncCartBtn(btn) {
     const sku = btn.dataset.sku;
-    const fabricId = btn.dataset.fabricId || getProduct(sku)?.fabrics?.[0] || "standard";
-    const active = isInCart(sku, fabricId);
+    const active = isInCart(sku);
     btn.classList.toggle("is-active", active);
     btn.setAttribute("aria-pressed", active ? "true" : "false");
   }
@@ -314,17 +445,11 @@
     const product = getProduct(sku);
     if (!product) return null;
 
-    if (btn.dataset.fabricId) {
-      const fabric = getFabricById(btn.dataset.fabricId);
-      return {
-        fabricId: btn.dataset.fabricId,
-        fabricLabel: fabric?.name || btn.dataset.fabricId,
-        price:
-          (product.basePrice || product.price || 0) + (fabric?.delta || 0),
-      };
-    }
-
-    return getDefaultFabric(product);
+    return {
+      fabricId: "",
+      fabricLabel: "",
+      price: product.basePrice || product.price || 0,
+    };
   }
 
   document.addEventListener("click", (event) => {
@@ -348,10 +473,14 @@
   window.CKShop = {
     getProduct,
     getProducts,
+    isProductNew,
     resolveImage,
+    catalogCardImageSrc,
+    renderCatalogImageTag,
     formatPrice,
     formatProductPrice,
-    isOutOfStock,
+    formatMechanismLabel,
+    normalizeProductMechanisms,
     getFavorites,
     getCart,
     isFavorite,
@@ -366,6 +495,8 @@
     getDefaultFabric,
     productUrl,
     renderActionsHtml,
+    renderProductActionsRow,
+    CATALOG_ORDER_NOTICE,
     renderProductCardHtml,
     createProductCardElement,
     syncAllActions,

@@ -26,16 +26,71 @@
     return value.split("/").map(encodeURIComponent).join("/");
   }
 
-  async function loadHomeSlides() {
-    if (Array.isArray(window.HOME_SLIDES) && window.HOME_SLIDES.length) {
-      return window.HOME_SLIDES;
+  function collectSlideSrcCandidates(slide) {
+    const seen = new Set();
+    const list = [];
+
+    function add(raw) {
+      const url = String(raw || "").trim();
+      if (!url || seen.has(url)) return;
+      seen.add(url);
+      list.push(url);
     }
 
+    add(slide?.src);
+    if (slide?.srcset) {
+      slide.srcset.split(",").forEach((part) => {
+        add(part.trim().split(/\s+/)[0]);
+      });
+    }
+    add(sliderFallbackSrc(slide?.src || ""));
+    add(String(slide?.src || "").replace(/-\d+w\.webp$/i, ".webp"));
+
+    return list;
+  }
+
+  window.__ckCarouselImgError = function (img) {
+    if (!img) return;
+
+    let candidates = [];
     try {
-      const response = await fetch("api/slider.php");
+      candidates = JSON.parse(img.dataset.candidates || "[]");
+    } catch (error) {
+      candidates = [];
+    }
+
+    const attempt = Number(img.dataset.attempt || "0") + 1;
+    img.dataset.attempt = String(attempt);
+    img.removeAttribute("srcset");
+    img.removeAttribute("sizes");
+
+    if (attempt < candidates.length) {
+      img.src = encodeSrc(candidates[attempt]);
+      return;
+    }
+
+    img.closest(".carousel__slide")?.classList.add("carousel__slide--empty");
+  };
+
+  async function loadHomeSlides() {
+    const fallback =
+      Array.isArray(window.HOME_SLIDES) && window.HOME_SLIDES.length
+        ? window.HOME_SLIDES
+        : [];
+
+    try {
+      const controller = new AbortController();
+      const timeoutId = window.setTimeout(() => controller.abort(), 8000);
+      const response = await fetch("api/slider.php", {
+        cache: "no-store",
+        signal: controller.signal,
+      });
+      window.clearTimeout(timeoutId);
+
       if (response.ok) {
         const payload = await response.json();
-        if (Array.isArray(payload.slides) && payload.slides.length) {
+        if (Array.isArray(payload?.slides) && payload.slides.length) {
+          window.HOME_SLIDES = payload.slides;
           return payload.slides;
         }
       }
@@ -43,7 +98,40 @@
       console.warn("[slider] API unavailable", error);
     }
 
-    return window.HOME_SLIDES || [];
+    return fallback;
+  }
+
+  function sliderFallbackSrc(src) {
+    const value = String(src || "");
+    if (/-1280w\.webp$/i.test(value)) {
+      return value.replace(/-1280w\.webp$/i, "-1920w.webp");
+    }
+    if (/-960w\.webp$/i.test(value)) {
+      return value.replace(/-960w\.webp$/i, "-1280w.webp");
+    }
+    return "";
+  }
+
+  async function preloadHeroSlide(slide) {
+    const candidates = collectSlideSrcCandidates(slide);
+    if (!candidates.length) return;
+
+    for (const src of candidates) {
+      const loaded = await new Promise((resolve) => {
+        const img = new Image();
+        const timer = window.setTimeout(() => resolve(false), 5000);
+        img.onload = () => {
+          window.clearTimeout(timer);
+          resolve(true);
+        };
+        img.onerror = () => {
+          window.clearTimeout(timer);
+          resolve(false);
+        };
+        img.src = encodeSrc(src);
+      });
+      if (loaded) return;
+    }
   }
 
   function buildCarouselFromData(data) {
@@ -60,9 +148,27 @@
       const imgAttrs = isHero
         ? 'fetchpriority="high" decoding="async"'
         : 'loading="lazy" decoding="async"';
+      const srcset = slide.srcset
+        ? ` srcset="${slide.srcset.split(",").map((part) => {
+            const trimmed = part.trim();
+            const space = trimmed.lastIndexOf(" ");
+            if (space <= 0) return escapeHtml(encodeSrc(trimmed));
+            const url = trimmed.slice(0, space).trim();
+            const descriptor = trimmed.slice(space + 1).trim();
+            return `${escapeHtml(encodeSrc(url))} ${descriptor}`;
+          }).join(", ")}" sizes="(max-width: 1280px) 100vw, 1280px"`
+        : "";
+      const dimensions =
+        slide.width && slide.height
+          ? ` width="${Number(slide.width)}" height="${Number(slide.height)}"`
+          : "";
+
+      const candidates = collectSlideSrcCandidates(slide);
+      const candidatesAttr = escapeHtml(JSON.stringify(candidates));
+      const primarySrc = candidates[0] || slide.src || "";
 
       return `<li class="${cls}"${aria}>
-        <img src="${encodeSrc(slide.src)}" alt="${escapeHtml(slide.alt)}" ${imgAttrs} />
+        <img src="${encodeSrc(primarySrc)}" alt="${escapeHtml(slide.alt)}"${srcset}${dimensions} data-candidates="${candidatesAttr}" data-attempt="0" onerror="window.__ckCarouselImgError&&window.__ckCarouselImgError(this)" ${imgAttrs} />
         <div class="carousel__caption">
           <${headingTag}>${escapeHtml(title)}</${headingTag}>
           <p>${escapeHtml(slide.sub || "")}</p>
@@ -81,16 +187,19 @@
     return true;
   }
 
-  loadHomeSlides().then((data) => {
-    if (!data.length) return;
+  loadHomeSlides()
+    .then(async (data) => {
+      try {
+        if (!data.length) return;
 
-    window.HOME_SLIDES = data;
-    if (!buildCarouselFromData(data)) return;
+        window.HOME_SLIDES = data;
+        await preloadHeroSlide(data[0]);
+        if (!buildCarouselFromData(data)) return;
 
-    const slides = Array.from(
-      carousel.querySelectorAll(".carousel__slide:not(.carousel__slide--clone)"),
-    );
-    if (!slides.length) return;
+        const slides = Array.from(
+          carousel.querySelectorAll(".carousel__slide:not(.carousel__slide--clone)"),
+        );
+        if (!slides.length) return;
 
     const btnPrev = carousel.querySelector(".carousel__btn--prev");
     const btnNext = carousel.querySelector(".carousel__btn--next");
@@ -341,5 +450,12 @@
         resetAutoplay();
       }
     });
-  });
+      } finally {
+        carousel.classList.remove("carousel--pending");
+      }
+    })
+    .catch((error) => {
+      console.warn("[slider] init failed", error);
+      carousel.classList.remove("carousel--pending");
+    });
 })();

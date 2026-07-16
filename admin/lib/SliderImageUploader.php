@@ -4,19 +4,13 @@ declare(strict_types=1);
 
 final class SliderImageUploader
 {
-    /** @var list<string> */
-    private const ALLOWED_EXT = ['webp'];
-
-    /** @var list<string> */
-    private const ALLOWED_MIME = ['image/webp'];
-
     public function __construct(private string $siteRoot)
     {
     }
 
     public function upload(array $files, string $alt = ''): ?string
     {
-        $dir = rtrim($this->siteRoot, '/\\') . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'slider';
+        $dir = rtrim($this->siteRoot, '/\\') . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR . 'slider';
 
         if (!is_dir($dir) && !mkdir($dir, 0755, true) && !is_dir($dir)) {
             throw new RuntimeException('Не удалось создать папку для загрузки слайдера.');
@@ -46,53 +40,53 @@ final class SliderImageUploader
                 continue;
             }
 
-            $ext = strtolower(pathinfo((string) $originalName, PATHINFO_EXTENSION));
-            if (!in_array($ext, self::ALLOWED_EXT, true)) {
-                throw new RuntimeException('Разрешён только формат WebP: ' . $originalName);
-            }
-
-            $mime = $this->detectMimeType($tmp);
-            if ($mime === null || !in_array($mime, self::ALLOWED_MIME, true)) {
-                throw new RuntimeException('Файл должен быть в формате WebP: ' . $originalName);
+            if (!ImageConverter::isAllowedUpload((string) $originalName, $tmp)) {
+                throw new RuntimeException('Разрешены только JPEG, PNG и WebP: ' . $originalName);
             }
 
             $filename = date('Ymd-His') . '-' . bin2hex(random_bytes(4)) . '.webp';
             $target = $dir . DIRECTORY_SEPARATOR . $filename;
 
-            if (!move_uploaded_file($tmp, $target)) {
-                throw new RuntimeException('Не удалось сохранить файл: ' . $originalName);
-            }
+            ImageConverter::saveAsWebpResized(
+                $tmp,
+                $target,
+                SliderImageProcessor::HERO_MAX_WIDTH,
+                SliderImageProcessor::HERO_QUALITY,
+            );
 
-            return 'img/uploads/slider/' . $filename;
+            $this->createSrcsetVariants($target);
+
+            return 'img/slider/' . $filename;
         }
 
         return null;
     }
 
-    private function detectMimeType(string $path): ?string
+    private function createSrcsetVariants(string $targetPath): void
     {
-        if (!is_file($path)) {
-            return null;
+        $dims = ImageConverter::imageDimensions($targetPath);
+        if ($dims === null) {
+            return;
         }
 
-        if (function_exists('finfo_open')) {
-            $finfo = finfo_open(FILEINFO_MIME_TYPE);
-            if ($finfo !== false) {
-                $mime = finfo_file($finfo, $path);
-                finfo_close($finfo);
-                if (is_string($mime) && $mime !== '') {
-                    return $mime;
-                }
+        $dir = dirname($targetPath);
+        $baseName = pathinfo($targetPath, PATHINFO_FILENAME);
+        foreach ([1280, 1920] as $width) {
+            if ($dims['width'] < $width) {
+                continue;
             }
-        }
 
-        if (function_exists('mime_content_type')) {
-            $mime = mime_content_type($path);
-            if (is_string($mime) && $mime !== '') {
-                return $mime;
+            $variantPath = $dir . DIRECTORY_SEPARATOR . $baseName . '-' . $width . 'w.webp';
+            if (is_file($variantPath)) {
+                continue;
             }
-        }
 
-        return null;
+            ImageConverter::saveAsWebpResized(
+                $targetPath,
+                $variantPath,
+                $width,
+                SliderImageProcessor::HERO_QUALITY,
+            );
+        }
     }
 }

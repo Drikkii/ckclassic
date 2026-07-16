@@ -18,5 +18,6 @@ return [
     // Адрес отправителя на домене сайта (создайте ящик в Beget → Почта)
     // 'lead_from_email' => 'noreply@mebel-sk-classic.ru',
     // 'lead_from_name' => 'Ск-классик',
-    // 'site_url' => 'https://mebel-sk-classic.ru',
+    // Публичный адрес сайта — для ссылок «Карточка на сайте» из админки
+    'site_url' => 'https://mebel-sk-classic.ru',
 ];

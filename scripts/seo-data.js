@@ -14,13 +14,163 @@
 
 const SITE_URL = "https://mebel-sk-classic.ru";
 const SITE_NAME = "Ск-классик";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/img/logo/logotipBig.png`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/img/logo/logotipBig.webp`;
 const GOOGLE_SITE_VERIFICATION = "aC1OKwHt4c6vbcrNyF9bvpZF3bJ5yqFuS44k3OWYSiU";
 const YANDEX_SITE_VERIFICATION = "49336e53ef37abcf";
 const YANDEX_METRIKA_ID = "110539365";
 
 const DEFAULT_DESCRIPTION =
   "Фабрика «Ск-классик» — производитель классической мягкой мебели с 2002 года. Диваны, кресла, кровати и мебель на заказ. Доставка по России.";
+
+/** @type {Array<{ slug: string, label: string, filter: string }>} */
+const CATALOG_COLLECTIONS = [
+  { slug: "living", label: "Ливинг", filter: "living" },
+  { slug: "hermes", label: "Гермес", filter: "hermes" },
+  { slug: "dante", label: "Данте", filter: "dante" },
+  { slug: "shantal-milord", label: "Шантал Милорд", filter: "shantal" },
+  { slug: "jamaica", label: "Ямайка", filter: "jamaica" },
+  { slug: "scarlett", label: "Скарлет", filter: "scarlett" },
+  { slug: "teseo", label: "Тесео", filter: "teseo" },
+  { slug: "turin", label: "Турин", filter: "turin" },
+  { slug: "dionis", label: "Дионис", filter: "dionis" },
+];
+
+/** @type {Array<{ slug: string, label: string, keywords?: string[] }>} */
+const CATALOG_CATEGORY_PAGES = [
+  { slug: "beds", label: "Кровати", keywords: ["кровати", "диваны-кровати", "мягкие кровати"] },
+  { slug: "chairs", label: "Стулья", keywords: ["стулья", "кресла", "стулья на заказ"] },
+  { slug: "panels", label: "Мягкие панели", keywords: ["мягкие панели", "стеновые панели"] },
+  {
+    slug: "custom",
+    label: "Проектные изделия",
+    keywords: ["мебель на заказ", "проектная мебель", "индивидуальный заказ мебели"],
+  },
+];
+
+const FURNITURE_TOPIC_TAGS = [
+  "Элитная мебель",
+  "Мебель на заказ",
+  "Элитная мебель на заказ",
+  "Мягкая мебель",
+  "Классическая мебель",
+  "Премиальная мебель",
+  "Мебель от производителя",
+  "Диваны на заказ",
+  "Кресла на заказ",
+  "Кровати на заказ",
+  "Доставка по России",
+  "Доставка по всей стране",
+  "Индивидуальный заказ",
+];
+
+const FURNITURE_META_KEYWORDS = [
+  "мебельная фабрика",
+  "мебель от производителя",
+  "классическая мебель",
+  "мягкая мебель",
+  "элитная мебель",
+  "премиальная мебель",
+  "мебель на заказ",
+  "элитная мебель на заказ",
+  "диваны",
+  "диваны на заказ",
+  "угловые диваны",
+  "диваны-кровати",
+  "кресла",
+  "кресла на заказ",
+  "кровати",
+  "кровати на заказ",
+  "стулья",
+  "мягкие панели",
+  "проектная мебель",
+  "индивидуальный заказ мебели",
+  "мебель на заказ по всей России",
+  "доставка мебели по России",
+  "доставка по всей стране",
+  "мебель с доставкой",
+  "купить мебель",
+  "мебель для гостиной",
+  "мебель для спальни",
+  "классические диваны",
+  "современная мягкая мебель",
+];
+
+function uniqueKeywords(parts) {
+  const seen = new Set();
+  const result = [];
+
+  for (const part of parts) {
+    const value = String(part ?? "").replace(/\s+/g, " ").trim();
+    if (!value) continue;
+    const key = value.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    result.push(value);
+  }
+
+  return result;
+}
+
+function buildMetaKeywords(extra = []) {
+  return uniqueKeywords([
+    SITE_NAME,
+    "Ск-классик",
+    ...FURNITURE_META_KEYWORDS,
+    ...CATALOG_COLLECTIONS.flatMap((item) => [
+      item.label,
+      `коллекция ${item.label}`,
+      `${item.label} диваны`,
+      `${item.label} кресла`,
+    ]),
+    ...CATALOG_CATEGORY_PAGES.flatMap((item) => [item.label, ...(item.keywords || [])]),
+    ...extra,
+  ]).join(", ");
+}
+
+function getPageKeywords(pagePath, pageConfig = {}) {
+  if (pageConfig.keywords) {
+    return pageConfig.keywords;
+  }
+
+  const catalogMatch = String(pagePath).match(/\/pages\/catalog\/([^.]+)\.html$/);
+  if (catalogMatch) {
+    const slug = catalogMatch[1];
+    const collection = CATALOG_COLLECTIONS.find((item) => item.slug === slug);
+    if (collection) {
+      return buildMetaKeywords([
+        `коллекция ${collection.label}`,
+        collection.label,
+        `${collection.label} диваны`,
+        `${collection.label} кресла`,
+        `${collection.label} мебель на заказ`,
+      ]);
+    }
+
+    const category = CATALOG_CATEGORY_PAGES.find((item) => item.slug === slug);
+    if (category) {
+      return buildMetaKeywords([category.label, ...(category.keywords || [])]);
+    }
+  }
+
+  return buildMetaKeywords();
+}
+
+function buildProductKeywords(product) {
+  const name = String(product?.name ?? "").trim();
+  const collectionLabel = String(product?.collectionLabel ?? "").trim();
+  const sku = String(product?.sku ?? "").trim();
+
+  return buildMetaKeywords(
+    uniqueKeywords([
+      name,
+      sku,
+      collectionLabel ? `коллекция ${collectionLabel}` : "",
+      collectionLabel,
+      name ? `${name} на заказ` : "",
+      name ? `${name} купить` : "",
+    ]),
+  );
+}
 
 function stubDescription(title) {
   return `Раздел «${title}» на сайте мебельной фабрики «Ск-классик». Производитель классической мягкой мебели с 2002 года. Консультация и заказ по телефону +7 (964) 510-67-47.`;
@@ -138,11 +288,6 @@ const pages = {
     description:
       "Турин — угловые диваны, кресла и композиции с оттоманкой в классическом стиле от фабрики «Ск-классик».",
   },
-  "/pages/catalog/baxter.html": {
-    title: "Бакстер — Ск-классик",
-    description:
-      "Бакстер — мягкие диваны-кровати с комфортной посадкой и современной классикой от производителя «Ск-классик».",
-  },
   "/pages/catalog/dionis.html": {
     title: "Дионис — Ск-классик",
     description:
@@ -184,6 +329,13 @@ module.exports = {
   GOOGLE_SITE_VERIFICATION,
   YANDEX_SITE_VERIFICATION,
   YANDEX_METRIKA_ID,
+  CATALOG_COLLECTIONS,
+  CATALOG_CATEGORY_PAGES,
+  FURNITURE_TOPIC_TAGS,
+  FURNITURE_META_KEYWORDS,
+  buildMetaKeywords,
+  getPageKeywords,
+  buildProductKeywords,
   stubDescription,
   pages,
 };

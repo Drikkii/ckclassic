@@ -18,7 +18,7 @@ function admin_handle_product_post(
     string $siteRoot,
     string $sku,
     array $product
-): never {
+): void {
     Csrf::requireValid($_POST['_csrf'] ?? null);
     $action = (string) ($_POST['action'] ?? 'save');
 
@@ -133,7 +133,7 @@ if (!$row) {
     admin_redirect('index.php');
 }
 
-$product = ProductHelper::syncProductImages($row['data']);
+$product = CatalogOptions::enrichProduct(ProductHelper::syncProductImages($row['data']));
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     admin_handle_product_post($repo, $exporter, $uploader, $siteRoot, $sku, $product);
@@ -155,8 +155,8 @@ ob_start();
     <?= admin_h((string) ($product['collectionLabel'] ?? '')) ?>
   </p>
   <div class="admin-actions" style="margin-bottom: 16px;">
-    <a class="admin-btn admin-btn--secondary" href="<?= admin_h(CatalogOptions::productPageUrl($sku)) ?>" target="_blank" rel="noopener">Карточка на сайте</a>
-    <a class="admin-btn admin-btn--secondary" href="<?= admin_h(CatalogOptions::catalogPageUrl((string) ($product['collection'] ?? 'living'))) ?>" target="_blank" rel="noopener">Каталог коллекции</a>
+    <a class="admin-btn admin-btn--secondary" href="<?= admin_h(admin_public_url(CatalogOptions::productPageUrl($sku))) ?>" target="_blank" rel="noopener">Карточка на сайте</a>
+    <a class="admin-btn admin-btn--secondary" href="<?= admin_h(admin_public_url(CatalogOptions::catalogPageUrl((string) ($product['collection'] ?? 'living')))) ?>" target="_blank" rel="noopener">Каталог коллекции</a>
   </div>
 
   <form id="<?= admin_h($formId) ?>" class="admin-form admin-form--product" method="post">

@@ -1,44 +1,44 @@
 window.CATALOG_PRODUCTS = [
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).webp",
         "alt": "Ливинг (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).webp",
         "alt": "Ливинг (5)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).webp",
         "alt": "Ливинг (набор мебели)",
         "type": "mechanism"
       }
@@ -49,68 +49,71 @@ window.CATALOG_PRODUCTS = [
     "collection": "living",
     "group": "living",
     "style": "classic",
-    "type": "modular",
-    "dims": "2000 × 950 × 880 мм",
+    "type": "modular-set",
+    "dims": "170 × 200 × 98 см",
+    "length": 170,
     "width": 200,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 132000,
     "basePrice": 132000,
     "isNew": true,
     "popularity": 63,
-    "description": "Ливин набор диван и кресло — модель коллекции «Ливинг». Модульная система — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Обивка выбирается из каталога тканей и декора фабрики.",
+    "description": "Ливин набор диван и кресло — модель коллекции «Ливинг». Модульный набор — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Обивка выбирается из каталога тканей и декора фабрики.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "модульная система",
+    "base": "модульный набор",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).webp",
         "alt": "Ливинг (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).webp",
         "alt": "Ливинг (5)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).webp",
         "alt": "Ливинг (набор мебели)",
         "type": "mechanism"
       }
@@ -121,68 +124,72 @@ window.CATALOG_PRODUCTS = [
     "collection": "living",
     "group": "living",
     "style": "classic",
-    "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "type": "armchair",
+    "dims": "52 × 58 × 98 см",
+    "length": 178,
     "width": 62,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 143700,
     "basePrice": 143700,
     "isNew": false,
     "popularity": 64,
-    "description": "Ливин нестандарт и кресла Джокер — модель коллекции «Ливинг». Удобная посадка и классический силуэт для столовой или гостиной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Ливин нестандарт и кресла Джокер — модель коллекции «Ливинг». Удобная посадка и классический силуэт для столовой или гостиной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
+    "base": "кресло",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
-    ]
+    ],
+    "mechanisms": [
+      "none"
+    ],
+    "typeLabel": "Кресло"
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).webp",
         "alt": "Ливинг (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).webp",
         "alt": "Ливинг (5)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).webp",
         "alt": "Ливинг (набор мебели)",
         "type": "mechanism"
       }
@@ -194,11 +201,11 @@ window.CATALOG_PRODUCTS = [
     "group": "living",
     "style": "modern",
     "type": "straight",
-    "dims": "2800 × 1600 × 880 мм",
+    "dims": "260 × 280 × 88 см",
+    "length": 260,
     "width": 280,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 149000,
     "basePrice": 149000,
     "isNew": false,
@@ -213,48 +220,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).webp",
         "alt": "Ливинг (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).webp",
         "alt": "Ливинг (5)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).webp",
         "alt": "Ливинг (набор мебели)",
         "type": "mechanism"
       }
@@ -264,18 +274,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ливинг",
     "collection": "living",
     "group": "living",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 160700,
     "basePrice": 160700,
     "isNew": false,
     "popularity": 66,
-    "description": "Ливинг диван — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Ливинг диван — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -285,48 +295,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).webp",
         "alt": "Ливинг (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).webp",
         "alt": "Ливинг (5)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).webp",
         "alt": "Ливинг (набор мебели)",
         "type": "mechanism"
       }
@@ -336,69 +349,72 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ливинг",
     "collection": "living",
     "group": "living",
-    "style": "modern",
-    "type": "modular",
-    "dims": "2640 × 950 × 880 мм",
+    "style": "loft-scandinavian",
+    "type": "modular-set",
+    "dims": "202 × 264 × 88 см",
+    "length": 202,
     "width": 264,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 166000,
     "basePrice": 166000,
     "isNew": false,
     "popularity": 67,
-    "description": "Ливинг ( набор ) — модель коллекции «Ливинг». Модульная система — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Обивка выбирается из каталога тканей и декора фабрики.",
+    "description": "Ливинг ( набор ) — модель коллекции «Ливинг». Модульный набор — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Обивка выбирается из каталога тканей и декора фабрики.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "модульная система",
+    "base": "модульный набор",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(2).webp",
         "alt": "Ливинг (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(5).webp",
         "alt": "Ливинг (5)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D0%B8).webp",
         "alt": "Ливинг (набор мебели)",
         "type": "mechanism"
       }
@@ -410,16 +426,16 @@ window.CATALOG_PRODUCTS = [
     "group": "living",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 177700,
     "basePrice": 177700,
     "isNew": false,
     "popularity": 68,
-    "description": "Ливинг (2) — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Ливинг (2) — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -429,48 +445,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес диван-кровать (2)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).webp",
         "alt": "Гермес диван-кровать (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Гермес диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Гермес диван-кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Гермес диван",
         "type": "mechanism"
       }
@@ -482,11 +501,11 @@ window.CATALOG_PRODUCTS = [
     "group": "hermes",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 107000,
     "basePrice": 107000,
     "isNew": true,
@@ -501,48 +520,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес диван-кровать (2)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).webp",
         "alt": "Гермес диван-кровать (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Гермес диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Гермес диван-кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Гермес диван",
         "type": "mechanism"
       }
@@ -554,16 +576,16 @@ window.CATALOG_PRODUCTS = [
     "group": "hermes",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 118700,
     "basePrice": 118700,
     "isNew": false,
     "popularity": 51,
-    "description": "Гермес (пума) диван-кровать (2) — модель коллекции «Гермес». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Гермес (пума) диван-кровать (2) — модель коллекции «Гермес». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -573,48 +595,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес диван-кровать (2)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).webp",
         "alt": "Гермес диван-кровать (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Гермес диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Гермес диван-кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Гермес диван",
         "type": "mechanism"
       }
@@ -626,11 +651,11 @@ window.CATALOG_PRODUCTS = [
     "group": "hermes",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 124000,
     "basePrice": 124000,
     "isNew": false,
@@ -645,48 +670,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес диван-кровать (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).webp",
         "alt": "Гермес диван-кровать (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Гермес диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Гермес диван-кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Гермес диван",
         "type": "mechanism"
       }
@@ -696,18 +724,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Гермес",
     "collection": "hermes",
     "group": "hermes",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 135700,
     "basePrice": 135700,
     "isNew": false,
     "popularity": 53,
-    "description": "Гермес диван-кровать (2) — модель коллекции «Гермес». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Гермес диван-кровать (2) — модель коллекции «Гермес». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -717,48 +745,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).webp",
         "alt": "Гермес диван-кровать (3)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес диван-кровать (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Гермес диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Гермес диван-кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Гермес диван",
         "type": "mechanism"
       }
@@ -768,13 +799,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Гермес",
     "collection": "hermes",
     "group": "hermes",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 141000,
     "basePrice": 141000,
     "isNew": false,
@@ -789,48 +820,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Гермес диван-кровать (пума)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(%D0%BF%D1%83%D0%BC%D0%B0)%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес (пума) диван-кровать (2)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(2).webp",
         "alt": "Гермес диван-кровать (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(3).webp",
         "alt": "Гермес диван-кровать (3)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Гермес диван-кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Гермес диван",
         "type": "mechanism"
       }
@@ -842,16 +876,16 @@ window.CATALOG_PRODUCTS = [
     "group": "hermes",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 152700,
     "basePrice": 152700,
     "isNew": false,
     "popularity": 55,
-    "description": "Гермес диван-кровать (пума) — модель коллекции «Гермес». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Гермес диван-кровать (пума) — модель коллекции «Гермес». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -861,48 +895,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.webp",
         "alt": "2026-06-24 23.03.12",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.webp",
         "alt": "D Данте",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).webp",
         "alt": "Данте (3)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Данте (диван-кровать)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).webp",
         "alt": "Данте (пума или спартак)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.webp",
         "alt": "Данте диван -кровать пума",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Данте диван -кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Данте диван на пуме",
         "type": "mechanism"
       }
@@ -914,11 +951,11 @@ window.CATALOG_PRODUCTS = [
     "group": "dante",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 100000,
     "basePrice": 100000,
     "isNew": true,
@@ -933,48 +970,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.webp",
         "alt": "D Данте",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.webp",
         "alt": "2026-06-24 23.03.12",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).webp",
         "alt": "Данте (3)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Данте (диван-кровать)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).webp",
         "alt": "Данте (пума или спартак)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.webp",
         "alt": "Данте диван -кровать пума",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Данте диван -кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Данте диван на пуме",
         "type": "mechanism"
       }
@@ -986,16 +1026,16 @@ window.CATALOG_PRODUCTS = [
     "group": "dante",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 111700,
     "basePrice": 111700,
     "isNew": false,
     "popularity": 54,
-    "description": "D Данте — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "D Данте — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -1005,48 +1045,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).webp",
         "alt": "Данте (3)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.webp",
         "alt": "2026-06-24 23.03.12",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.webp",
         "alt": "D Данте",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Данте (диван-кровать)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).webp",
         "alt": "Данте (пума или спартак)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.webp",
         "alt": "Данте диван -кровать пума",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Данте диван -кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Данте диван на пуме",
         "type": "mechanism"
       }
@@ -1058,11 +1101,11 @@ window.CATALOG_PRODUCTS = [
     "group": "dante",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 117000,
     "basePrice": 117000,
     "isNew": false,
@@ -1077,48 +1120,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Данте (диван-кровать)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.webp",
         "alt": "2026-06-24 23.03.12",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.webp",
         "alt": "D Данте",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).webp",
         "alt": "Данте (3)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).webp",
         "alt": "Данте (пума или спартак)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.webp",
         "alt": "Данте диван -кровать пума",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Данте диван -кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Данте диван на пуме",
         "type": "mechanism"
       }
@@ -1128,18 +1174,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Данте",
     "collection": "dante",
     "group": "dante",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 128700,
     "basePrice": 128700,
     "isNew": false,
     "popularity": 56,
-    "description": "Данте (диван-кровать) — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Данте (диван-кровать) — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -1149,48 +1195,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).webp",
         "alt": "Данте (пума или спартак)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.webp",
         "alt": "2026-06-24 23.03.12",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.webp",
         "alt": "D Данте",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).webp",
         "alt": "Данте (3)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Данте (диван-кровать)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.webp",
         "alt": "Данте диван -кровать пума",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Данте диван -кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Данте диван на пуме",
         "type": "mechanism"
       }
@@ -1200,13 +1249,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Данте",
     "collection": "dante",
     "group": "dante",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 134000,
     "basePrice": 134000,
     "isNew": false,
@@ -1221,48 +1270,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D1%83%D0%BC%D0%B0.webp",
         "alt": "Данте диван -кровать пума",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/2026-06-24%2023.03.12.webp",
         "alt": "2026-06-24 23.03.12",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/D%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5.webp",
         "alt": "D Данте",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3).webp",
         "alt": "Данте (3)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Данте (диван-кровать)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(%D0%BF%D1%83%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA).webp",
         "alt": "Данте (пума или спартак)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Данте диван -кровать",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Данте диван на пуме",
         "type": "mechanism"
       }
@@ -1274,16 +1326,16 @@ window.CATALOG_PRODUCTS = [
     "group": "dante",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 145700,
     "basePrice": 145700,
     "isNew": false,
     "popularity": 58,
-    "description": "Данте диван -кровать пума — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Данте диван -кровать пума — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -1293,48 +1345,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "mechanism"
       }
@@ -1346,11 +1401,11 @@ window.CATALOG_PRODUCTS = [
     "group": "shantal-milord",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 122000,
     "basePrice": 122000,
     "isNew": true,
@@ -1365,48 +1420,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "mechanism"
       }
@@ -1418,16 +1476,16 @@ window.CATALOG_PRODUCTS = [
     "group": "shantal-milord",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 133700,
     "basePrice": 133700,
     "isNew": false,
     "popularity": 92,
-    "description": "Шантал Милорд 4B18CBA1-D2E5-428D-8E5B-FEC924FF204B — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Шантал Милорд 4B18CBA1-D2E5-428D-8E5B-FEC924FF204B — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -1437,48 +1495,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "mechanism"
       }
@@ -1490,11 +1551,11 @@ window.CATALOG_PRODUCTS = [
     "group": "shantal-milord",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 139000,
     "basePrice": 139000,
     "isNew": false,
@@ -1509,48 +1570,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "mechanism"
       }
@@ -1560,18 +1624,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Шантал Милорд",
     "collection": "shantal",
     "group": "shantal-milord",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 150700,
     "basePrice": 150700,
     "isNew": false,
     "popularity": 94,
-    "description": "Шантал Милорд — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Шантал Милорд — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -1581,48 +1645,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "mechanism"
       }
@@ -1632,13 +1699,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Шантал Милорд",
     "collection": "shantal",
     "group": "shantal-milord",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 202,
     "width": 62,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 156000,
     "basePrice": 156000,
     "isNew": false,
@@ -1653,48 +1720,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "mechanism"
       }
@@ -1706,16 +1776,16 @@ window.CATALOG_PRODUCTS = [
     "group": "shantal-milord",
     "style": "classic",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 210,
     "width": 66,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 167700,
     "basePrice": 167700,
     "isNew": false,
     "popularity": 96,
-    "description": "Шантал Милорд кресло — модель коллекции «Шантал Милорд». Удобная посадка и классический силуэт для столовой или гостиной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Шантал Милорд кресло — модель коллекции «Шантал Милорд». Удобная посадка и классический силуэт для столовой или гостиной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -1725,48 +1795,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.webp",
         "alt": "A01037F2-405B-42D4-9747-A8E478D3EAA5",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).webp",
         "alt": "Ямайка (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).webp",
         "alt": "ямайка (3)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.webp",
         "alt": "Ямайка диван модульный",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Ямайка диван-кровать на пуме",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Ямайка диван-кровать",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.webp",
         "alt": "Ямайка классический угол",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Ямайка кресло нестандарт спинка с капитоне без пдушки",
         "type": "mechanism"
       }
@@ -1778,11 +1851,11 @@ window.CATALOG_PRODUCTS = [
     "group": "jamaica",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 112000,
     "basePrice": 112000,
     "isNew": true,
@@ -1797,48 +1870,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).webp",
         "alt": "Ямайка (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.webp",
         "alt": "A01037F2-405B-42D4-9747-A8E478D3EAA5",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).webp",
         "alt": "ямайка (3)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.webp",
         "alt": "Ямайка диван модульный",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Ямайка диван-кровать на пуме",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Ямайка диван-кровать",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.webp",
         "alt": "Ямайка классический угол",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Ямайка кресло нестандарт спинка с капитоне без пдушки",
         "type": "mechanism"
       }
@@ -1850,16 +1926,16 @@ window.CATALOG_PRODUCTS = [
     "group": "jamaica",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 123700,
     "basePrice": 123700,
     "isNew": false,
     "popularity": 53,
-    "description": "Ямайка (2) — модель коллекции «Ямайка». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Ямайка (2) — модель коллекции «Ямайка». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -1869,48 +1945,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).webp",
         "alt": "ямайка (3)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.webp",
         "alt": "A01037F2-405B-42D4-9747-A8E478D3EAA5",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).webp",
         "alt": "Ямайка (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.webp",
         "alt": "Ямайка диван модульный",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Ямайка диван-кровать на пуме",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Ямайка диван-кровать",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.webp",
         "alt": "Ямайка классический угол",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Ямайка кресло нестандарт спинка с капитоне без пдушки",
         "type": "mechanism"
       }
@@ -1922,11 +2001,11 @@ window.CATALOG_PRODUCTS = [
     "group": "jamaica",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 129000,
     "basePrice": 129000,
     "isNew": false,
@@ -1941,48 +2020,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.webp",
         "alt": "Ямайка диван модульный",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.webp",
         "alt": "A01037F2-405B-42D4-9747-A8E478D3EAA5",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).webp",
         "alt": "Ямайка (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).webp",
         "alt": "ямайка (3)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Ямайка диван-кровать на пуме",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Ямайка диван-кровать",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.webp",
         "alt": "Ямайка классический угол",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Ямайка кресло нестандарт спинка с капитоне без пдушки",
         "type": "mechanism"
       }
@@ -1992,69 +2074,72 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ямайка",
     "collection": "jamaica",
     "group": "jamaica",
-    "style": "classic",
-    "type": "modular",
-    "dims": "2480 × 950 × 880 мм",
+    "style": "art-deco",
+    "type": "modular-set",
+    "dims": "194 × 248 × 88 см",
+    "length": 194,
     "width": 248,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 140700,
     "basePrice": 140700,
     "isNew": false,
     "popularity": 55,
-    "description": "Ямайка диван модульный — модель коллекции «Ямайка». Модульная система — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Ямайка диван модульный — модель коллекции «Ямайка». Модульный набор — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "модульная система",
+    "base": "модульный набор",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Ямайка диван-кровать на пуме",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.webp",
         "alt": "A01037F2-405B-42D4-9747-A8E478D3EAA5",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).webp",
         "alt": "Ямайка (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).webp",
         "alt": "ямайка (3)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.webp",
         "alt": "Ямайка диван модульный",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Ямайка диван-кровать",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.webp",
         "alt": "Ямайка классический угол",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Ямайка кресло нестандарт спинка с капитоне без пдушки",
         "type": "mechanism"
       }
@@ -2064,13 +2149,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ямайка",
     "collection": "jamaica",
     "group": "jamaica",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 146000,
     "basePrice": 146000,
     "isNew": false,
@@ -2085,48 +2170,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Ямайка диван-кровать",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/A01037F2-405B-42D4-9747-A8E478D3EAA5.webp",
         "alt": "A01037F2-405B-42D4-9747-A8E478D3EAA5",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(2).webp",
         "alt": "Ямайка (2)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%8F%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20(3).webp",
         "alt": "ямайка (3)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9.webp",
         "alt": "Ямайка диван модульный",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%83%D0%BC%D0%B5.webp",
         "alt": "Ямайка диван-кровать на пуме",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%B3%D0%BE%D0%BB.webp",
         "alt": "Ямайка классический угол",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Ямайка кресло нестандарт спинка с капитоне без пдушки",
         "type": "mechanism"
       }
@@ -2138,16 +2226,16 @@ window.CATALOG_PRODUCTS = [
     "group": "jamaica",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 157700,
     "basePrice": 157700,
     "isNew": false,
     "popularity": 57,
-    "description": "Ямайка диван-кровать — модель коллекции «Ямайка». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Ямайка диван-кровать — модель коллекции «Ямайка». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -2157,48 +2245,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).webp",
         "alt": "Скарлет (3)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет нест кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Скарлетт (диван-кровать)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Скарлетт (пума)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -2210,11 +2301,11 @@ window.CATALOG_PRODUCTS = [
     "group": "scarlett",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 102000,
     "basePrice": 102000,
     "isNew": true,
@@ -2229,48 +2320,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).webp",
         "alt": "Скарлет (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет нест кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Скарлетт (диван-кровать)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Скарлетт (пума)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -2282,16 +2376,16 @@ window.CATALOG_PRODUCTS = [
     "group": "scarlett",
     "style": "classic",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 178,
     "width": 62,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 113700,
     "basePrice": 113700,
     "isNew": false,
     "popularity": 82,
-    "description": "Скарлет кресло — модель коллекции «Скарлет». Удобная посадка и классический силуэт для столовой или гостиной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Скарлет кресло — модель коллекции «Скарлет». Удобная посадка и классический силуэт для столовой или гостиной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -2301,48 +2395,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет нест кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).webp",
         "alt": "Скарлет (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Скарлетт (диван-кровать)",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Скарлетт (пума)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -2353,12 +2450,12 @@ window.CATALOG_PRODUCTS = [
     "collection": "scarlett",
     "group": "scarlett",
     "style": "modern",
-    "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "type": "armchair",
+    "dims": "52 × 58 × 98 см",
+    "length": 186,
     "width": 66,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 119000,
     "basePrice": 119000,
     "isNew": false,
@@ -2366,55 +2463,59 @@ window.CATALOG_PRODUCTS = [
     "description": "Скарлет нест кресло — модель коллекции «Скарлет». Удобная посадка и классический силуэт для столовой или гостиной. Менеджер поможет подобрать комплектацию и рассчитать стоимость.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
+    "base": "кресло",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
-    ]
+    ],
+    "mechanisms": [
+      "none"
+    ],
+    "typeLabel": "Кресло"
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Скарлетт (диван-кровать)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).webp",
         "alt": "Скарлет (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет нест кресло",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Скарлетт (пума)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -2424,18 +2525,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Скарлет",
     "collection": "scarlett",
     "group": "scarlett",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 130700,
     "basePrice": 130700,
     "isNew": false,
     "popularity": 84,
-    "description": "Скарлетт (диван-кровать) — модель коллекции «Скарлет». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Скарлетт (диван-кровать) — модель коллекции «Скарлет». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -2445,48 +2546,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Скарлетт (пума)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).webp",
         "alt": "Скарлет (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет нест кресло",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Скарлетт (диван-кровать)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -2496,13 +2600,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Скарлет",
     "collection": "scarlett",
     "group": "scarlett",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 136000,
     "basePrice": 136000,
     "isNew": false,
@@ -2517,48 +2621,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Скарлет диван-кровать МФ СК классик",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20(3).webp",
         "alt": "Скарлет (3)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B5%D1%81%D1%82%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Скарлет нест кресло",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).webp",
         "alt": "Скарлетт (диван-кровать)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A1%D0%BA%D0%B0%D1%80%D0%BB%D0%B5%D1%82%D1%82%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Скарлетт (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -2570,16 +2677,16 @@ window.CATALOG_PRODUCTS = [
     "group": "scarlett",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 147700,
     "basePrice": 147700,
     "isNew": false,
     "popularity": 86,
-    "description": "Скарлет диван-кровать МФ СК классик — модель коллекции «Скарлет». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Скарлет диван-кровать МФ СК классик — модель коллекции «Скарлет». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -2589,48 +2696,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).webp",
         "alt": "тесео (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Тесео диван-кровать (пума)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Тесео диван-кровать",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
         "alt": "Тесео угловой",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "mechanism"
       }
@@ -2642,11 +2752,11 @@ window.CATALOG_PRODUCTS = [
     "group": "teseo",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 97000,
     "basePrice": 97000,
     "isNew": true,
@@ -2661,48 +2771,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Тесео диван-кровать (пума)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).webp",
         "alt": "тесео (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Тесео диван-кровать",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
         "alt": "Тесео угловой",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "mechanism"
       }
@@ -2714,16 +2827,16 @@ window.CATALOG_PRODUCTS = [
     "group": "teseo",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": true,
-    "mechanismType": "puma",
-    "mechanismLabel": "Пума",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 108700,
     "basePrice": 108700,
     "isNew": false,
     "popularity": 69,
-    "description": "Тесео диван-кровать (пума) — модель коллекции «Тесео». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Тесео диван-кровать (пума) — модель коллекции «Тесео». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Пума. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -2733,48 +2846,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Тесео диван-кровать",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).webp",
         "alt": "тесео (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Тесео диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
         "alt": "Тесео угловой",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "mechanism"
       }
@@ -2786,11 +2902,11 @@ window.CATALOG_PRODUCTS = [
     "group": "teseo",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 114000,
     "basePrice": 114000,
     "isNew": false,
@@ -2805,48 +2921,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
         "alt": "Тесео угловой",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).webp",
         "alt": "тесео (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Тесео диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Тесео диван-кровать",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "mechanism"
       }
@@ -2856,18 +2975,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Тесео",
     "collection": "teseo",
     "group": "teseo",
-    "style": "classic",
-    "type": "corner",
-    "dims": "3000 × 1600 × 880 мм",
+    "style": "art-deco",
+    "type": "corner-classic",
+    "dims": "270 × 300 × 88 см",
+    "length": 270,
     "width": 300,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 125700,
     "basePrice": 125700,
     "isNew": false,
     "popularity": 71,
-    "description": "Тесео угловой — модель коллекции «Тесео». Угловая компоновка экономит место и формирует уютную зону отдыха. Статичная конструкция рассчитана на ежедневное использование. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Тесео угловой — модель коллекции «Тесео». Угловая компоновка экономит место и формирует уютную зону отдыха. Статичная конструкция рассчитана на ежедневное использование. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "угловая композиция",
@@ -2877,48 +2996,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Тесео диван-кровать МФ СК классик",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).webp",
         "alt": "тесео (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Тесео диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Тесео диван-кровать",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
         "alt": "Тесео угловой",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -2928,13 +3050,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Тесео",
     "collection": "teseo",
     "group": "teseo",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 131000,
     "basePrice": 131000,
     "isNew": false,
@@ -2949,48 +3071,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).jpeg",
+    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).webp",
         "alt": "Тесео СК-классик (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D0%B5%D1%81%D0%B5%D0%BE%20(2).webp",
         "alt": "тесео (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%BF%D1%83%D0%BC%D0%B0).webp",
         "alt": "Тесео диван-кровать (пума)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.webp",
         "alt": "Тесео диван-кровать",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D0%B5%D1%81%D0%B5%D0%BE%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
         "alt": "Тесео угловой",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       }
@@ -3002,16 +3127,16 @@ window.CATALOG_PRODUCTS = [
     "group": "teseo",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 142700,
     "basePrice": 142700,
     "isNew": false,
     "popularity": 73,
-    "description": "Тесео СК-классик (2) — модель коллекции «Тесео». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Тесео СК-классик (2) — модель коллекции «Тесео». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -3021,38 +3146,41 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).webp",
         "alt": "турин (2)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Турин кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.webp",
         "alt": "Турин угловой с оттоманкой",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.webp",
         "alt": "турин",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).webp",
         "alt": "2026-05-21 14.53.33 (2)",
         "type": "interior"
       },
@@ -3074,11 +3202,11 @@ window.CATALOG_PRODUCTS = [
     "group": "turin",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 104000,
     "basePrice": 104000,
     "isNew": true,
@@ -3093,38 +3221,41 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Турин кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).webp",
         "alt": "турин (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.webp",
         "alt": "Турин угловой с оттоманкой",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.webp",
         "alt": "турин",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).webp",
         "alt": "2026-05-21 14.53.33 (2)",
         "type": "interior"
       },
@@ -3146,16 +3277,16 @@ window.CATALOG_PRODUCTS = [
     "group": "turin",
     "style": "classic",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 178,
     "width": 62,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 115700,
     "basePrice": 115700,
     "isNew": false,
     "popularity": 68,
-    "description": "Турин кресло — модель коллекции «Турин». Удобная посадка и классический силуэт для столовой или гостиной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Турин кресло — модель коллекции «Турин». Удобная посадка и классический силуэт для столовой или гостиной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -3165,38 +3296,41 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.webp",
         "alt": "Турин угловой с оттоманкой",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).webp",
         "alt": "турин (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Турин кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.webp",
         "alt": "турин",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).webp",
         "alt": "2026-05-21 14.53.33 (2)",
         "type": "interior"
       },
@@ -3217,12 +3351,12 @@ window.CATALOG_PRODUCTS = [
     "collection": "turin",
     "group": "turin",
     "style": "modern",
-    "type": "corner",
-    "dims": "2800 × 1600 × 880 мм",
+    "type": "corner-ottoman",
+    "dims": "260 × 280 × 88 см",
+    "length": 260,
     "width": 280,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 121000,
     "basePrice": 121000,
     "isNew": false,
@@ -3230,45 +3364,48 @@ window.CATALOG_PRODUCTS = [
     "description": "Турин угловой с оттоманкой — модель коллекции «Турин». Угловая компоновка экономит место и формирует уютную зону отдыха. Статичная конструкция рассчитана на ежедневное использование. Менеджер поможет подобрать комплектацию и рассчитать стоимость.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "угловая композиция",
+    "base": "угловой диван с оттоманкой",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.webp",
         "alt": "турин",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).webp",
         "alt": "турин (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Турин кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.webp",
         "alt": "Турин угловой с оттоманкой",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).webp",
         "alt": "2026-05-21 14.53.33 (2)",
         "type": "interior"
       },
@@ -3288,18 +3425,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Турин",
     "collection": "turin",
     "group": "turin",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 132700,
     "basePrice": 132700,
     "isNew": false,
     "popularity": 70,
-    "description": "турин — модель коллекции «Турин». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "турин — модель коллекции «Турин». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -3309,43 +3446,46 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Турин кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).webp",
         "alt": "турин (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Турин кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.webp",
         "alt": "Турин угловой с оттоманкой",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.webp",
         "alt": "турин",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).webp",
         "alt": "2026-05-21 14.53.33 (2)",
         "type": "detail"
       },
@@ -3360,13 +3500,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Турин",
     "collection": "turin",
     "group": "turin",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 202,
     "width": 62,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 138000,
     "basePrice": 138000,
     "isNew": false,
@@ -3381,43 +3521,46 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.JPG",
+    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9.webp",
         "alt": "Турин угловой",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD%20(2).webp",
         "alt": "турин (2)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Турин кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%BE%D0%BC%D0%B0%D0%BD%D0%BA%D0%BE%D0%B9.webp",
         "alt": "Турин угловой с оттоманкой",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A2%D1%83%D1%80%D0%B8%D0%BD%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%82%D1%83%D1%80%D0%B8%D0%BD.webp",
         "alt": "турин",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-19%2019.39.50.webp",
         "alt": "2026-05-19 19.39.50",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%B6%D0%B8%D0%B2%D1%8B%D0%B5%20%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA/2026-05-21%2014.53.33%20(2).webp",
         "alt": "2026-05-21 14.53.33 (2)",
         "type": "detail"
       },
@@ -3433,17 +3576,17 @@ window.CATALOG_PRODUCTS = [
     "collection": "turin",
     "group": "turin",
     "style": "classic",
-    "type": "corner",
-    "dims": "2600 × 1600 × 880 мм",
+    "type": "corner-classic",
+    "dims": "250 × 260 × 88 см",
+    "length": 250,
     "width": 260,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 149700,
     "basePrice": 149700,
     "isNew": false,
     "popularity": 72,
-    "description": "Турин угловой — модель коллекции «Турин». Угловая компоновка экономит место и формирует уютную зону отдыха. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Турин угловой — модель коллекции «Турин». Угловая компоновка экономит место и формирует уютную зону отдыха. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "угловая композиция",
@@ -3453,480 +3596,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
-    ]
-  },
-  {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
-    "gallery": [
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
-        "alt": "Бакстер диван-кровать",
-        "type": "general"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-        "alt": "Бакстер",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бакстер диван-кровать МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бренди угловой диван МФ СК классик",
-        "type": "mechanism"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Гермес угловой диван МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Данте диван-кровать МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Джокер кресло каминное для отдыха МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
-        "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
-        "type": "mechanism"
-      }
     ],
-    "name": "Бакстер диван-кровать",
-    "sku": "SK-BX-001",
-    "collectionLabel": "Бакстер",
-    "collection": "baxter",
-    "group": "baxter",
-    "style": "classic",
-    "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
-    "width": 170,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
-    "price": 90000,
-    "basePrice": 90000,
-    "isNew": true,
-    "popularity": 55,
-    "description": "Бакстер диван-кровать — модель коллекции «Бакстер». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Обивка выбирается из каталога тканей и декора фабрики.",
-    "frame": "массив бука, фанера, берёзовая латофлекс",
-    "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
-    "fabrics": [
-      "standard",
-      "velvet-classic",
-      "chenille",
-      "jacquard",
-      "boucle"
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-        "alt": "Бакстер",
-        "type": "general"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
-        "alt": "Бакстер диван-кровать",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бакстер диван-кровать МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бренди угловой диван МФ СК классик",
-        "type": "mechanism"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Гермес угловой диван МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Данте диван-кровать МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Джокер кресло каминное для отдыха МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
-        "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
-        "type": "mechanism"
-      }
-    ],
-    "name": "Бакстер",
-    "sku": "SK-BX-002",
-    "collectionLabel": "Бакстер",
-    "collection": "baxter",
-    "group": "baxter",
-    "style": "classic",
-    "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
-    "width": 185,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
-    "price": 101700,
-    "basePrice": 101700,
-    "isNew": false,
-    "popularity": 56,
-    "description": "Бакстер — модель коллекции «Бакстер». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
-    "frame": "массив бука, фанера, берёзовая латофлекс",
-    "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
-    "fabrics": [
-      "standard",
-      "velvet-classic",
-      "chenille",
-      "jacquard",
-      "boucle"
-    ]
-  },
-  {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-    "gallery": [
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бакстер диван-кровать МФ СК классик",
-        "type": "general"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
-        "alt": "Бакстер диван-кровать",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-        "alt": "Бакстер",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бренди угловой диван МФ СК классик",
-        "type": "mechanism"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Гермес угловой диван МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Данте диван-кровать МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Джокер кресло каминное для отдыха МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
-        "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
-        "type": "mechanism"
-      }
-    ],
-    "name": "Бакстер диван-кровать МФ СК классик",
-    "sku": "SK-BX-003",
-    "collectionLabel": "Бакстер",
-    "collection": "baxter",
-    "group": "baxter",
-    "style": "modern",
-    "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
-    "width": 200,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
-    "price": 107000,
-    "basePrice": 107000,
-    "isNew": false,
-    "popularity": 57,
-    "description": "Бакстер диван-кровать МФ СК классик — модель коллекции «Бакстер». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Менеджер поможет подобрать комплектацию и рассчитать стоимость.",
-    "frame": "массив бука, фанера, берёзовая латофлекс",
-    "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
-    "fabrics": [
-      "standard",
-      "velvet-classic",
-      "chenille",
-      "jacquard",
-      "boucle"
-    ]
-  },
-  {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D1%81%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%BE%D0%BC%20%D0%BC%D1%8F%D1%82%D0%BE%D1%81%D1%82%D0%B8.jpeg",
-    "gallery": [
-      {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D1%81%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%BE%D0%BC%20%D0%BC%D1%8F%D1%82%D0%BE%D1%81%D1%82%D0%B8.jpeg",
-        "alt": "Бакстер с эффектом мятости",
-        "type": "general"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
-        "alt": "Бакстер диван-кровать",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-        "alt": "Бакстер",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бакстер диван-кровать МФ СК классик",
-        "type": "mechanism"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бренди угловой диван МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Гермес угловой диван МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Данте диван-кровать МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Джокер кресло каминное для отдыха МФ СК классик",
-        "type": "mechanism"
-      }
-    ],
-    "name": "Бакстер с эффектом мятости",
-    "sku": "SK-BX-004",
-    "collectionLabel": "Бакстер",
-    "collection": "baxter",
-    "group": "baxter",
-    "style": "classic",
-    "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
-    "width": 215,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
-    "price": 118700,
-    "basePrice": 118700,
-    "isNew": false,
-    "popularity": 58,
-    "description": "Бакстер с эффектом мятости — модель коллекции «Бакстер». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Классическая отделка соответствует стилю коллекции «Ск-классик».",
-    "frame": "массив бука, фанера, берёзовая латофлекс",
-    "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
-    "fabrics": [
-      "standard",
-      "velvet-classic",
-      "chenille",
-      "jacquard",
-      "boucle"
-    ]
-  },
-  {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-    "gallery": [
-      {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B5/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-        "alt": "Бакстер",
-        "type": "general"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
-        "alt": "Бакстер диван-кровать",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-        "alt": "Бакстер",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бакстер диван-кровать МФ СК классик",
-        "type": "mechanism"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бренди угловой диван МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Гермес угловой диван МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Данте диван-кровать МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Джокер кресло каминное для отдыха МФ СК классик",
-        "type": "mechanism"
-      }
-    ],
-    "name": "Бакстер",
-    "sku": "SK-BX-005",
-    "collectionLabel": "Бакстер",
-    "collection": "baxter",
-    "group": "baxter",
-    "style": "modern",
-    "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
-    "width": 230,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
-    "price": 124000,
-    "basePrice": 124000,
-    "isNew": false,
-    "popularity": 59,
-    "description": "Бакстер — модель коллекции «Бакстер». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Обивка выбирается из каталога тканей и декора фабрики.",
-    "frame": "массив бука, фанера, берёзовая латофлекс",
-    "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
-    "fabrics": [
-      "standard",
-      "velvet-classic",
-      "chenille",
-      "jacquard",
-      "boucle"
-    ]
-  },
-  {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-    "gallery": [
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бренди угловой диван МФ СК классик",
-        "type": "general"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpeg",
-        "alt": "Бакстер диван-кровать",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80.jpeg",
-        "alt": "Бакстер",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бакстер диван-кровать МФ СК классик",
-        "type": "mechanism"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Гермес угловой диван МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Данте диван-кровать МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Джокер кресло каминное для отдыха МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
-        "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
-        "type": "mechanism"
-      }
-    ],
-    "name": "Бакстер Бренди угловой диван МФ СК классик",
-    "sku": "SK-BX-006",
-    "collectionLabel": "Бакстер",
-    "collection": "baxter",
-    "group": "baxter",
-    "style": "classic",
-    "type": "corner",
-    "dims": "2600 × 1600 × 880 мм",
-    "width": 260,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
-    "price": 135700,
-    "basePrice": 135700,
-    "isNew": false,
-    "popularity": 60,
-    "description": "Бакстер Бренди угловой диван МФ СК классик — модель коллекции «Бакстер». Угловая компоновка экономит место и формирует уютную зону отдыха. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
-    "frame": "массив бука, фанера, берёзовая латофлекс",
-    "filler": "ППУ высокой плотности, синтепон",
-    "base": "угловая композиция",
-    "fabrics": [
-      "standard",
-      "velvet-classic",
-      "chenille",
-      "jacquard",
-      "boucle"
-    ]
-  },
-  {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.jpg",
-    "gallery": [
-      {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).webp",
         "alt": "Дионис подл-ки Шантал Милорд (1)",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.webp",
         "alt": "Дионис подл. Милтон",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).webp",
         "alt": "Дионис (подл. нестандарт Шантал, капитоне изнутри)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).webp",
         "alt": "Дионис (подлокотники Милорд))",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..webp",
         "alt": "Дионис локти Данте (3).",
         "type": "mechanism"
       }
@@ -3938,11 +3652,11 @@ window.CATALOG_PRODUCTS = [
     "group": "dionis",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": true,
-    "mechanismType": "rollout",
-    "mechanismLabel": "Выкатной",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 117000,
     "basePrice": 117000,
     "isNew": true,
@@ -3957,48 +3671,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).webp",
         "alt": "Дионис подл-ки Шантал Милорд (1)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.webp",
         "alt": "Дионис подл. Милтон",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).webp",
         "alt": "Дионис (подл. нестандарт Шантал, капитоне изнутри)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).webp",
         "alt": "Дионис (подлокотники Милорд))",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..webp",
         "alt": "Дионис локти Данте (3).",
         "type": "mechanism"
       }
@@ -4010,16 +3727,16 @@ window.CATALOG_PRODUCTS = [
     "group": "dionis",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": true,
-    "mechanismType": "rollout",
-    "mechanismLabel": "Выкатной",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 128700,
     "basePrice": 128700,
     "isNew": false,
     "popularity": 48,
-    "description": "Дионис подл-ки Шантал Милорд (1) — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Выкатной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Дионис подл-ки Шантал Милорд (1) — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Выкатной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -4029,48 +3746,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).webp",
         "alt": "Дионис подл-ки Шантал Милорд (1)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.webp",
         "alt": "Дионис подл. Милтон",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).webp",
         "alt": "Дионис (подл. нестандарт Шантал, капитоне изнутри)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).webp",
         "alt": "Дионис (подлокотники Милорд))",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..webp",
         "alt": "Дионис локти Данте (3).",
         "type": "mechanism"
       }
@@ -4082,11 +3802,11 @@ window.CATALOG_PRODUCTS = [
     "group": "dionis",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": true,
-    "mechanismType": "rollout",
-    "mechanismLabel": "Выкатной",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 134000,
     "basePrice": 134000,
     "isNew": false,
@@ -4101,48 +3821,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).webp",
         "alt": "Дионис подл-ки Шантал Милорд (1)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.webp",
         "alt": "Дионис подл. Милтон",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).webp",
         "alt": "Дионис (подл. нестандарт Шантал, капитоне изнутри)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).webp",
         "alt": "Дионис (подлокотники Милорд))",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..webp",
         "alt": "Дионис локти Данте (3).",
         "type": "mechanism"
       }
@@ -4152,18 +3875,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Шантал Милорд",
     "collection": "shantal",
     "group": "dionis",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": true,
-    "mechanismType": "rollout",
-    "mechanismLabel": "Выкатной",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 145700,
     "basePrice": 145700,
     "isNew": false,
     "popularity": 50,
-    "description": "Дионис подл-ки Шантал Милорд — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Выкатной. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Дионис подл-ки Шантал Милорд — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Выкатной. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -4173,48 +3896,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.webp",
         "alt": "Дионис подл. Милтон",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).webp",
         "alt": "Дионис подл-ки Шантал Милорд (1)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).webp",
         "alt": "Дионис (подл. нестандарт Шантал, капитоне изнутри)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).webp",
         "alt": "Дионис (подлокотники Милорд))",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..webp",
         "alt": "Дионис локти Данте (3).",
         "type": "mechanism"
       }
@@ -4224,13 +3950,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Дионис",
     "collection": "dionis",
     "group": "dionis",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": true,
-    "mechanismType": "rollout",
-    "mechanismLabel": "Выкатной",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 151000,
     "basePrice": 151000,
     "isNew": false,
@@ -4245,48 +3971,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%2C%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B8%D0%B7%D0%BD%D1%83%D1%82%D1%80%D0%B8).webp",
         "alt": "Дионис (подл. нестандарт Шантал, капитоне изнутри)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20%20(1).webp",
         "alt": "Дионис подл-ки Шантал Милорд (1)",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%20%20.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB-%D0%BA%D0%B8%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Дионис подл-ки Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%20%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD.webp",
         "alt": "Дионис подл. Милтон",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20(%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4)).webp",
         "alt": "Дионис (подлокотники Милорд))",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20(%D0%9D%D0%9F%D0%91%2C%20%D0%B2%D1%8B%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9)/%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D0%BB%D0%BE%D0%BA%D1%82%D0%B8%20%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20(3)..webp",
         "alt": "Дионис локти Данте (3).",
         "type": "mechanism"
       }
@@ -4297,68 +4026,72 @@ window.CATALOG_PRODUCTS = [
     "collection": "shantal",
     "group": "dionis",
     "style": "classic",
-    "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "type": "armchair",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": true,
-    "mechanismType": "rollout",
-    "mechanismLabel": "Выкатной",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 162700,
     "basePrice": 162700,
     "isNew": false,
     "popularity": 52,
-    "description": "Дионис (подл. нестандарт Шантал, капитоне изнутри) — модель коллекции «Шантал Милорд». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Выкатной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Дионис (подл. нестандарт Шантал, капитоне изнутри) — модель коллекции «Шантал Милорд». Нестандартная конфигурация под ваши размеры и пожелания. Механизм трансформации: Выкатной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
+    "base": "кресло",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
-    ]
+    ],
+    "mechanisms": [
+      "none"
+    ],
+    "typeLabel": "Кресло"
   },
   {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.jpeg",
+    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.jpeg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.webp",
         "alt": "нестандарт",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.webp",
         "alt": "новинка Bellezza",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.webp",
         "alt": "СК -классик МФ",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "mechanism"
       }
@@ -4369,68 +4102,72 @@ window.CATALOG_PRODUCTS = [
     "collection": "living",
     "group": "custom",
     "style": "classic",
-    "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "type": "armchair",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 162000,
     "basePrice": 162000,
     "isNew": true,
     "popularity": 63,
-    "description": "Проектные нестандарт — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Обивка выбирается из каталога тканей и декора фабрики.",
+    "description": "Проектные нестандарт — модель коллекции «Ливинг». Нестандартная конфигурация под ваши размеры и пожелания. Статичная конструкция рассчитана на ежедневное использование. Обивка выбирается из каталога тканей и декора фабрики.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
+    "base": "кресло",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
-    ]
+    ],
+    "mechanisms": [
+      "none"
+    ],
+    "typeLabel": "Кресло"
   },
   {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.JPG",
+    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.webp",
         "alt": "новинка Bellezza",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.jpeg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.webp",
         "alt": "нестандарт",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.webp",
         "alt": "СК -классик МФ",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "mechanism"
       }
@@ -4442,16 +4179,16 @@ window.CATALOG_PRODUCTS = [
     "group": "custom",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 173700,
     "basePrice": 173700,
     "isNew": true,
     "popularity": 64,
-    "description": "Проектные новинка Bellezza — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Проектные новинка Bellezza — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -4461,48 +4198,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.jpeg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.webp",
         "alt": "нестандарт",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.webp",
         "alt": "новинка Bellezza",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.webp",
         "alt": "СК -классик МФ",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "mechanism"
       }
@@ -4513,12 +4253,12 @@ window.CATALOG_PRODUCTS = [
     "collection": "living",
     "group": "custom",
     "style": "modern",
-    "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "type": "armchair",
+    "dims": "52 × 58 × 98 см",
+    "length": 186,
     "width": 66,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 179000,
     "basePrice": 179000,
     "isNew": false,
@@ -4526,55 +4266,59 @@ window.CATALOG_PRODUCTS = [
     "description": "Проектные Ливин нестандарт и кресла Джокер — модель коллекции «Ливинг». Удобная посадка и классический силуэт для столовой или гостиной. Менеджер поможет подобрать комплектацию и рассчитать стоимость.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
+    "base": "кресло",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
-    ]
+    ],
+    "mechanisms": [
+      "none"
+    ],
+    "typeLabel": "Кресло"
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%AF%D0%BC%D0%B0%D0%B9%D0%BA%D0%B0%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D1%81%D0%BF%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BD%D0%B5%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Ямайка кресло нестандарт спинка с капитоне без пдушки",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.jpeg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.webp",
         "alt": "нестандарт",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.webp",
         "alt": "новинка Bellezza",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.webp",
         "alt": "СК -классик МФ",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "mechanism"
       }
@@ -4584,69 +4328,73 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ямайка",
     "collection": "jamaica",
     "group": "custom",
-    "style": "classic",
-    "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "style": "art-deco",
+    "type": "armchair",
+    "dims": "52 × 58 × 98 см",
+    "length": 194,
     "width": 58,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 190700,
     "basePrice": 190700,
     "isNew": false,
     "popularity": 66,
-    "description": "Проектные Ямайка кресло нестандарт спинка с капитоне без пдушки — модель коллекции «Ямайка». Удобная посадка и классический силуэт для столовой или гостиной. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Проектные Ямайка кресло нестандарт спинка с капитоне без пдушки — модель коллекции «Ямайка». Удобная посадка и классический силуэт для столовой или гостиной. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
+    "base": "кресло",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
-    ]
+    ],
+    "mechanisms": [
+      "none"
+    ],
+    "typeLabel": "Кресло"
   },
   {
-    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.jpg",
+    "image": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.webp",
         "alt": "СК -классик МФ",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.jpeg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.webp",
         "alt": "нестандарт",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.webp",
         "alt": "новинка Bellezza",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "mechanism"
       }
@@ -4656,13 +4404,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ливинг",
     "collection": "living",
     "group": "custom",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 196000,
     "basePrice": 196000,
     "isNew": false,
@@ -4677,48 +4425,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Ливин набор диван и кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.jpeg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82.webp",
         "alt": "нестандарт",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.JPG",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD%D0%BA%D0%B0%20Bellezza.webp",
         "alt": "новинка Bellezza",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.jpg",
+        "src": "../../img/photo-mebeli/%D0%A4%D0%BE%D1%82%D0%BE%2C%20%D0%B2%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80/%D0%A1%D0%9A%20-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9C%D0%A4.webp",
         "alt": "СК -классик МФ",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D0%BD%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%B0%20%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80.webp",
         "alt": "Ливин нестандарт и кресла Джокер",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%20%D1%83%D0%B3.webp",
         "alt": "Ливин уг",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%20%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD.webp",
         "alt": "Ливинг диван",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20(%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20).webp",
         "alt": "Ливинг ( набор )",
         "type": "mechanism"
       }
@@ -4729,140 +4480,71 @@ window.CATALOG_PRODUCTS = [
     "collection": "living",
     "group": "custom",
     "style": "classic",
-    "type": "modular",
-    "dims": "2000 × 950 × 880 мм",
+    "type": "modular-set",
+    "dims": "210 × 200 × 98 см",
+    "length": 210,
     "width": 200,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 207700,
     "basePrice": 207700,
     "isNew": false,
     "popularity": 68,
-    "description": "Проектные Ливин набор диван и кресло — модель коллекции «Ливинг». Модульная система — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Проектные Ливин набор диван и кресло — модель коллекции «Ливинг». Модульный набор — можно подобрать состав под планировку комнаты. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
-    "base": "модульная система",
+    "base": "модульный набор",
     "fabrics": [
       "standard",
       "velvet-classic",
       "chenille",
       "jacquard",
       "boucle"
-    ]
-  },
-  {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-    "gallery": [
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бакстер диван-кровать МФ СК классик",
-        "type": "general"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Бренди угловой диван МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Гермес угловой диван МФ СК классик",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Данте диван-кровать МФ СК классик",
-        "type": "mechanism"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Джокер кресло каминное для отдыха МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
-        "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
-        "type": "interior"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
-        "alt": "Ливиинг диван-кровать.МФ СК классик",
-        "type": "detail"
-      },
-      {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).jpeg",
-        "alt": "Ливинг модульный МФ СК классик (2)",
-        "type": "mechanism"
-      }
     ],
-    "name": "Кровати Бакстер диван-кровать МФ СК классик",
-    "sku": "SK-BD-001",
-    "collectionLabel": "Бакстер",
-    "collection": "baxter",
-    "group": "beds",
-    "style": "classic",
-    "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
-    "width": 170,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
-    "price": 87000,
-    "basePrice": 87000,
-    "isNew": true,
-    "popularity": 95,
-    "description": "Кровати Бакстер диван-кровать МФ СК классик — модель коллекции «Бакстер». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Обивка выбирается из каталога тканей и декора фабрики.",
-    "frame": "массив бука, фанера, берёзовая латофлекс",
-    "filler": "ППУ высокой плотности, синтепон",
-    "base": "прямой диван",
-    "fabrics": [
-      "standard",
-      "velvet-classic",
-      "chenille",
-      "jacquard",
-      "boucle"
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Джокер кресло каминное для отдыха МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.webp",
         "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Ливиинг диван-кровать.МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).webp",
         "alt": "Ливинг модульный МФ СК классик (2)",
         "type": "mechanism"
       }
@@ -4874,16 +4556,16 @@ window.CATALOG_PRODUCTS = [
     "group": "beds",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 98700,
     "basePrice": 98700,
     "isNew": false,
     "popularity": 96,
-    "description": "Кровати Данте диван-кровать МФ СК классик — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Кровати Данте диван-кровать МФ СК классик — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -4893,48 +4575,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
+    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.webp",
         "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Джокер кресло каминное для отдыха МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Ливиинг диван-кровать.МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).webp",
         "alt": "Ливинг модульный МФ СК классик (2)",
         "type": "mechanism"
       }
@@ -4946,11 +4631,11 @@ window.CATALOG_PRODUCTS = [
     "group": "beds",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 104000,
     "basePrice": 104000,
     "isNew": false,
@@ -4965,48 +4650,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Ливиинг диван-кровать.МФ СК классик",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Джокер кресло каминное для отдыха МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.webp",
         "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20(2).webp",
         "alt": "Ливинг модульный МФ СК классик (2)",
         "type": "mechanism"
       }
@@ -5016,18 +4704,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Данте",
     "collection": "dante",
     "group": "beds",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 115700,
     "basePrice": 115700,
     "isNew": false,
     "popularity": 98,
-    "description": "Кровати Ливиинг диван-кровать.МФ СК классик — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Кровати Ливиинг диван-кровать.МФ СК классик — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -5037,48 +4725,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%BD%D0%B3%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Ливинг на спартаке диван-кровать МФ СК классик",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Джокер кресло каминное для отдыха МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.webp",
         "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Ливиинг диван-кровать.МФ СК классик",
         "type": "mechanism"
       }
@@ -5088,13 +4779,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ливинг",
     "collection": "living",
     "group": "beds",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 121000,
     "basePrice": 121000,
     "isNew": false,
@@ -5109,48 +4800,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20(11).JPG",
+    "image": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20(11).webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20(11).JPG",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9C%D0%B8%D0%BB%D1%82%D0%BE%D0%BD%20%D0%BD%D0%B0%20%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B5%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20(11).webp",
         "alt": "Милтон на спартаке мебельная фабрика СК классик Пушкино (11)",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D0%B0%D0%BA%D1%81%D1%82%D0%B5%D1%80%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бакстер диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Бренди угловой диван МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Гермес угловой диван МФ СК классик",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Данте диван-кровать МФ СК классик",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0%20%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Джокер кресло каминное для отдыха МФ СК классик",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%94%D0%B8%D0%BE%D0%BD%D0%B8%D1%81%20%D1%81%D0%BF%D0%BE%D0%B4%D0%BB.%20%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8%20%D0%A1%D0%9A-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE%20%D0%9C%D0%9E.webp",
         "alt": "классический диван-кровать Дионис сподл. Шантал мебельной фабрики СК-классик Пушкино МО",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.jpeg",
+        "src": "../../img/photo-mebeli/%D0%9E%D1%84%D1%84%D0%B5%D1%80%2026/%D0%9B%D0%B8%D0%B2%D0%B8%D0%B8%D0%BD%D0%B3%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.%D0%9C%D0%A4%20%D0%A1%D0%9A%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA.webp",
         "alt": "Ливиинг диван-кровать.МФ СК классик",
         "type": "mechanism"
       }
@@ -5162,16 +4856,16 @@ window.CATALOG_PRODUCTS = [
     "group": "beds",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 132700,
     "basePrice": 132700,
     "isNew": false,
     "popularity": 40,
-    "description": "Кровати Милтон на спартаке мебельная фабрика СК классик Пушкино (11) — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Кровати Милтон на спартаке мебельная фабрика СК классик Пушкино (11) — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -5181,48 +4875,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.JPG",
+    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.webp",
         "alt": "2026-05-27 13.59.07",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.webp",
         "alt": "2026-05-27 13.59.32",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.webp",
         "alt": "2026-05-27 14.00.09",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.webp",
         "alt": "2026-05-27 14.00.36",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.webp",
         "alt": "2026-05-27 14.00.42",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.webp",
         "alt": "2026-05-27 14.01.09",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.webp",
         "alt": "2026-05-27 14.03.44",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.webp",
         "alt": "2026-05-27 14.04.14",
         "type": "mechanism"
       }
@@ -5234,11 +4931,11 @@ window.CATALOG_PRODUCTS = [
     "group": "panels",
     "style": "classic",
     "type": "straight",
-    "dims": "1700 × 950 × 880 мм",
+    "dims": "170 × 170 × 88 см",
+    "length": 170,
     "width": 170,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 27000,
     "basePrice": 27000,
     "isNew": true,
@@ -5253,48 +4950,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.JPG",
+    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.webp",
         "alt": "2026-05-27 13.59.32",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.webp",
         "alt": "2026-05-27 13.59.07",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.webp",
         "alt": "2026-05-27 14.00.09",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.webp",
         "alt": "2026-05-27 14.00.36",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.webp",
         "alt": "2026-05-27 14.00.42",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.webp",
         "alt": "2026-05-27 14.01.09",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.webp",
         "alt": "2026-05-27 14.03.44",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.webp",
         "alt": "2026-05-27 14.04.14",
         "type": "mechanism"
       }
@@ -5306,16 +5006,16 @@ window.CATALOG_PRODUCTS = [
     "group": "panels",
     "style": "classic",
     "type": "straight",
-    "dims": "1850 × 950 × 880 мм",
+    "dims": "178 × 185 × 88 см",
+    "length": 178,
     "width": 185,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 38700,
     "basePrice": 38700,
     "isNew": false,
     "popularity": 60,
-    "description": "Мягкие панели 2026-05-27 13.59.32 — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Мягкие панели 2026-05-27 13.59.32 — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -5325,48 +5025,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.JPG",
+    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.webp",
         "alt": "2026-05-27 14.00.09",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.webp",
         "alt": "2026-05-27 13.59.07",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.webp",
         "alt": "2026-05-27 13.59.32",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.webp",
         "alt": "2026-05-27 14.00.36",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.webp",
         "alt": "2026-05-27 14.00.42",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.webp",
         "alt": "2026-05-27 14.01.09",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.webp",
         "alt": "2026-05-27 14.03.44",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.webp",
         "alt": "2026-05-27 14.04.14",
         "type": "mechanism"
       }
@@ -5378,11 +5081,11 @@ window.CATALOG_PRODUCTS = [
     "group": "panels",
     "style": "modern",
     "type": "straight",
-    "dims": "2000 × 950 × 880 мм",
+    "dims": "186 × 200 × 88 см",
+    "length": 186,
     "width": 200,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 44000,
     "basePrice": 44000,
     "isNew": false,
@@ -5397,48 +5100,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.JPG",
+    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.webp",
         "alt": "2026-05-27 14.00.36",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.webp",
         "alt": "2026-05-27 13.59.07",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.webp",
         "alt": "2026-05-27 13.59.32",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.webp",
         "alt": "2026-05-27 14.00.09",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.webp",
         "alt": "2026-05-27 14.00.42",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.webp",
         "alt": "2026-05-27 14.01.09",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.webp",
         "alt": "2026-05-27 14.03.44",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.webp",
         "alt": "2026-05-27 14.04.14",
         "type": "mechanism"
       }
@@ -5448,18 +5154,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ливинг",
     "collection": "living",
     "group": "panels",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 88 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 55700,
     "basePrice": 55700,
     "isNew": false,
     "popularity": 62,
-    "description": "Мягкие панели 2026-05-27 14.00.36 — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Мягкие панели 2026-05-27 14.00.36 — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -5469,48 +5175,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.JPG",
+    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.webp",
         "alt": "2026-05-27 14.00.42",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.webp",
         "alt": "2026-05-27 13.59.07",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.webp",
         "alt": "2026-05-27 13.59.32",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.webp",
         "alt": "2026-05-27 14.00.09",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.webp",
         "alt": "2026-05-27 14.00.36",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.webp",
         "alt": "2026-05-27 14.01.09",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.webp",
         "alt": "2026-05-27 14.03.44",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.webp",
         "alt": "2026-05-27 14.04.14",
         "type": "mechanism"
       }
@@ -5520,13 +5229,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Ливинг",
     "collection": "living",
     "group": "panels",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "2300 × 950 × 880 мм",
+    "dims": "202 × 230 × 88 см",
+    "length": 202,
     "width": 230,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 61000,
     "basePrice": 61000,
     "isNew": false,
@@ -5541,48 +5250,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.JPG",
+    "image": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.01.09.webp",
         "alt": "2026-05-27 14.01.09",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.07.webp",
         "alt": "2026-05-27 13.59.07",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2013.59.32.webp",
         "alt": "2026-05-27 13.59.32",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.09.webp",
         "alt": "2026-05-27 14.00.09",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.36.webp",
         "alt": "2026-05-27 14.00.36",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.00.42.webp",
         "alt": "2026-05-27 14.00.42",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.03.44.webp",
         "alt": "2026-05-27 14.03.44",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.JPG",
+        "src": "../../img/photo-mebeli/%D0%91%D0%B0%D1%85%D1%80%D0%BE%D0%BC%D0%B0%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%8C%D0%BC%D0%B0/2026-05-27%2014.04.14.webp",
         "alt": "2026-05-27 14.04.14",
         "type": "mechanism"
       }
@@ -5594,16 +5306,16 @@ window.CATALOG_PRODUCTS = [
     "group": "panels",
     "style": "classic",
     "type": "straight",
-    "dims": "2450 × 950 × 880 мм",
+    "dims": "210 × 245 × 88 см",
+    "length": 210,
     "width": 245,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 72700,
     "basePrice": 72700,
     "isNew": false,
     "popularity": 64,
-    "description": "Мягкие панели 2026-05-27 14.01.09 — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Мягкие панели 2026-05-27 14.01.09 — модель коллекции «Ливинг». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Статичная конструкция рассчитана на ежедневное использование. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -5613,48 +5325,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "mechanism"
       }
@@ -5666,11 +5381,11 @@ window.CATALOG_PRODUCTS = [
     "group": "chairs",
     "style": "classic",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 170,
     "width": 58,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 32000,
     "basePrice": 32000,
     "isNew": true,
@@ -5685,48 +5400,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20(3).webp",
         "alt": "Гермес (3)",
         "type": "mechanism"
       }
@@ -5738,16 +5456,16 @@ window.CATALOG_PRODUCTS = [
     "group": "chairs",
     "style": "classic",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 178,
     "width": 62,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 43700,
     "basePrice": 43700,
     "isNew": false,
     "popularity": 71,
-    "description": "Стулья Шантал Милорд кресло — модель коллекции «Шантал Милорд». Удобная посадка и классический силуэт для столовой или гостиной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Стулья Шантал Милорд кресло — модель коллекции «Шантал Милорд». Удобная посадка и классический силуэт для столовой или гостиной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -5757,48 +5475,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%93%D0%B5%D1%80%D0%BC%D0%B5%D1%81%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Гермес кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "mechanism"
       }
@@ -5810,11 +5531,11 @@ window.CATALOG_PRODUCTS = [
     "group": "chairs",
     "style": "modern",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 186,
     "width": 66,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 49000,
     "basePrice": 49000,
     "isNew": false,
@@ -5829,48 +5550,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%B4%D0%B8%D0%B2%D0%B0%D0%BD-%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Данте диван-кровать и кресло",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "mechanism"
       }
@@ -5880,18 +5604,18 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Данте",
     "collection": "dante",
     "group": "chairs",
-    "style": "classic",
+    "style": "art-deco",
     "type": "straight",
-    "dims": "2150 × 950 × 880 мм",
+    "dims": "194 × 215 × 98 см",
+    "length": 194,
     "width": 215,
-    "hasMechanism": true,
-    "mechanismType": "sofa-bed",
-    "mechanismLabel": "Диван-кровать",
+    "height": 88,
+    "mechanismLabel": "Без механизма",
     "price": 60700,
     "basePrice": 60700,
     "isNew": false,
     "popularity": 73,
-    "description": "Стулья Данте диван-кровать и кресло — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Классическая отделка соответствует стилю коллекции «Ск-классик».",
+    "description": "Стулья Данте диван-кровать и кресло — модель коллекции «Данте». Сбалансированные пропорции и мягкая посадка для повседневного комфорта. Механизм трансформации: Диван-кровать. Арт-деко подчёркивает выразительность коллекции «Ск-классик».",
     "frame": "массив бука, фанера, берёзовая латофлекс",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -5901,48 +5625,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B8.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D0%B1%D0%B5%D0%B7%20%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B8.webp",
         "alt": "Данте кресло без подушки",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "mechanism"
       }
@@ -5952,13 +5679,13 @@ window.CATALOG_PRODUCTS = [
     "collectionLabel": "Данте",
     "collection": "dante",
     "group": "chairs",
-    "style": "modern",
+    "style": "loft-scandinavian",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 202,
     "width": 62,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 66000,
     "basePrice": 66000,
     "isNew": false,
@@ -5973,48 +5700,51 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   },
   {
-    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%BB%D0%B8%D0%BF%D1%81%D0%BE%D0%B9.JPG",
+    "image": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%BB%D0%B8%D0%BF%D1%81%D0%BE%D0%B9.webp",
     "gallery": [
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%BB%D0%B8%D0%BF%D1%81%D0%BE%D0%B9.JPG",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%94%D0%B0%D0%BD%D1%82%D0%B5%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%BB%D0%B8%D0%BF%D1%81%D0%BE%D0%B9.webp",
         "alt": "Данте кресло с клипсой",
         "type": "general"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/00305171-07CD-47D2-AE46-7F8DF9AFF3B9.webp",
         "alt": "00305171-07CD-47D2-AE46-7F8DF9AFF3B9",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/4B18CBA1-D2E5-428D-8E5B-FEC924FF204B.webp",
         "alt": "4B18CBA1-D2E5-428D-8E5B-FEC924FF204B",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/IMG_1710.webp",
         "alt": "IMG_1710",
         "type": "mechanism"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D1%88%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%BC%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE%20%D1%81%20%D0%BA%D0%B0%D1%80%D0%B5%D1%82%D0%BA%D0%BE%D0%B9%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BB%D0%BE%D0%BA%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D1%85.webp",
         "alt": "шантал милорд кресло с кареткой на подлокотниках",
         "type": "interior"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.jpeg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE.webp",
         "alt": "Шантал Милорд кресло",
         "type": "detail"
       },
       {
-        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.jpg",
+        "src": "../../img/photo-mebeli/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4%20%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BA%D0%B0/%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D0%BB%20%D0%9C%D0%B8%D0%BB%D0%BE%D1%80%D0%B4.webp",
         "alt": "Шантал Милорд",
         "type": "mechanism"
       }
@@ -6026,16 +5756,16 @@ window.CATALOG_PRODUCTS = [
     "group": "chairs",
     "style": "classic",
     "type": "straight",
-    "dims": "520 × 580 × 980 мм",
+    "dims": "52 × 58 × 98 см",
+    "length": 210,
     "width": 66,
-    "hasMechanism": false,
-    "mechanismType": null,
-    "mechanismLabel": "—",
+    "height": 98,
+    "mechanismLabel": "Без механизма",
     "price": 77700,
     "basePrice": 77700,
     "isNew": false,
     "popularity": 75,
-    "description": "Стулья Данте кресло с клипсой — модель коллекции «Данте». Удобная посадка и классический силуэт для столовой или гостиной. Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "description": "Стулья Данте кресло с клипсой — модель коллекции «Данте». Удобная посадка и классический силуэт для столовой или гостиной. Качественные материалы обеспечивают долгий срок службы.",
     "frame": "массив бука, фанера",
     "filler": "ППУ высокой плотности, синтепон",
     "base": "прямой диван",
@@ -6045,6 +5775,9 @@ window.CATALOG_PRODUCTS = [
       "chenille",
       "jacquard",
       "boucle"
+    ],
+    "mechanisms": [
+      "none"
     ]
   }
 ];

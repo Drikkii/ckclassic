@@ -34,32 +34,51 @@
     });
   }
 
-  const mechanismToggle = document.querySelector("[data-mechanism-toggle]");
-  const mechanismFields = document.querySelector("[data-mechanism-fields]");
-  if (mechanismToggle && mechanismFields) {
-    function syncMechanism() {
-      mechanismFields.hidden = !mechanismToggle.checked;
-    }
-    mechanismToggle.addEventListener("change", syncMechanism);
-    syncMechanism();
-  }
-
   const collectionSelect = document.getElementById("collection");
   const groupInput = document.getElementById("group");
+  const groupDisplay = document.querySelector("[data-group-display]");
   if (collectionSelect && groupInput) {
     const map = {
       shantal: "shantal-milord",
     };
-    collectionSelect.addEventListener("change", function () {
+
+    const specialGroups = ["beds", "chairs", "panels", "custom"];
+
+    function syncCollectionGroup() {
+      if (specialGroups.includes(groupInput.value)) {
+        return;
+      }
       const value = collectionSelect.value;
       groupInput.value = map[value] || value;
+      if (groupDisplay) {
+        const option = collectionSelect.selectedOptions[0];
+        groupDisplay.value = option ? option.textContent.trim() : groupInput.value;
+      }
+    }
+
+    collectionSelect.addEventListener("change", syncCollectionGroup);
+    syncCollectionGroup();
+  }
+
+  const typeSelect = document.querySelector("[data-product-type]");
+  const baseInput = document.querySelector("[data-product-base]");
+  if (typeSelect && baseInput) {
+    const baseMap = {
+      "corner-ottoman": "угловой диван с оттоманкой",
+      "corner-classic": "угловая композиция",
+      straight: "прямой диван",
+      "modular-set": "модульный набор",
+      armchair: "кресло",
+      pouf: "пуфик",
+    };
+
+    typeSelect.addEventListener("change", function () {
+      const nextBase = baseMap[typeSelect.value];
+      if (nextBase) baseInput.value = nextBase;
     });
   }
 
-  const flagPairs = [
-    ["product-is-new-cb", "product-is-new"],
-    ["product-is-out-of-stock-cb", "product-is-out-of-stock"],
-  ];
+  const flagPairs = [["product-is-new-cb", "product-is-new"]];
 
   function syncProductFlags() {
     flagPairs.forEach(function (pair) {

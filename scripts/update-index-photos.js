@@ -11,32 +11,32 @@ function p(rel) {
 
 const carousel = [
   {
-    src: p("Фото, вписанные в интерьер/Ливинг в интерьере/Ливинг в интерьере (2).jpeg"),
+    src: p("Фото, вписанные в интерьер/Ливинг в интерьере/Ливинг в интерьере (2).webp"),
     alt: "Мягкая мебель Ск-классик — коллекция Ливинг",
     h1: "Мягкая мебель Ск-классик",
     sub: "Собственное производство · доставка по России",
     useH1: true,
   },
   {
-    src: p("Фото, вписанные в интерьер/Гермес в интерьере/Гермес в интерьере (2).jpeg"),
+    src: p("Фото, вписанные в интерьер/Гермес в интерьере/Гермес в интерьере (2).webp"),
     alt: "Коллекция Гермес",
     title: "Коллекция Гермес",
     sub: "Классические диваны и угловые модели",
   },
   {
-    src: p("фото на белом/Данте линейка/Данте (диван-кровать).jpeg"),
+    src: p("фото на белом/Данте линейка/Данте (диван-кровать).webp"),
     alt: "Коллекция Данте",
     title: "Коллекция Данте",
     sub: "Диваны, кресла и пуфы",
   },
   {
-    src: p("Фото, вписанные в интерьер/Шантал Милорд в интерьере/Шантал Милорд в интерьере (2).jpeg"),
+    src: p("Фото, вписанные в интерьер/Шантал Милорд в интерьере/Шантал Милорд в интерьере (2).webp"),
     alt: "Модельный ряд",
     title: "Модельный ряд",
     sub: "Диваны, кресла, угловые и модульные системы",
   },
   {
-    src: p("Фото, вписанные в интерьер/новинка Bellezza.JPG"),
+    src: p("Фото, вписанные в интерьер/новинка Bellezza.webp"),
     alt: "Наши работы",
     title: "Наши работы",
     sub: "Реализованные проекты и отзывы клиентов",
@@ -56,92 +56,92 @@ function pickExisting(candidates) {
 // Fix carousel paths with fallbacks
 carousel[0].src =
   pickExisting([
-    "Фото, вписанные в интерьер/Ливинг в интерьере/Ливинг в интерьере (2).jpeg",
-    "Оффер 26/Ливинг МФ СК классик.jpeg",
-    "фото на белом/Ливинг линейка/Ливинг   диван.jpeg",
+    "Фото, вписанные в интерьер/Ливинг в интерьере/Ливинг в интерьере (2).webp",
+    "Оффер 26/Ливинг МФ СК классик.webp",
+    "фото на белом/Ливинг линейка/Ливинг   диван.webp",
   ]) || carousel[0].src;
 
 carousel[1].src =
   pickExisting([
-    "Фото, вписанные в интерьер/Гермес в интерьере/Гермес в интерьере (2).jpeg",
-    "фото на белом/Гермес линейка/Гермес диван-кровать (пума).JPG",
-    "Оффер 26/Гермес угловой диван МФ СК классик.jpeg",
+    "Фото, вписанные в интерьер/Гермес в интерьере/Гермес в интерьере (2).webp",
+    "фото на белом/Гермес линейка/Гермес диван-кровать (пума).webp",
+    "Оффер 26/Гермес угловой диван МФ СК классик.webp",
   ]) || carousel[1].src;
 
 carousel[2].src =
   pickExisting([
-    "фото на белом/Данте линейка/Данте (диван-кровать).jpeg",
-    "Оффер 26/Данте диван-кровать МФ СК классик.jpeg",
+    "фото на белом/Данте линейка/Данте (диван-кровать).webp",
+    "Оффер 26/Данте диван-кровать МФ СК классик.webp",
   ]) || carousel[2].src;
 
 carousel[3].src =
   pickExisting([
-    "Фото, вписанные в интерьер/Шантал Милорд в интерьере/Шантал Милорд в интерьере (2).jpeg",
-    "фото на белом/Шантал Милорд линейка/Шантал  Милорд.jpeg",
+    "Фото, вписанные в интерьер/Шантал Милорд в интерьере/Шантал Милорд в интерьере (2).webp",
+    "фото на белом/Шантал Милорд линейка/Шантал  Милорд.webp",
   ]) || carousel[3].src;
 
 carousel[4].src =
   pickExisting([
-    "Фото, вписанные в интерьер/новинка Bellezza.JPG",
-    "Оффер 26/новинка Bellezza МФ СК классик.JPG",
-    "Фото, вписанные в интерьер/СК -классик МФ.jpg",
+    "Фото, вписанные в интерьер/новинка Bellezza.webp",
+    "Оффер 26/новинка Bellezza МФ СК классик.webp",
+    "Фото, вписанные в интерьер/СК -классик МФ.webp",
   ]) || carousel[4].src;
 
 const rooms = {
   living: [
-    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливинг   диван.jpeg"]), label: "Диваны" },
-    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливин набор диван и кресло.jpg"]), label: "Кресла" },
-    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливин уг.jpeg"]), label: "Угловые модели" },
+    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливинг   диван.webp"]), label: "Диваны" },
+    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливин набор диван и кресло.webp"]), label: "Кресла" },
+    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливин уг.webp"]), label: "Угловые модели" },
   ],
   bedroom: [
-    { href: "pages/catalog/beds.html", img: pickExisting(["Оффер 26/Данте диван-кровать МФ СК классик.jpeg"]), label: "Кровати" },
-    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ямайка линейка/Ямайка диван-кровать.jpeg"]), label: "Банкетки" },
-    { href: "pages/catalog/living.html", img: pickExisting(["Фото и видео живые  СК-классик/Данте  пуф.jpg"]), label: "Пуфы" },
+    { href: "pages/catalog/beds.html", img: pickExisting(["Оффер 26/Данте диван-кровать МФ СК классик.webp"]), label: "Кровати" },
+    { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ямайка линейка/Ямайка диван-кровать.webp"]), label: "Банкетки" },
+    { href: "pages/catalog/living.html", img: pickExisting(["Фото и видео живые  СК-классик/Данте  пуф.webp"]), label: "Пуфы" },
   ],
   office: [
-    { href: "pages/catalog/hermes.html", img: pickExisting(["Фото и видео живые  СК-классик/Гермес кресло.jpg"]), label: "Кресла руководителя" },
-    { href: "pages/catalog/dante.html", img: pickExisting(["фото на белом/Данте линейка/Данте (3).jpeg"]), label: "Диваны" },
-    { href: "pages/catalog/turin.html", img: pickExisting(["фото на белом/Турин линейка/Турин кресло.jpg"]), label: "Кресла" },
+    { href: "pages/catalog/hermes.html", img: pickExisting(["Фото и видео живые  СК-классик/Гермес кресло.webp"]), label: "Кресла руководителя" },
+    { href: "pages/catalog/dante.html", img: pickExisting(["фото на белом/Данте линейка/Данте (3).webp"]), label: "Диваны" },
+    { href: "pages/catalog/turin.html", img: pickExisting(["фото на белом/Турин линейка/Турин кресло.webp"]), label: "Кресла" },
   ],
   hall: [
-    { href: "pages/catalog/chairs.html", img: pickExisting(["фото на белом/Шантал Милорд линейка/Шантал Милорд кресло.jpeg"]), label: "Банкетки" },
-    { href: "pages/catalog/chairs.html", img: pickExisting(["Фото и видео живые  СК-классик/Джокер  пуф.jpg"]), label: "Пуфы" },
-    { href: "pages/catalog/scarlett.html", img: pickExisting(["фото на белом/Скарлет линейка/Скарлет кресло.jpeg"]), label: "Кресла" },
+    { href: "pages/catalog/chairs.html", img: pickExisting(["фото на белом/Шантал Милорд линейка/Шантал Милорд кресло.webp"]), label: "Банкетки" },
+    { href: "pages/catalog/chairs.html", img: pickExisting(["Фото и видео живые  СК-классик/Джокер  пуф.webp"]), label: "Пуфы" },
+    { href: "pages/catalog/scarlett.html", img: pickExisting(["фото на белом/Скарлет линейка/Скарлет кресло.webp"]), label: "Кресла" },
   ],
 };
 
 const catalogCards = [
-  { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливинг   диван.jpeg"]), label: "Диваны" },
-  { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливин уг.jpeg"]), label: "Угловые диваны" },
-  { href: "pages/catalog/hermes.html", img: pickExisting(["фото на белом/Гермес линейка/Гермес (3).jpeg"]), label: "Кресла" },
-  { href: "pages/catalog/jamaica.html", img: pickExisting(["фото на белом/Ямайка линейка/Ямайка диван модульный.JPG"]), label: "Модульные системы" },
-  { href: "pages/catalog/beds.html", img: pickExisting(["Оффер 26/Тесео диван-кровать МФ СК классик.jpeg"]), label: "Кушетки" },
-  { href: "pages/catalog/chairs.html", img: pickExisting(["фото на белом/Шантал Милорд линейка/шантал милорд кресло с кареткой на подлокотниках.jpeg"]), label: "Банкетки" },
-  { href: "pages/catalog/chairs.html", img: pickExisting(["Фото и видео живые  СК-классик/Джокер  пуф.jpg"]), label: "Пуфы" },
-  { href: "pages/catalog/dionis.html", img: pickExisting(["фото на белом/Дионис диван-кровать (НПБ, выкатной)/Дионис (пума).jpeg"]), label: "Канапе" },
+  { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливинг   диван.webp"]), label: "Диваны" },
+  { href: "pages/catalog/living.html", img: pickExisting(["фото на белом/Ливинг линейка/Ливин уг.webp"]), label: "Угловые диваны" },
+  { href: "pages/catalog/hermes.html", img: pickExisting(["фото на белом/Гермес линейка/Гермес (3).webp"]), label: "Кресла" },
+  { href: "pages/catalog/jamaica.html", img: pickExisting(["фото на белом/Ямайка линейка/Ямайка диван модульный.webp"]), label: "Модульные системы" },
+  { href: "pages/catalog/beds.html", img: pickExisting(["Оффер 26/Тесео диван-кровать МФ СК классик.webp"]), label: "Кушетки" },
+  { href: "pages/catalog/chairs.html", img: pickExisting(["фото на белом/Шантал Милорд линейка/шантал милорд кресло с кареткой на подлокотниках.webp"]), label: "Банкетки" },
+  { href: "pages/catalog/chairs.html", img: pickExisting(["Фото и видео живые  СК-классик/Джокер  пуф.webp"]), label: "Пуфы" },
+  { href: "pages/catalog/dionis.html", img: pickExisting(["фото на белом/Дионис диван-кровать (НПБ, выкатной)/Дионис (пума).webp"]), label: "Канапе" },
 ];
 
 const works = [
   {
-    img: pickExisting(["Фото, вписанные в интерьер/Ливинг в интерьере/Ливинг в интерьере (2).jpeg", "Оффер 26/Ливинг МФ СК классик.jpeg"]),
+    img: pickExisting(["Фото, вписанные в интерьер/Ливинг в интерьере/Ливинг в интерьере (2).webp", "Оффер 26/Ливинг МФ СК классик.webp"]),
     title: "Гостиная Classic",
     text: "Диван и два кресла в ткани бежевого оттенка",
     href: "pages/catalog/living.html",
   },
   {
-    img: pickExisting(["Фото, вписанные в интерьер/Ямайка в интерьере/Ямайка в интерьере (2).jpeg", "фото на белом/Ямайка линейка/Ямайка диван-кровать.jpeg"]),
+    img: pickExisting(["Фото, вписанные в интерьер/Ямайка в интерьере/Ямайка в интерьере (2).webp", "фото на белом/Ямайка линейка/Ямайка диван-кровать.webp"]),
     title: "Спальня Comfort",
     text: "Кровать с мягким изголовьем и банкетка",
     href: "pages/catalog/beds.html",
   },
   {
-    img: pickExisting(["Фото, вписанные в интерьер/Гермес в интерьере/Гермес в интерьере (2).jpeg"]),
+    img: pickExisting(["Фото, вписанные в интерьер/Гермес в интерьере/Гермес в интерьере (2).webp"]),
     title: "Кабинет Prestige",
     text: "Кресло руководителя и диван для переговоров",
     href: "pages/catalog/hermes.html",
   },
   {
-    img: pickExisting(["Фото, вписанные in интерьер/новинка Bellezza.JPG", "Фото, вписанные в интерьер/новинка Bellezza.JPG"]),
+    img: pickExisting(["Фото, вписанные in интерьер/новинка Bellezza.webp", "Фото, вписанные в интерьер/новинка Bellezza.webp"]),
     title: "Гостиная Modern",
     text: "Угловой диван и журнальная зона",
     href: "pages/catalog/custom.html",

@@ -20,10 +20,16 @@ require_once __DIR__ . '/lib/CatalogExporter.php';
 require_once __DIR__ . '/lib/Installer.php';
 require_once __DIR__ . '/lib/CatalogOptions.php';
 require_once __DIR__ . '/lib/ProductHelper.php';
+require_once __DIR__ . '/lib/ImageConverter.php';
 require_once __DIR__ . '/lib/ImageUploader.php';
 require_once __DIR__ . '/lib/SliderRepository.php';
 require_once __DIR__ . '/lib/SliderHelper.php';
 require_once __DIR__ . '/lib/SliderExporter.php';
+require_once __DIR__ . '/lib/SliderImageProcessor.php';
+require_once __DIR__ . '/lib/SitePageRepository.php';
+require_once __DIR__ . '/lib/VacanciesExporter.php';
+require_once __DIR__ . '/lib/PrivacyExporter.php';
+require_once __DIR__ . '/lib/ProductsInfoExporter.php';
 require_once __DIR__ . '/lib/SliderImageUploader.php';
 
 function admin_config(): array
@@ -75,4 +81,16 @@ function admin_asset_url(string $src): string
     $path = str_replace('\\', '/', trim($src));
     $path = preg_replace('#^(\.\./)+#', '', $path) ?? $path;
     return '/' . ltrim($path, '/');
+}
+
+function admin_public_url(string $path): string
+{
+    $path = ltrim(str_replace('\\', '/', $path), '/');
+    $siteUrl = rtrim(trim((string) (admin_config()['site_url'] ?? '')), '/');
+
+    if ($siteUrl !== '') {
+        return $siteUrl . '/' . $path;
+    }
+
+    return '/' . $path;
 }

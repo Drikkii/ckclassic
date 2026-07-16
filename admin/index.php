@@ -9,7 +9,12 @@ Auth::requireLogin();
 $repo = new ProductRepository(admin_pdo());
 
 $search = trim((string) ($_GET['q'] ?? ''));
-$products = $repo->all($search !== '' ? $search : null);
+$sort = (string) ($_GET['sort'] ?? 'name');
+$allowedSorts = ['name', 'collection', 'updated'];
+if (!in_array($sort, $allowedSorts, true)) {
+    $sort = 'name';
+}
+$products = $repo->all($search !== '' ? $search : null, $sort);
 
 $adminSection = 'catalog';
 $pageTitle = 'Товары';
@@ -24,8 +29,16 @@ ob_start();
 
   <form class="admin-search" method="get">
     <input type="search" name="q" value="<?= admin_h($search) ?>" placeholder="Поиск по названию или артикулу" />
+    <label class="admin-search__sort">
+      <span class="admin-muted">Сортировка</span>
+      <select name="sort">
+        <option value="name" <?= $sort === 'name' ? 'selected' : '' ?>>По названию</option>
+        <option value="collection" <?= $sort === 'collection' ? 'selected' : '' ?>>По коллекции</option>
+        <option value="updated" <?= $sort === 'updated' ? 'selected' : '' ?>>По дате обновления</option>
+      </select>
+    </label>
     <button class="admin-btn" type="submit">Найти</button>
-    <?php if ($search !== ''): ?>
+    <?php if ($search !== '' || $sort !== 'name'): ?>
       <a class="admin-btn admin-btn--secondary" href="index.php">Сбросить</a>
     <?php endif; ?>
   </form>

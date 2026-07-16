@@ -10,9 +10,13 @@ final class SliderExporter
 
     public function write(string $siteRoot): int
     {
+        $processor = new SliderImageProcessor($siteRoot);
         $items = [];
         foreach ($this->slides->allActive() as $slide) {
-            $items[] = SliderHelper::toExportItem($slide);
+            if (trim((string) ($slide['image_src'] ?? '')) === '') {
+                continue;
+            }
+            $items[] = SliderHelper::toExportItem($slide, $processor);
         }
 
         $json = json_encode($items, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);

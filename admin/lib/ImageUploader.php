@@ -4,12 +4,6 @@ declare(strict_types=1);
 
 final class ImageUploader
 {
-    /** @var list<string> */
-    private const ALLOWED_EXT = ['webp'];
-
-    /** @var list<string> */
-    private const ALLOWED_MIME = ['image/webp'];
-
     public function __construct(private string $siteRoot)
     {
     }
@@ -53,22 +47,14 @@ final class ImageUploader
                 continue;
             }
 
-            $ext = strtolower(pathinfo((string) $originalName, PATHINFO_EXTENSION));
-            if (!in_array($ext, self::ALLOWED_EXT, true)) {
-                throw new RuntimeException('Разрешён только формат WebP: ' . $originalName);
-            }
-
-            $mime = $this->detectMimeType($tmp);
-            if ($mime === null || !in_array($mime, self::ALLOWED_MIME, true)) {
-                throw new RuntimeException('Файл должен быть в формате WebP: ' . $originalName);
+            if (!ImageConverter::isAllowedUpload((string) $originalName, $tmp)) {
+                throw new RuntimeException('Разрешены только JPEG, PNG и WebP: ' . $originalName);
             }
 
             $filename = date('Ymd-His') . '-' . bin2hex(random_bytes(4)) . '.webp';
             $target = $dir . DIRECTORY_SEPARATOR . $filename;
 
-            if (!move_uploaded_file($tmp, $target)) {
-                throw new RuntimeException('Не удалось сохранить файл: ' . $originalName);
-            }
+            ImageConverter::saveAsWebp($tmp, $target);
 
             $relative = 'uploads/products/' . $safeSku . '/' . $filename;
             $uploaded[] = [
@@ -79,32 +65,5 @@ final class ImageUploader
         }
 
         return $uploaded;
-    }
-
-    private function detectMimeType(string $path): ?string
-    {
-        if (!is_file($path)) {
-            return null;
-        }
-
-        if (function_exists('finfo_open')) {
-            $finfo = finfo_open(FILEINFO_MIME_TYPE);
-            if ($finfo !== false) {
-                $mime = finfo_file($finfo, $path);
-                finfo_close($finfo);
-                if (is_string($mime) && $mime !== '') {
-                    return $mime;
-                }
-            }
-        }
-
-        if (function_exists('mime_content_type')) {
-            $mime = mime_content_type($path);
-            if (is_string($mime) && $mime !== '') {
-                return $mime;
-            }
-        }
-
-        return null;
     }
 }

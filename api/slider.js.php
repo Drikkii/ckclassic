@@ -21,6 +21,10 @@ header('Content-Type: application/javascript; charset=utf-8');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 header('Pragma: no-cache');
 
+require_once dirname(__DIR__) . '/admin/lib/PathHelper.php';
+require_once dirname(__DIR__) . '/admin/lib/ImageConverter.php';
+require_once dirname(__DIR__) . '/admin/lib/SliderImageProcessor.php';
+
 try {
     $pdo = Database::connection($config['db']);
     $repo = new SliderRepository($pdo);
@@ -28,9 +32,10 @@ try {
         $repo->ensureTable();
     }
 
+    $processor = new SliderImageProcessor(dirname(__DIR__));
     $slides = [];
     foreach ($repo->allActive() as $slide) {
-        $slides[] = SliderHelper::toExportItem($slide);
+        $slides[] = SliderHelper::toExportItem($slide, $processor);
     }
 
     echo 'window.HOME_SLIDES = ';

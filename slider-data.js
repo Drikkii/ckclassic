@@ -1,41 +1,45 @@
 window.HOME_SLIDES = [
   {
-    "src": "img/photo-mebeli/Оффер 26/Ливинг МФ СК классик.jpeg",
-    "alt": "Мягкая мебель Ск-классик — коллекция Ливинг",
+    "src": "img/slider/divan_classika-1280w.webp",
+    "srcset": "img/slider/divan_classika-640w.webp 640w, img/slider/divan_classika-960w.webp 960w, img/slider/divan_classika-1280w.webp 1280w, img/slider/divan_classika-1920w.webp 1920w",
+    "width": 1280,
+    "height": 427,
+    "alt": "Классические диваны Ск-классик в интерьере",
     "title": "Мягкая мебель Ск-классик",
     "sub": "Собственное производство · доставка по России",
     "useH1": true,
     "h1": "Мягкая мебель Ск-классик"
   },
   {
-    "src": "img/photo-mebeli/фото на белом/Гермес линейка/Гермес диван-кровать (пума).JPG",
-    "alt": "Коллекция Гермес",
-    "title": "Коллекция Гермес",
-    "sub": "Классические диваны и угловые модели",
+    "src": "img/slider/divan_v_moskve_-1280w.webp",
+    "srcset": "img/slider/divan_v_moskve_-640w.webp 640w, img/slider/divan_v_moskve_-960w.webp 960w, img/slider/divan_v_moskve_-1280w.webp 1280w, img/slider/divan_v_moskve_-1920w.webp 1920w",
+    "width": 1280,
+    "height": 427,
+    "alt": "Диваны в Москве — мебельная фабрика Ск-классик",
+    "title": "Диваны в Москве",
+    "sub": "Производство и доставка по Москве и области",
     "useH1": false,
     "h1": ""
   },
   {
-    "src": "img/photo-mebeli/фото на белом/Данте линейка/Данте (диван-кровать).jpeg",
-    "alt": "Коллекция Данте",
-    "title": "Коллекция Данте",
-    "sub": "Диваны, кресла и пуфы",
+    "src": "img/slider/divan_classika_na_zakaz-1280w.webp",
+    "srcset": "img/slider/divan_classika_na_zakaz-640w.webp 640w, img/slider/divan_classika_na_zakaz-960w.webp 960w, img/slider/divan_classika_na_zakaz-1280w.webp 1280w, img/slider/divan_classika_na_zakaz-1920w.webp 1920w",
+    "width": 1280,
+    "height": 427,
+    "alt": "Классические диваны на заказ",
+    "title": "Классика на заказ",
+    "sub": "Индивидуальные размеры и отделка",
     "useH1": false,
     "h1": ""
   },
   {
-    "src": "img/photo-mebeli/фото на белом/Шантал Милорд линейка/Шантал  Милорд.jpeg",
-    "alt": "Модельный ряд",
-    "title": "Модельный ряд",
-    "sub": "Диваны, кресла, угловые и модульные системы",
-    "useH1": false,
-    "h1": ""
-  },
-  {
-    "src": "img/photo-mebeli/Фото, вписанные в интерьер/новинка Bellezza.JPG",
-    "alt": "Наши работы",
-    "title": "Наши работы",
-    "sub": "Реализованные проекты и отзывы клиентов",
+    "src": "img/slider/divan_barocco-1280w.webp",
+    "srcset": "img/slider/divan_barocco-640w.webp 640w, img/slider/divan_barocco-960w.webp 960w, img/slider/divan_barocco-1280w.webp 1280w, img/slider/divan_barocco-1920w.webp 1920w",
+    "width": 1280,
+    "height": 427,
+    "alt": "Диваны в стиле барокко",
+    "title": "Диваны в стиле барокко",
+    "sub": "Роскошная классическая мягкая мебель",
     "useH1": false,
     "h1": ""
   }

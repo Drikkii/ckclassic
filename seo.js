@@ -6,6 +6,7 @@
   const siteName = seo.siteName || "Ск-классик";
   const defaultDescription = seo.defaultDescription || "";
   const defaultOgImage = seo.defaultOgImage || "";
+  const defaultKeywords = seo.defaultKeywords || "";
 
   function trimDescription(text, max) {
     const limit = max || 160;
@@ -79,6 +80,7 @@
     const description = trimDescription(
       config.description || defaultDescription,
     );
+    const keywords = config.keywords || defaultKeywords;
     const canonical = opts.canonical || absoluteUrl(resolvePagePath());
     const ogImage = absoluteUrl(config.ogImage || defaultOgImage);
     const robots = config.robots || "";
@@ -86,6 +88,7 @@
     if (title) document.title = title;
 
     upsertMetaByName("description", description);
+    upsertMetaByName("keywords", keywords);
     if (robots) upsertMetaByName("robots", robots);
     upsertCanonical(canonical);
 
@@ -118,6 +121,27 @@
     });
   }
 
+  function buildProductKeywords(product) {
+    const parts = [defaultKeywords];
+    if (product?.name) parts.push(product.name, `${product.name} на заказ`);
+    if (product?.collectionLabel) {
+      parts.push(product.collectionLabel, `коллекция ${product.collectionLabel}`);
+    }
+    if (product?.sku) parts.push(product.sku);
+
+    const seen = new Set();
+    const merged = [];
+    for (const part of parts.join(", ").split(",")) {
+      const value = part.trim();
+      if (!value) continue;
+      const key = value.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      merged.push(value);
+    }
+    return merged.join(", ");
+  }
+
   window.CK_applyProductSeo = function (product) {
     if (!product) return;
 
@@ -126,6 +150,7 @@
       product.description ||
         `${product.name} — модель коллекции «${product.collectionLabel || "Ск-классик"}». Купить мягкую мебель от производителя.`,
     );
+    const keywords = buildProductKeywords(product);
     const image =
       product.gallery?.[0]?.src || product.image || defaultOgImage;
     const canonical = absoluteUrl(
@@ -136,6 +161,7 @@
       {
         title,
         description,
+        keywords,
         ogImage: image,
         ogType: "product",
       },
@@ -157,12 +183,7 @@
         "@type": "Offer",
         priceCurrency: "RUB",
         price: product.price,
-        availability:
-          product.isOutOfStock === true ||
-          product.isOutOfStock === 1 ||
-          product.isOutOfStock === "1"
-            ? "https://schema.org/OutOfStock"
-            : "https://schema.org/InStock",
+        availability: "https://schema.org/InStock",
         url: canonical,
       },
     });

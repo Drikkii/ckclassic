@@ -4,8 +4,6 @@
   const root = document.querySelector("[data-product-root]");
   if (!root) return;
 
-  const products = window.CATALOG_PRODUCTS || [];
-  const fabrics = window.FABRICS || [];
   const params = new URLSearchParams(window.location.search);
   const sku = params.get("sku");
 
@@ -13,12 +11,6 @@
   const breadcrumbs = document.querySelector("[data-product-breadcrumbs]");
   const galleryMain = document.querySelector("[data-gallery-main]");
   const galleryThumbs = document.querySelector("[data-gallery-thumbs]");
-  const fabricSelect = document.querySelector("[data-product-fabric]");
-  const fabricPicker = document.querySelector("[data-fabric-picker]");
-  const fabricTrigger = document.querySelector("[data-fabric-trigger]");
-  const fabricValueEl = document.querySelector("[data-fabric-value]");
-  const fabricListEl = document.querySelector("[data-fabric-list]");
-  const fabricBackdrop = document.querySelector("[data-fabric-backdrop]");
   const priceEl = document.querySelector("[data-product-price]");
   const priceBaseEl = document.querySelector("[data-product-price-base]");
   const orderForm = document.querySelector("[data-product-order-form]");
@@ -29,25 +21,68 @@
   const similarGrid = document.querySelector("[data-product-similar-grid]");
   const shopActionsEl = document.querySelector("[data-product-shop-actions]");
 
-  const product = products.find((p) => p.sku === sku);
+  function findProduct(products, targetSku) {
+    return products.find((p) => String(p.sku) === String(targetSku));
+  }
 
-  if (!product) {
-    notFound.hidden = false;
-    return;
+  async function loadCatalogProducts() {
+    let products = Array.isArray(window.CATALOG_PRODUCTS) ? window.CATALOG_PRODUCTS : [];
+    if (!sku) return products;
+
+    if (findProduct(products, sku)) return products;
+
+    try {
+      const apiUrl = new URL("../../api/catalog.php", window.location.href).href;
+      const response = await fetch(apiUrl, { credentials: "same-origin" });
+      if (!response.ok) return products;
+
+      const fresh = await response.json();
+      if (!Array.isArray(fresh)) return products;
+
+      window.CATALOG_PRODUCTS = fresh;
+      return fresh;
+    } catch (error) {
+      console.error(error);
+      return products;
+    }
+  }
+
+  loadCatalogProducts().then((products) => {
+    const product = findProduct(products, sku);
+
+    if (!product) {
+      notFound.hidden = false;
+      return;
+    }
+
+    renderProduct(product, products);
+  });
+
+  function renderProduct(product, products) {
+  if (window.CKShop?.getProduct) {
+    product = window.CKShop.getProduct(product.sku) || product;
+  } else if (!Array.isArray(product.mechanisms)) {
+    product = { ...product, mechanisms: ["none"], mechanismLabel: "Без механизма" };
+  }
+
+  delete product.frame;
+
+  function cleanProductDescription(text) {
+    return String(text || "")
+      .replace(/\s*Каркас[^.!?…]*[.!?…]?/gi, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function renderSpec(label, value) {
+    const normalized = value == null || value === "" ? "—" : String(value);
+    return `<div><dt>${label}</dt><dd>${normalized}</dd></div>`;
   }
 
   root.hidden = false;
   document.title = `${product.name} — Ск-классик`;
   if (typeof window.CK_applyProductSeo === "function") {
     window.CK_applyProductSeo(product);
-  }
-
-  if (
-    product.isOutOfStock === true ||
-    product.isOutOfStock === 1 ||
-    product.isOutOfStock === "1"
-  ) {
-    root.classList.add("product-detail--out-of-stock");
   }
 
   let galleryIndex = 0;
@@ -62,7 +97,6 @@
     scarlett: "scarlett.html",
     teseo: "teseo.html",
     turin: "turin.html",
-    baxter: "baxter.html",
     dionis: "dionis.html",
   };
 
@@ -80,177 +114,53 @@
   document.querySelector("[data-product-title]").textContent = product.name;
   document.querySelector("[data-product-collection]").textContent = `Коллекция «${product.collectionLabel}»`;
   const galleryDescription = document.querySelector("[data-product-gallery-description]");
-  if (galleryDescription) galleryDescription.textContent = product.description || "";
+  if (galleryDescription) {
+    galleryDescription.textContent = cleanProductDescription(product.description || "");
+  }
 
   const specsEl = document.querySelector("[data-product-specs]");
-  specsEl.innerHTML = `
-    <div><dt>Размеры (Д×Ш×В)</dt><dd>${product.dims}</dd></div>
-    <div><dt>Ширина</dt><dd>${product.width} см</dd></div>
-    <div><dt>Каркас</dt><dd>${product.frame}</dd></div>
-    <div><dt>Наполнитель</dt><dd>${product.filler}</dd></div>
-    <div><dt>Основание</dt><dd>${product.base}</dd></div>
-    <div><dt>Механизм</dt><dd>${product.mechanismLabel || "—"}</dd></div>`;
+  const specItems = [
+    renderSpec("Размеры (Д×Ш×В)", product.dims),
+    renderSpec("Тип", product.typeLabel || product.type),
+    renderSpec("Стиль", product.styleLabel || product.style),
+    renderSpec("Наполнитель", product.filler),
+    renderSpec("Основание", product.base),
+  ];
+  if (product.mechanismLabel && product.mechanismLabel !== "—") {
+    specItems.push(renderSpec("Механизм", product.mechanismLabel));
+  }
+  specsEl.innerHTML = specItems.join("");
 
   function formatPrice(value) {
-    return `${Number(value).toLocaleString("ru-RU")} ₽`;
-  }
-
-  function isOutOfStock() {
-    const value = product.isOutOfStock;
-    return value === true || value === 1 || value === "1";
-  }
-
-  function getFabricById(id) {
-    return fabrics.find((f) => f.id === id);
-  }
-
-  function getSelectedFabric() {
-    return getFabricById(fabricSelect?.value) || fabrics[0];
+    return `от ${Number(value).toLocaleString("ru-RU")} ₽`;
   }
 
   function updatePrice() {
-    if (isOutOfStock()) {
-      priceEl.textContent = "Нет в наличии";
-      priceEl.classList.add("product-detail__price--unavailable");
-      priceBaseEl.hidden = true;
-      updateFabricTrigger();
-      const orderFabric = document.querySelector("[data-order-fabric]");
-      if (orderFabric) orderFabric.value = fabricSelect?.value ? getSelectedFabric()?.name || "" : "";
-      updateProductShopActions();
-      return;
-    }
-
     priceEl.classList.remove("product-detail__price--unavailable");
-    const fabric = getSelectedFabric();
-    const delta = fabric?.delta || 0;
-    const total = product.basePrice + delta;
-    priceEl.textContent = formatPrice(total);
-
-    if (delta > 0) {
-      priceBaseEl.hidden = false;
-      priceBaseEl.textContent = `Базовая: ${formatPrice(product.basePrice)}`;
-    } else {
-      priceBaseEl.hidden = true;
-    }
-
-    updateFabricTrigger();
-
-    const orderFabric = document.querySelector("[data-order-fabric]");
-    if (orderFabric) orderFabric.value = fabric?.name || "";
-
+    priceEl.textContent = formatPrice(product.basePrice || product.price || 0);
+    priceBaseEl.hidden = true;
     updateProductShopActions();
   }
 
   function updateProductShopActions() {
     if (!shopActionsEl || !window.CKShop) return;
-    const fabric = getSelectedFabric();
-    shopActionsEl.innerHTML = window.CKShop.renderActionsHtml(product.sku, {
-      fabricId: fabric?.id,
-    });
+    if (window.CKShop.renderProductActionsRow) {
+      shopActionsEl.innerHTML = window.CKShop.renderProductActionsRow(product.sku, {
+        noticeClass: "product-detail__notice",
+        rowClass: "product-detail__actions-row",
+      });
+    } else {
+      const notice =
+        window.CKShop.CATALOG_ORDER_NOTICE ||
+        "* Вся мебель изготавливается под заказ. Для уточнения деталей оставьте заявку.";
+      shopActionsEl.innerHTML = `<div class="product-detail__actions-row">
+        <p class="product-detail__notice">${notice}</p>
+        ${window.CKShop.renderActionsHtml(product.sku)}
+      </div>`;
+    }
     const cartBtn = shopActionsEl.querySelector("[data-cart-btn]");
     if (cartBtn) window.CKShop.syncAllActions();
   }
-
-  let selectedFabricId = "";
-
-  function updateFabricTrigger() {
-    const fabric = getSelectedFabric();
-    if (!fabric || !fabricValueEl) return;
-    if (isOutOfStock()) {
-      fabricValueEl.innerHTML = `
-      <span class="fabric-picker__value-main">${fabric.name}</span>
-      <span class="fabric-picker__value-sub">Нет в наличии</span>`;
-      return;
-    }
-    const total = product.basePrice + (fabric.delta || 0);
-    const deltaText = fabric.delta ? ` (+${formatPrice(fabric.delta)})` : "";
-    fabricValueEl.innerHTML = `
-      <span class="fabric-picker__value-main">${fabric.name}</span>
-      <span class="fabric-picker__value-sub">${formatPrice(total)}${deltaText}</span>`;
-  }
-
-  function renderFabricList() {
-    if (!fabricListEl || !fabricSelect) return;
-
-    fabricSelect.innerHTML = allowedFabrics
-      .map((f) => `<option value="${f.id}">${f.name}</option>`)
-      .join("");
-
-    if (!selectedFabricId && allowedFabrics[0]) {
-      selectedFabricId = allowedFabrics[0].id;
-    }
-    fabricSelect.value = selectedFabricId;
-
-    fabricListEl.innerHTML = allowedFabrics
-      .map((f) => {
-        const total = product.basePrice + f.delta;
-        const deltaText = f.delta ? `+${formatPrice(f.delta)} · ` : "";
-        const priceText = isOutOfStock() ? "Нет в наличии" : formatPrice(total);
-        return `<li>
-          <button
-            type="button"
-            class="fabric-picker__option${f.id === selectedFabricId ? " is-active" : ""}"
-            data-fabric-id="${f.id}"
-            role="option"
-            aria-selected="${f.id === selectedFabricId}"
-          >
-            <span class="fabric-picker__option-name">${f.name}</span>
-            <span class="fabric-picker__option-price">${deltaText}${priceText}</span>
-          </button>
-        </li>`;
-      })
-      .join("");
-    updateFabricTrigger();
-  }
-
-  function openFabricPicker() {
-    if (!fabricPicker || !fabricListEl) return;
-    fabricPicker.classList.add("is-open");
-    fabricTrigger?.setAttribute("aria-expanded", "true");
-    fabricListEl.hidden = false;
-    if (fabricBackdrop) fabricBackdrop.hidden = false;
-  }
-
-  function closeFabricPicker() {
-    if (!fabricPicker || !fabricListEl) return;
-    fabricPicker.classList.remove("is-open");
-    fabricTrigger?.setAttribute("aria-expanded", "false");
-    fabricListEl.hidden = true;
-    if (fabricBackdrop) fabricBackdrop.hidden = true;
-  }
-
-  function setFabric(id) {
-    selectedFabricId = id;
-    if (fabricSelect) fabricSelect.value = id;
-    renderFabricList();
-    updatePrice();
-    closeFabricPicker();
-  }
-
-  const allowedFabrics = (product.fabrics || ["standard"])
-    .map((id) => getFabricById(id))
-    .filter(Boolean);
-
-  renderFabricList();
-
-  fabricTrigger?.addEventListener("click", () => {
-    if (fabricPicker?.classList.contains("is-open")) closeFabricPicker();
-    else openFabricPicker();
-  });
-
-  fabricBackdrop?.addEventListener("click", closeFabricPicker);
-
-  fabricListEl?.addEventListener("click", (e) => {
-    const btn = e.target.closest("[data-fabric-id]");
-    if (!btn) return;
-    setFabric(btn.dataset.fabricId);
-  });
-
-  fabricSelect?.addEventListener("change", () => {
-    selectedFabricId = fabricSelect.value;
-    renderFabricList();
-    updatePrice();
-  });
 
   updatePrice();
 
@@ -428,9 +338,7 @@
     }
 
     const href = `product.html?sku=${encodeURIComponent(p.sku)}`;
-    const outOfStock =
-      p.isOutOfStock === true || p.isOutOfStock === 1 || p.isOutOfStock === "1";
-    return `<article class="catalog-product${outOfStock ? " catalog-product--out-of-stock" : ""}">
+    return `<article class="catalog-product">
       <a class="catalog-product__image" href="${href}">
         <img src="${p.image}" alt="${p.name}" loading="lazy" />
       </a>
@@ -440,17 +348,25 @@
           <li><span>Артикул:</span> ${p.sku}</li>
           <li><span>Коллекция:</span> ${p.collectionLabel}</li>
         </ul>
-        <p class="catalog-product__price${outOfStock ? " catalog-product__price--unavailable" : ""}">${
-          outOfStock
-            ? "Нет в наличии"
-            : formatPrice(p.basePrice || p.price)
-        }</p>
+        <p class="catalog-product__price">${formatPrice(p.basePrice || p.price)}</p>
       </div>
     </article>`;
   }
 
+  function normalizeType(type) {
+    if (type === "corner") return "corner-classic";
+    if (type === "modular") return "modular-set";
+    return type;
+  }
+
+  const productType = normalizeType(product.type);
+
   const similar = products
-    .filter((p) => p.sku !== product.sku && (p.collection === product.collection || p.type === product.type))
+    .filter(
+      (p) =>
+        p.sku !== product.sku &&
+        (p.collection === product.collection || normalizeType(p.type) === productType),
+    )
     .sort((a, b) => b.popularity - a.popularity)
     .slice(0, 4);
 
@@ -468,7 +384,6 @@
   document.addEventListener("keydown", (e) => {
     if (e.key !== "Escape" && e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
     if (e.key === "Escape") {
-      if (fabricPicker?.classList.contains("is-open")) closeFabricPicker();
       if (!lightbox?.hidden) closeLightbox();
       if (!orderModal?.hidden) closeOrderModal();
       return;
@@ -479,4 +394,5 @@
       if (e.key === "ArrowRight") setGallerySlide(galleryIndex + 1);
     }
   });
+  }
 })();

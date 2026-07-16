@@ -67,8 +67,9 @@ $galleryOrder = implode(',', array_keys($gallery));
       <input type="hidden" name="sku" value="<?= admin_h($sku) ?>" />
       <input type="hidden" name="action" value="upload_images" />
       <div class="admin-field">
-        <label for="photos">Загрузить фото (только WebP)</label>
-        <input id="photos" type="file" name="photos[]" accept="image/webp,.webp" multiple required />
+        <label for="photos">Загрузить фото (JPEG, PNG или WebP)</label>
+        <input id="photos" type="file" name="photos[]" accept="<?= admin_h(CatalogOptions::imageUploadAccept()) ?>" multiple required />
+        <p class="admin-muted" style="margin-top: 6px;">Файлы автоматически конвертируются в WebP при загрузке.</p>
       </div>
       <div class="admin-form-grid">
         <div class="admin-field">
@@ -92,10 +93,6 @@ $galleryOrder = implode(',', array_keys($gallery));
         <label class="admin-check">
           <input type="checkbox" id="product-is-new-cb" <?= ($product['isNew'] ?? false) ? 'checked' : '' ?> />
           Новинка
-        </label>
-        <label class="admin-check" style="display: block; margin-top: 8px;">
-          <input type="checkbox" id="product-is-out-of-stock-cb" <?= ($product['isOutOfStock'] ?? false) ? 'checked' : '' ?> />
-          Нет в наличии
         </label>
       </div>
     <?php endif; ?>

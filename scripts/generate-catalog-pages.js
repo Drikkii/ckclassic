@@ -1,6 +1,12 @@
 const fs = require("fs");
 const path = require("path");
-const { pages: SEO_PAGES, SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } = require("./seo-data");
+const {
+  pages: SEO_PAGES,
+  SITE_URL,
+  SITE_NAME,
+  DEFAULT_OG_IMAGE,
+  getPageKeywords,
+} = require("./seo-data");
 const { renderSeoHead, buildCanonical } = require("./seo-meta");
 
 const ROOT = path.join(__dirname, "..");
@@ -43,7 +49,6 @@ const COLLECTION_LABELS = {
   scarlett: "Скарлет",
   teseo: "Тесео",
   turin: "Турин",
-  baxter: "Бакстер",
   dionis: "Дионис",
 };
 
@@ -58,7 +63,6 @@ function detectCollection(filePath, fallback) {
     ["scarlett", /скарлет/],
     ["teseo", /тесео/],
     ["turin", /турин/],
-    ["baxter", /бакстер/],
     ["dionis", /дионис/],
   ];
   for (const [col, re] of rules) {
@@ -87,27 +91,46 @@ function isChairProduct(text) {
 function detectMechanism(text) {
   const t = text.toLowerCase();
   if (/панел|камин|спинк/i.test(t) || isChairProduct(text)) {
-    return { hasMechanism: false, mechanismType: null, mechanismLabel: "—" };
+    return { mechanisms: [], mechanismLabel: "" };
   }
-  if (/пум|puma/i.test(t)) {
-    return { hasMechanism: true, mechanismType: "puma", mechanismLabel: "Пума" };
+
+  const mechanisms = [];
+  if (/пум|puma/i.test(t)) mechanisms.push("puma");
+  if (/спартак/i.test(t)) mechanisms.push("spartak");
+  if (/высоковыкат|выс\.?\s*выкат/i.test(t)) mechanisms.push("high-rollout");
+  else if (/выкат/i.test(t)) mechanisms.push("rollout");
+  if (/газлифт|gas/i.test(t)) mechanisms.push("gaslift");
+
+  if (!mechanisms.length && !/диван-кровать|кроват|расклад|раскл/i.test(t)) {
+    return { mechanisms: ["none"], mechanismLabel: "Без механизма" };
   }
-  if (/выкат/i.test(t)) {
-    return { hasMechanism: true, mechanismType: "rollout", mechanismLabel: "Выкатной" };
+
+  if (!mechanisms.length) {
+    mechanisms.push("rollout");
   }
-  if (/нпб/i.test(t)) {
-    return { hasMechanism: true, mechanismType: "npb", mechanismLabel: "НПБ" };
-  }
-  if (/диван-кровать|кроват|расклад|раскл/i.test(t)) {
-    return { hasMechanism: true, mechanismType: "sofa-bed", mechanismLabel: "Диван-кровать" };
-  }
-  return { hasMechanism: false, mechanismType: null, mechanismLabel: "—" };
+
+  const labels = {
+    none: "Без механизма",
+    puma: "Пума",
+    spartak: "Спартак",
+    rollout: "Выкатной",
+    "high-rollout": "Высоковыкатной",
+    gaslift: "Газлифт",
+  };
+
+  return {
+    mechanisms,
+    mechanismLabel: mechanisms.map((key) => labels[key] || key).join(" / "),
+  };
 }
 
 function detectType(text) {
   const t = text.toLowerCase();
-  if (/углов|уг\b/i.test(t)) return "corner";
-  if (/модуль|набор/i.test(t)) return "modular";
+  if (/пуф/i.test(t)) return "pouf";
+  if (/кресл/i.test(t)) return "armchair";
+  if (/оттоман/i.test(t) && /угл/i.test(t)) return "corner-ottoman";
+  if (/углов|уг\b/i.test(t)) return "corner-classic";
+  if (/модуль|набор/i.test(t)) return "modular-set";
   return "straight";
 }
 
@@ -119,11 +142,12 @@ function computeWidth(i, text) {
   return 170 + (i % 6) * 15;
 }
 
-function buildDimensions(widthCm, text) {
-  if (isChairProduct(text)) return "520 × 580 × 980 мм";
-  const w = widthCm * 10;
-  const d = /уг/i.test(text) ? 1600 : 950;
-  return `${w} × ${d} × 880 мм`;
+function buildDimensions(widthCm, text, index = 0) {
+  if (isChairProduct(text)) return "52 × 58 × 98 см";
+  const length = /уг/i.test(text) ? 240 + (index % 4) * 10 : 170 + (index % 6) * 8;
+  const width = widthCm;
+  const height = /кресл/i.test(text) ? 98 : 88;
+  return `${length} × ${width} × ${height} см`;
 }
 
 const COLLECTION_INTERIOR = {
@@ -135,7 +159,6 @@ const COLLECTION_INTERIOR = {
   scarlett: "Фото, вписанные в интерьер/Скарлет в интерьере",
   teseo: "Фото, вписанные в интерьер/Тесео в интерьере",
   turin: "Фото, вписанные в интерьер/Турин в интерьере",
-  baxter: "Фото, вписанные в интерьер/Бакстер в интерьере",
   dionis: "Фото, вписанные в интерьер/Дионис в интерьере",
 };
 
@@ -170,15 +193,19 @@ function buildDescription(name, colLabel, mech, type, style, i, text) {
 
   if (isChairProduct(text)) {
     parts.push("Удобная посадка и классический силуэт для столовой или гостиной.");
-  } else if (type === "corner") {
+  } else if (type === "corner-ottoman" || type === "corner-classic") {
     parts.push("Угловая компоновка экономит место и формирует уютную зону отдыха.");
-  } else if (type === "modular") {
-    parts.push("Модульная система — можно подобрать состав под планировку комнаты.");
+  } else if (type === "modular-set") {
+    parts.push("Модульный набор — можно подобрать состав под планировку комнаты.");
+  } else if (type === "armchair") {
+    parts.push("Классическое кресло с комфортной посадкой для гостиной или кабинета.");
+  } else if (type === "pouf") {
+    parts.push("Пуфик дополняет композицию и добавляет удобных мест для отдыха.");
   } else {
     parts.push("Сбалансированные пропорции и мягкая посадка для повседневного комфорта.");
   }
 
-  if (mech.hasMechanism) {
+  if (mech.mechanismLabel) {
     parts.push(`Механизм трансформации: ${mech.mechanismLabel}.`);
   } else if (!isChairProduct(text)) {
     parts.push("Статичная конструкция рассчитана на ежедневное использование.");
@@ -186,11 +213,15 @@ function buildDescription(name, colLabel, mech, type, style, i, text) {
 
   const tails = [
     "Обивка выбирается из каталога тканей и декора фабрики.",
-    "Каркас из массива и качественных материалов обеспечивает долгий срок службы.",
+    "Качественные материалы обеспечивают долгий срок службы.",
     "Менеджер поможет подобрать комплектацию и рассчитать стоимость.",
     style === "modern"
       ? "Современное исполнение сочетается с фабричным контролем качества."
-      : "Классическая отделка соответствует стилю коллекции «Ск-классик».",
+      : style === "art-deco"
+        ? "Арт-деко подчёркивает выразительность коллекции «Ск-классик»."
+        : style === "loft-scandinavian"
+          ? "Лофт-скандинавский стиль сочетает лаконичность и фабричное качество."
+          : "Классическая отделка соответствует стилю коллекции «Ск-классик».",
   ];
   parts.push(tails[i % tails.length]);
 
@@ -198,7 +229,7 @@ function buildDescription(name, colLabel, mech, type, style, i, text) {
 }
 
 function buildProducts(images, collection, prefix, priceBase, group, imagePool) {
-  const styles = ["classic", "classic", "modern", "classic", "modern", "classic"];
+  const styles = ["classic", "classic", "modern", "art-deco", "loft-scandinavian", "classic"];
   return images.slice(0, 6).map((img, i) => {
     const label = cleanName(img);
     const col = detectCollection(img, collection.col);
@@ -220,10 +251,11 @@ function buildProducts(images, collection, prefix, priceBase, group, imagePool) 
       group,
       style: styles[i] || "classic",
       type,
-      dims: buildDimensions(width, text),
+      dims: buildDimensions(width, text, i),
+      length: /уг/i.test(text) ? 240 + (i % 4) * 10 : 170 + (i % 6) * 8,
       width,
-      hasMechanism: mech.hasMechanism,
-      mechanismType: mech.mechanismType,
+      height: isChairProduct(text) ? 98 : 88,
+      mechanisms: mech.mechanisms,
       mechanismLabel: mech.mechanismLabel,
       price,
       basePrice: price,
@@ -242,7 +274,18 @@ function buildProducts(images, collection, prefix, priceBase, group, imagePool) 
         ? "массив бука, фанера"
         : "массив бука, фанера, берёзовая латофлекс",
       filler: "ППУ высокой плотности, синтепон",
-      base: type === "corner" ? "угловая композиция" : type === "modular" ? "модульная система" : "прямой диван",
+      base:
+        type === "corner-ottoman"
+          ? "угловой диван с оттоманкой"
+          : type === "corner-classic"
+            ? "угловая композиция"
+            : type === "modular-set"
+              ? "модульный набор"
+              : type === "armchair"
+                ? "кресло"
+                : type === "pouf"
+                  ? "пуфик"
+                  : "прямой диван",
       fabrics: ["standard", "velvet-classic", "chenille", "jacquard", "boucle"],
     };
   });
@@ -267,23 +310,9 @@ function renderProduct(p) {
                     <li><span>Коллекция:</span> ${p.collectionLabel}</li>
                     <li><span>Габариты:</span> ${p.dims}</li>
                   </ul>
-                  <p class="catalog-product__price">${p.price.toLocaleString("ru-RU")} ₽</p>
+                  <p class="catalog-product__price">от ${p.price.toLocaleString("ru-RU")} ₽</p>
                 </div>
               </article>`;
-}
-
-function renderTags(collection) {
-  const tags = [
-    `<button class="catalog-tag" type="button" data-catalog-tag data-style="classic">Классические</button>`,
-    `<button class="catalog-tag" type="button" data-catalog-tag data-style="modern">Современные</button>`,
-    `<button class="catalog-tag" type="button" data-catalog-tag data-collection="${collection.col}">Коллекция ${collection.title}</button>`,
-  ];
-  if (collection.extraTag) {
-    tags.push(
-      `<button class="catalog-tag" type="button" data-catalog-tag data-collection="${collection.extraTag.col}">Коллекция ${collection.extraTag.title}</button>`,
-    );
-  }
-  return tags.join("\n            ");
 }
 
 function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, globalWidthMax, productCount) {
@@ -300,6 +329,7 @@ function renderPage(page, globalPriceMin, globalPriceMax, globalWidthMin, global
 ${renderSeoHead({
   title: pageTitle,
   description: pageDescription,
+  keywords: getPageKeywords(pagePath, seoConfig),
   canonical: buildCanonical(SITE_URL, pagePath),
   ogImage: DEFAULT_OG_IMAGE,
   siteName: SITE_NAME,
@@ -316,11 +346,23 @@ ${seoBlock}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Inter:wght@400;500;600&display=swap"
     />
-    <link rel="stylesheet" href="../../style.css" />
-    <link rel="stylesheet" href="../../catalog.css" />
+    <link
+      rel="stylesheet"
+      href="../../style.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="../../style.css" /></noscript>
+    <link
+      rel="stylesheet"
+      href="../../catalog.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="../../catalog.css" /></noscript>
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
   </head>
   <body class="page-catalog" data-base="../../" data-default-collections="${defaultCollections}"${catalogFocus}>
@@ -336,9 +378,6 @@ ${seoBlock}
 
         <header class="catalog-header">
           <h1 class="catalog-header__title">${page.title}</h1>
-          <div class="catalog-tags">
-            ${renderTags(page.collection)}
-          </div>
         </header>
 
         <button class="catalog-filters-toggle" type="button" data-filters-toggle>Фильтры</button>
@@ -347,16 +386,35 @@ ${seoBlock}
           <aside class="catalog-filters" data-catalog-filters-panel>
             <h2 class="catalog-filters__title">Фильтры</h2>
             <form data-catalog-filters-form>
+              <div class="catalog-filters__group catalog-filters__group--all">
+                <label class="catalog-filters__option catalog-filters__option--all">
+                  <input type="checkbox" name="filter_all" data-filter-all />
+                  Все
+                </label>
+                <label class="catalog-filters__option catalog-filters__option--all">
+                  <input type="checkbox" name="filter_new" data-filter-new />
+                  Новинки
+                </label>
+              </div>
+
               <div class="catalog-filters__group">
                 <span class="catalog-filters__label">По стилям</span>
                 <div class="catalog-filters__options">
                   <label class="catalog-filters__option">
                     <input type="checkbox" name="style" value="classic" />
-                    Классический
+                    Классика
                   </label>
                   <label class="catalog-filters__option">
                     <input type="checkbox" name="style" value="modern" />
                     Современный
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="style" value="art-deco" />
+                    Арт-деко
+                  </label>
+                  <label class="catalog-filters__option">
+                    <input type="checkbox" name="style" value="loft-scandinavian" />
+                    Лофт-скандинавский
                   </label>
                 </div>
               </div>
@@ -372,7 +430,6 @@ ${seoBlock}
                   <label class="catalog-filters__option"><input type="checkbox" name="collection" value="scarlett" /> Скарлет</label>
                   <label class="catalog-filters__option"><input type="checkbox" name="collection" value="teseo" /> Тесео</label>
                   <label class="catalog-filters__option"><input type="checkbox" name="collection" value="turin" /> Турин</label>
-                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="baxter" /> Бакстер</label>
                   <label class="catalog-filters__option"><input type="checkbox" name="collection" value="dionis" /> Дионис</label>
                 </div>
               </div>
@@ -381,11 +438,7 @@ ${seoBlock}
                 <span class="catalog-filters__label">Механизм трансформации</span>
                 <div class="catalog-filters__options">
                   <label class="catalog-filters__option">
-                    <input type="checkbox" name="mechanism" value="yes" />
-                    Есть механизм
-                  </label>
-                  <label class="catalog-filters__option">
-                    <input type="checkbox" name="mechanism" value="no" />
+                    <input type="checkbox" name="mechanism_type" value="none" />
                     Без механизма
                   </label>
                   <label class="catalog-filters__option">
@@ -393,16 +446,20 @@ ${seoBlock}
                     Пума
                   </label>
                   <label class="catalog-filters__option">
+                    <input type="checkbox" name="mechanism_type" value="spartak" />
+                    Спартак
+                  </label>
+                  <label class="catalog-filters__option">
                     <input type="checkbox" name="mechanism_type" value="rollout" />
                     Выкатной
                   </label>
                   <label class="catalog-filters__option">
-                    <input type="checkbox" name="mechanism_type" value="npb" />
-                    НПБ
+                    <input type="checkbox" name="mechanism_type" value="high-rollout" />
+                    Высоковыкатной
                   </label>
                   <label class="catalog-filters__option">
-                    <input type="checkbox" name="mechanism_type" value="sofa-bed" />
-                    Диван-кровать
+                    <input type="checkbox" name="mechanism_type" value="gaslift" />
+                    Газлифт
                   </label>
                 </div>
               </div>
@@ -493,6 +550,7 @@ ${seoBlock}
                     <option value="popular">По популярности</option>
                     <option value="price-asc">По цене ↑</option>
                     <option value="price-desc">По цене ↓</option>
+                    <option value="collection">По коллекции</option>
                   </select>
                 </label>
               </div>
@@ -520,8 +578,9 @@ ${seoBlock}
     <script src="../../seo-config.js" defer></script>
     <script src="../../seo.js" defer></script>
     <script src="../../layout.js" defer></script>
-    <script src="../../api/catalog.js.php"></script>
+    <script src="../../api/catalog.js.php" defer></script>
     <script src="../../site.js" defer></script>
+    <script src="../../image-thumbs.js" defer></script>
     <script src="../../shop.js" defer></script>
     <script src="../../catalog.js" defer></script>
   </body>
@@ -656,19 +715,6 @@ const pages = [
     seoTitle: "Коллекция Турин",
     seoIntro: "Турин — угловые диваны, кресла и композиции с оттоманкой в классическом стиле.",
     seoHidden: ["Все фото — из каталога фабрики «Ск-классик»."],
-  },
-  {
-    slug: "baxter",
-    title: "Бакстер",
-    collection: { title: "Бакстер", col: "baxter", dims: "диван-кровать" },
-    folders: ["фото на белом/Бакстер линейка", "Оффер 26", "Фото, вписанные в интерьер/Бакстер в интерьере"],
-    prefix: "SK-BX",
-    priceMin: 78000,
-    priceMax: 260000,
-    filter: (f) => /бакстер/i.test(f),
-    seoTitle: "Коллекция Бакстер",
-    seoIntro: "Бакстер — мягкие диваны-кровати с комфортной посадкой и современной классикой.",
-    seoHidden: ["Фото из производственного архива. Подберём ткань и размер под ваш заказ."],
   },
   {
     slug: "dionis",
@@ -814,7 +860,7 @@ for (const page of pages) {
 
   if (page.slug === "living") {
     page.defaultCollections = "living";
-  } else if (["hermes", "dante", "shantal-milord", "jamaica", "scarlett", "teseo", "turin", "baxter", "dionis"].includes(page.slug)) {
+  } else if (["hermes", "dante", "shantal-milord", "jamaica", "scarlett", "teseo", "turin", "dionis"].includes(page.slug)) {
     page.defaultCollections = page.collection.col;
   } else {
     page.catalogFocus = page.slug;

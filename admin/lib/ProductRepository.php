@@ -13,14 +13,20 @@ final class ProductRepository
     }
 
     /** @return list<array<string, mixed>> */
-    public function all(?string $search = null): array
+    public function all(?string $search = null, string $sort = 'name'): array
     {
+        $orderBy = match ($sort) {
+            'collection' => 'collection_label ASC, name ASC',
+            'updated' => 'updated_at DESC, name ASC',
+            default => 'name ASC',
+        };
+
         if ($search !== null && $search !== '') {
             $stmt = $this->pdo->prepare(
                 'SELECT sku, name, collection_label, collection_slug, description, updated_at
                  FROM products
                  WHERE name LIKE ? OR sku LIKE ?
-                 ORDER BY name'
+                 ORDER BY ' . $orderBy
             );
             $like = '%' . $search . '%';
             $stmt->execute([$like, $like]);
@@ -28,7 +34,7 @@ final class ProductRepository
             $stmt = $this->pdo->query(
                 'SELECT sku, name, collection_label, collection_slug, description, updated_at
                  FROM products
-                 ORDER BY name'
+                 ORDER BY ' . $orderBy
             );
         }
 
