@@ -4,3 +4,14 @@ admin/config.php
 # Локальные настройки
 .env
 .env.*
+
+# Зависимости Node.js
+node_modules/
+
+# Внутренние документы и отчёты
+scripts/unused-images-report.txt
+img/photo-mebeli/**/*.pdf
+img/photo-mebeli/**/*.doc
+img/photo-mebeli/**/*.docx
+img/photo-mebeli/**/*.xls
+img/photo-mebeli/**/*.xlsx

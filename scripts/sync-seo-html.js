@@ -10,7 +10,7 @@ const {
   getPageKeywords,
   pages,
 } = require("./seo-data");
-const { renderSeoHead, buildCanonical } = require("./seo-meta");
+const { renderSeoHead, buildCanonical, renderFaviconLinks } = require("./seo-meta");
 
 const ROOT = path.join(__dirname, "..");
 
@@ -179,10 +179,50 @@ function ensureAsyncStylesheets(content) {
   return content.replace(
     /^(\s*)<link rel="stylesheet" href="([^"]+\.css)" \/>$/gm,
     (match, indent, href) => {
-      if (href.includes("fonts.googleapis.com")) return match;
+      if (href.includes("fonts.googleapis.com") || /(?:^|\/)style\.css$/.test(href)) {
+        return match;
+      }
       return `${indent}${asyncStylesheetBlock(href).replace(/\n/g, `\n${indent}`)}`;
     },
   );
+}
+
+function ensureStyleCss(content, filePath) {
+  const prefix = scriptPrefixFromFile(filePath);
+  const href = `${prefix}style.css`;
+  const syncLink = `    <link rel="stylesheet" href="${href}" />`;
+  const escapedHref = href.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  content = content.replace(
+    new RegExp(
+      `<link\\s+rel="stylesheet"\\s+href="${escapedHref}"\\s+media="print"\\s+onload="this\\.media='all'"\\s*/>[\\s\\S]*?<noscript><link rel="stylesheet" href="${escapedHref}"\\s*/></noscript>`,
+      "g",
+    ),
+    syncLink,
+  );
+
+  if (!content.includes(`<link rel="stylesheet" href="${href}" />`)) {
+    if (content.includes(CRITICAL_CSS_MARKER)) {
+      content = content.replace(
+        /(<!-- ck-critical -->[\s\S]*?<\/style>)\r?\n/,
+        `$1\n${syncLink}\n`,
+      );
+    } else if (content.includes(".carousel--pending") || content.includes("home-new__grid")) {
+      content = content.replace(/(<\/style>)\n/, `$1\n${syncLink}\n`);
+    } else {
+      content = content.replace(
+        /(<link\s+rel="stylesheet"\s+href="https:\/\/fonts\.googleapis\.com[^"]+"\s*\/>)\n/,
+        `$1\n\n${syncLink}\n`,
+      );
+    }
+  }
+
+  content = content.replace(
+    new RegExp(`\\n\\s*<noscript><link rel="stylesheet" href="${escapedHref}"\\s*/></noscript>`, "g"),
+    "",
+  );
+
+  return content;
 }
 
 function ensureSyncFonts(content) {
@@ -195,7 +235,7 @@ function ensureSyncFonts(content) {
     next = next.replace(fontsSectionRe, `${SYNC_FONTS_BLOCK}\n`);
   }
 
-  return ensureAsyncStylesheets(next);
+  return next;
 }
 
 function removeOldMetrika(content) {
@@ -272,6 +312,19 @@ function ensureScripts(content, prefix) {
   return next;
 }
 
+function ensureFavicon(content, prefix) {
+  let next = content.replace(/^\s*<link[^>]*\brel="(?:shortcut )?icon"[^>]*\/>\s*$/gim, "");
+  next = next.replace(/^\s*<link[^>]*\brel="apple-touch-icon"[^>]*\/>\s*$/gim, "");
+  next = next.replace(/^\s*<link[^>]*\brel="manifest"[^>]*\/>\s*$/gim, "");
+
+  const faviconBlock = renderFaviconLinks(SITE_URL, prefix);
+  if (next.includes(faviconBlock)) {
+    return next;
+  }
+
+  return next.replace("</head>", `${faviconBlock}\n  </head>`);
+}
+
 function ensureSiteVerifications(content, key) {
   if (key !== "/index.html") {
     return content;
@@ -319,7 +372,10 @@ function syncFile(filePath) {
   content = ensureMetrika(content);
   content = ensureSyncFonts(content);
   content = ensureCriticalCss(content);
+  content = ensureStyleCss(content, filePath);
+  content = ensureAsyncStylesheets(content);
   content = ensureMetrikaScript(content, prefix);
+  content = ensureFavicon(content, prefix);
 
   if (!config) {
     fs.writeFileSync(filePath, content, "utf8");

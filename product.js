@@ -315,7 +315,7 @@
     } catch (error) {
       console.error(error);
       window.alert(
-        `Заявка сохранена, но письмо не отправилось. Позвоните нам: ${window.CK_SITE_CONFIG?.phoneDisplay || "+7 (964) 510-67-47"}`,
+        `Заявка сохранена, но письмо не отправилось. Позвоните нам: ${window.CK_SITE_CONFIG?.phonesLine || "+7 (964) 510-67-47, +7 (964) 525-44-58"}`,
       );
     } finally {
       if (submitBtn) {

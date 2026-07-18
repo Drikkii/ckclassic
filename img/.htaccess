@@ -1,0 +1,12 @@
+# Внутренние документы не должны скачиваться с сайта
+<IfModule mod_authz_core.c>
+  <FilesMatch "\.(?i:pdf|docx?|xlsx?)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <FilesMatch "\.(?i:pdf|docx?|xlsx?)$">
+    Order deny,allow
+    Deny from all
+  </FilesMatch>
+</IfModule>

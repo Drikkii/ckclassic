@@ -99,41 +99,5 @@ ${cards}
 `;
 }
 
-function renderFabrics() {
-  return `<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ткани и декор — Ск-классик</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-  <body class="page-stub-body" data-base="../">
-    <div id="site-header"></div>
-
-    <main class="main page-fabrics">
-      <div class="container">
-        <h1 class="section__title">Ткани и декор</h1>
-        <p class="page-fabrics__intro">Каталоги декоративных материалов, бахромы и тесьмы для обивки мебели «Ск-классик». Актуальные образцы и подбор ткани — у менеджера при оформлении заказа или в салоне.</p>
-      </div>
-    </main>
-
-    <div id="site-consultation"></div>
-    <div id="site-footer"></div>
-
-    <script src="../layout.js"></script>
-    <script src="../index.js" defer></script>
-  </body>
-</html>
-`;
-}
-
 fs.writeFileSync(path.join(ROOT, "pages", "works.html"), renderWorks(), "utf8");
-fs.writeFileSync(path.join(ROOT, "pages", "fabrics.html"), renderFabrics(), "utf8");
-console.log("works.html and fabrics.html updated");
+console.log("works.html updated");

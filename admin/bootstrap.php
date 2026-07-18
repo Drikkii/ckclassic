@@ -30,6 +30,7 @@ require_once __DIR__ . '/lib/SitePageRepository.php';
 require_once __DIR__ . '/lib/VacanciesExporter.php';
 require_once __DIR__ . '/lib/PrivacyExporter.php';
 require_once __DIR__ . '/lib/ProductsInfoExporter.php';
+require_once __DIR__ . '/lib/WhereToBuyExporter.php';
 require_once __DIR__ . '/lib/SliderImageUploader.php';
 
 function admin_config(): array

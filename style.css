@@ -126,10 +126,32 @@ img {
   text-align: right;
 }
 
+.site-phones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.site-phones .phone {
+  margin-bottom: 0;
+}
+
+.footer__col .site-phones {
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.footer__col .site-phones a {
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
 .phone {
   display: block;
   font-family: var(--font-ui);
-  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-size: clamp(0.78rem, 1.5vw, 0.95rem);
   font-weight: 400;
   margin-bottom: 8px;
   white-space: nowrap;
@@ -646,7 +668,7 @@ body.page-simple {
   }
 
   .phone {
-    font-size: clamp(0.85rem, 3.5vw, 1.1rem);
+    font-size: clamp(0.72rem, 3vw, 0.88rem);
     margin-bottom: 0;
   }
 
@@ -685,7 +707,7 @@ body.page-simple {
 
 @media (max-width: 480px) {
   .phone {
-    font-size: 0.8rem;
+    font-size: 0.68rem;
   }
 
   .logo {
@@ -768,8 +790,8 @@ body.page-simple {
   }
 
   .phone {
-    font-size: 0.72rem;
-    letter-spacing: -0.01em;
+    font-size: 0.62rem;
+    letter-spacing: -0.02em;
   }
 
   .logo {

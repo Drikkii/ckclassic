@@ -91,9 +91,25 @@ function renderSeoHead({
   return `${lines.join("\n")}\n`;
 }
 
+function renderFaviconLinks(siteUrl, assetPrefix = "") {
+  const root = String(siteUrl ?? "").replace(/\/$/, "");
+  const ico = `${root}/favicon.ico`;
+  const prefix = assetPrefix;
+
+  return [
+    `    <link rel="icon" href="${escapeAttr(ico)}" type="image/x-icon" />`,
+    `    <link rel="shortcut icon" href="${escapeAttr(ico)}" type="image/x-icon" />`,
+    `    <link rel="icon" type="image/png" href="${escapeAttr(`${prefix}favicon/favicon-96x96.png`)}" sizes="96x96" />`,
+    `    <link rel="icon" type="image/svg+xml" href="${escapeAttr(`${prefix}favicon/favicon.svg`)}" />`,
+    `    <link rel="apple-touch-icon" sizes="180x180" href="${escapeAttr(`${prefix}favicon/apple-touch-icon.png`)}" />`,
+    `    <link rel="manifest" href="${escapeAttr(`${prefix}favicon/site.webmanifest`)}" />`,
+  ].join("\n");
+}
+
 module.exports = {
   escapeAttr,
   trimDescription,
   buildCanonical,
   renderSeoHead,
+  renderFaviconLinks,
 };

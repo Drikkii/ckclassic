@@ -42,6 +42,7 @@ try {
     echo json_encode($slides, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
     echo ";\n";
 } catch (Throwable $e) {
+    error_log('[slider.js] ' . $e->getMessage());
     http_response_code(500);
-    echo 'console.error(' . json_encode('Slider unavailable: ' . $e->getMessage(), JSON_UNESCAPED_UNICODE) . ');' . "\n";
+    echo 'console.error(' . json_encode('Slider unavailable', JSON_UNESCAPED_UNICODE) . ');' . "\n";
 }

@@ -33,8 +33,9 @@ try {
     echo json_encode($products, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
     echo ";\n";
 } catch (Throwable $e) {
+    error_log('[catalog.js] ' . $e->getMessage());
     http_response_code(500);
-    echo 'console.error(' . json_encode('Catalog unavailable: ' . $e->getMessage(), JSON_UNESCAPED_UNICODE) . ');' . "\n";
+    echo 'console.error(' . json_encode('Catalog unavailable', JSON_UNESCAPED_UNICODE) . ');' . "\n";
     if (!is_array($products ?? null)) {
         echo "window.CATALOG_PRODUCTS = window.CATALOG_PRODUCTS || [];\n";
     }

@@ -17,6 +17,8 @@ final class CatalogOptions
             'teseo' => 'Тесео',
             'turin' => 'Турин',
             'dionis' => 'Дионис',
+            'milton' => 'Милтон',
+            'joker' => 'Джокер',
         ];
     }
 
@@ -33,6 +35,8 @@ final class CatalogOptions
             'teseo' => '/pages/catalog/teseo.html',
             'turin' => '/pages/catalog/turin.html',
             'dionis' => '/pages/catalog/dionis.html',
+            'milton' => '/pages/catalog/milton.html',
+            'joker' => '/pages/catalog/joker.html',
         ];
     }
 

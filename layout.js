@@ -4,7 +4,9 @@
   window.CK_SITE_CONFIG = window.CK_SITE_CONFIG || {
     phoneDisplay: "+7 (964) 510-67-47",
     phoneTel: "+79645106747",
-    phoneWa: "79645106747",
+    phone2Display: "+7 (964) 525-44-58",
+    phone2Tel: "+79645254458",
+    phoneWa: "79645254458",
     email: "sk-classic@mail.ru",
   };
 
@@ -13,6 +15,22 @@
   };
 
   const contact = window.CK_SITE_CONFIG;
+
+  function renderPhones(linkClass = "phone") {
+    const items = [
+      { tel: contact.phoneTel, display: contact.phoneDisplay },
+      { tel: contact.phone2Tel, display: contact.phone2Display },
+    ].filter((item) => item.tel && item.display);
+
+    if (!items.length) return "";
+
+    return `<div class="site-phones">${items
+      .map((item) => {
+        const cls = linkClass ? ` class="${linkClass}"` : "";
+        return `<a href="tel:${item.tel}"${cls}>${item.display}</a>`;
+      })
+      .join("")}</div>`;
+  }
 
   function privacyNote(base) {
     const href = `${base}pages/privacy.html`;
@@ -41,9 +59,6 @@
               <a href="https://wa.me/${contact.phoneWa}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                 <img class="messenger-icon" src="${b}img/logo/messenger-whatsapp.svg" alt="" width="24" height="24" />
               </a>
-              <a href="https://t.me/Drikki" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-                <img class="messenger-icon" src="${b}img/logo/messenger-telegram.svg" alt="" width="24" height="24" />
-              </a>
               <a href="https://max.ru" target="_blank" rel="noopener noreferrer" aria-label="Max">
                 <img class="messenger-icon" src="${b}img/logo/messenger-max.svg" alt="" width="24" height="24" />
               </a>
@@ -66,7 +81,7 @@
         </div>
         <div class="head-call">
           <div class="head-call-number">
-            <a href="tel:${contact.phoneTel}" class="phone">${contact.phoneDisplay}</a>
+            ${renderPhones()}
           </div>
           <div class="head-callback">
             <a href="javascript:void(0)" class="callback js-callback-popup-btn">Заказать обратный звонок</a>
@@ -114,14 +129,9 @@
               <li><a href="${catalog}teseo.html">Тесео</a></li>
               <li><a href="${catalog}turin.html">Турин</a></li>
               <li><a href="${catalog}dionis.html">Дионис</a></li>
-              <li><a href="${catalog}custom.html">Проектные изделия</a></li>
-              <li><a href="${catalog}beds.html">Кровати</a></li>
-              <li><a href="${catalog}panels.html">Мягкие панели</a></li>
-              <li><a href="${catalog}chairs.html">Стулья</a></li>
+              <li><a href="${catalog}milton.html">Милтон</a></li>
+              <li><a href="${catalog}joker.html">Джокер</a></li>
             </ul>
-          </li>
-          <li class="nav-menu-el">
-            <a class="nav-menu-link" href="${pages}fabrics.html"${blank}>Ткани и декор</a>
           </li>
           <li class="nav-menu-el">
             <a class="nav-menu-link" href="${pages}where-to-buy.html"${blank}>Где купить</a>
@@ -158,7 +168,6 @@
             <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="factory">О фабрике</button></li>
             <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="products">О продукции и материалах</button></li>
             <li><button class="mobile-nav__submenu" type="button" data-mobile-submenu="catalog">Модельный ряд</button></li>
-            <li><a class="mobile-nav__link" href="${pages}fabrics.html"${blank}>Ткани и декор</a></li>
             <li><a class="mobile-nav__link" href="${pages}favorites.html">Избранное</a></li>
             <li><a class="mobile-nav__link" href="${pages}cart.html">Корзина</a></li>
             <li><a class="mobile-nav__link" href="${pages}where-to-buy.html"${blank}>Где купить</a></li>
@@ -185,10 +194,8 @@
             <li><a class="mobile-nav__link" href="${catalog}teseo.html">Тесео</a></li>
             <li><a class="mobile-nav__link" href="${catalog}turin.html">Турин</a></li>
             <li><a class="mobile-nav__link" href="${catalog}dionis.html">Дионис</a></li>
-            <li><a class="mobile-nav__link" href="${catalog}custom.html">Проектные изделия</a></li>
-            <li><a class="mobile-nav__link" href="${catalog}beds.html">Кровати</a></li>
-            <li><a class="mobile-nav__link" href="${catalog}panels.html">Мягкие панели</a></li>
-            <li><a class="mobile-nav__link" href="${catalog}chairs.html">Стулья</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}milton.html">Милтон</a></li>
+            <li><a class="mobile-nav__link" href="${catalog}joker.html">Джокер</a></li>
           </ul>
         </div>
       </div>
@@ -264,7 +271,7 @@
           <ul>
             <li><a href="${b}index.html#new-products">Новинки</a></li>
             <li><a href="${pages}catalog/chairs.html?type=armchair">Кресла</a></li>
-            <li><a href="${pages}fabrics.html">Ткани и декор</a></li>
+            <li><a href="${pages}catalog/living.html">Ливинг</a></li>
           </ul>
         </div>
         <div class="footer__col">
@@ -278,7 +285,7 @@
         </div>
         <div class="footer__col">
           <h4>Контакты</h4>
-          <a href="tel:${contact.phoneTel}">${contact.phoneDisplay}</a>
+          ${renderPhones("")}
           <a href="mailto:${contact.email}">${contact.email}</a>
           <a href="javascript:void(0)" class="js-callback-popup-btn">Обратный звонок</a>
           ${renderMessengers(b, "footer__messengers")}

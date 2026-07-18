@@ -50,6 +50,8 @@ const COLLECTION_LABELS = {
   teseo: "Тесео",
   turin: "Турин",
   dionis: "Дионис",
+  milton: "Милтон",
+  joker: "Джокер",
 };
 
 function detectCollection(filePath, fallback) {
@@ -64,6 +66,8 @@ function detectCollection(filePath, fallback) {
     ["teseo", /тесео/],
     ["turin", /турин/],
     ["dionis", /дионис/],
+    ["milton", /милтон/],
+    ["joker", /джокер/],
   ];
   for (const [col, re] of rules) {
     if (re.test(text)) return col;
@@ -273,7 +277,7 @@ function buildProducts(images, collection, prefix, priceBase, group, imagePool) 
       frame: isChairProduct(text)
         ? "массив бука, фанера"
         : "массив бука, фанера, берёзовая латофлекс",
-      filler: "ППУ высокой плотности, синтепон",
+      filler: "ППУ HR 35/30 (или обсуждается)",
       base:
         type === "corner-ottoman"
           ? "угловой диван с оттоманкой"
@@ -349,13 +353,7 @@ ${seoBlock}
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Inter:wght@400;500;600&display=swap"
     />
-    <link
-      rel="stylesheet"
-      href="../../style.css"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript><link rel="stylesheet" href="../../style.css" /></noscript>
+    <link rel="stylesheet" href="../../style.css" />
     <link
       rel="stylesheet"
       href="../../catalog.css"
@@ -363,7 +361,12 @@ ${seoBlock}
       onload="this.media='all'"
     />
     <noscript><link rel="stylesheet" href="../../catalog.css" /></noscript>
+    <link rel="icon" href="https://mebel-sk-classic.ru/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://mebel-sk-classic.ru/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" href="../../favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../../favicon/site.webmanifest" />
   </head>
   <body class="page-catalog" data-base="../../" data-default-collections="${defaultCollections}"${catalogFocus}>
     <div id="site-header"></div>
@@ -431,6 +434,8 @@ ${seoBlock}
                   <label class="catalog-filters__option"><input type="checkbox" name="collection" value="teseo" /> Тесео</label>
                   <label class="catalog-filters__option"><input type="checkbox" name="collection" value="turin" /> Турин</label>
                   <label class="catalog-filters__option"><input type="checkbox" name="collection" value="dionis" /> Дионис</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="milton" /> Милтон</label>
+                  <label class="catalog-filters__option"><input type="checkbox" name="collection" value="joker" /> Джокер</label>
                 </div>
               </div>
 
@@ -733,6 +738,38 @@ const pages = [
     ],
   },
   {
+    slug: "milton",
+    title: "Милтон",
+    collection: { title: "Милтон", col: "milton", dims: "диван-кровать / кресло" },
+    folders: ["Оффер 26", "фото на белом/Дионис диван-кровать (НПБ, выкатной)", "фото на белом/Данте линейка"],
+    prefix: "SK-ML",
+    priceMin: 90000,
+    priceMax: 350000,
+    filter: (f) => /милтон/i.test(f),
+    seoTitle: "Коллекция Милтон",
+    seoIntro:
+      "Милтон — диваны-кровати и кресла с механизмом «Спартак» и классической отделкой для гостиной и спальни.",
+    seoHidden: [
+      "Модели коллекции Милтон представлены на фото производства «Ск-классик». Подберём комплектацию и ткань под ваш интерьер.",
+    ],
+  },
+  {
+    slug: "joker",
+    title: "Джокер",
+    collection: { title: "Джокер", col: "joker", dims: "кресло / пуф" },
+    folders: ["Оффер 26", "фото на белом/Ливинг линейка", "Фото и видео живые  СК-классик"],
+    prefix: "SK-JK",
+    priceMin: 45000,
+    priceMax: 180000,
+    filter: (f) => /джокер/i.test(f),
+    seoTitle: "Коллекция Джокер — кресла и пуфы",
+    seoIntro:
+      "Джокер — каминные кресла для отдыха и акцентные модели с выразительным силуэтом для гостиной и кабинета.",
+    seoHidden: [
+      "Фото реальных изделий фабрики «Ск-классик». Доступны варианты обивки из каталога тканей.",
+    ],
+  },
+  {
     slug: "custom",
     title: "Проектные изделия",
     collection: { title: "Проектные", col: "living", dims: "индивидуально" },
@@ -860,7 +897,7 @@ for (const page of pages) {
 
   if (page.slug === "living") {
     page.defaultCollections = "living";
-  } else if (["hermes", "dante", "shantal-milord", "jamaica", "scarlett", "teseo", "turin", "dionis"].includes(page.slug)) {
+  } else if (["hermes", "dante", "shantal-milord", "jamaica", "scarlett", "teseo", "turin", "dionis", "milton", "joker"].includes(page.slug)) {
     page.defaultCollections = page.collection.col;
   } else {
     page.catalogFocus = page.slug;

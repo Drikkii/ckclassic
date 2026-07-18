@@ -47,9 +47,10 @@ try {
         JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES,
     );
 } catch (Throwable $e) {
+    error_log('[slider] ' . $e->getMessage());
     http_response_code(500);
     echo json_encode(
-        ['error' => $e->getMessage(), 'slides' => []],
+        ['error' => 'Slider unavailable', 'slides' => []],
         JSON_UNESCAPED_UNICODE,
     );
 }

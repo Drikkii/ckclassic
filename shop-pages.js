@@ -213,7 +213,7 @@
       } catch (error) {
         console.error(error);
         window.alert(
-          `Не удалось отправить заявку. Попробуйте позже или позвоните нам: ${window.CK_SITE_CONFIG?.phoneDisplay || "+7 (964) 510-67-47"}`,
+          `Не удалось отправить заявку. Попробуйте позже или позвоните нам: ${window.CK_SITE_CONFIG?.phonesLine || "+7 (964) 510-67-47, +7 (964) 525-44-58"}`,
         );
       } finally {
         if (submitBtn) {

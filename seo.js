@@ -115,7 +115,10 @@
       name: siteName,
       url: absoluteUrl("/index.html"),
       logo: absoluteUrl(defaultOgImage),
-      telephone: window.CK_SITE_CONFIG?.phoneTel || "",
+      telephone: [
+        window.CK_SITE_CONFIG?.phoneTel,
+        window.CK_SITE_CONFIG?.phone2Tel,
+      ].filter(Boolean),
       email: window.CK_SITE_CONFIG?.email || "",
       description: defaultDescription,
     });

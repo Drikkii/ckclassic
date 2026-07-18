@@ -77,7 +77,7 @@ function collectAllSources() {
   collectFromCatalog(set);
   collectFromDir(set, "img/about");
   collectFromDir(set, "img/among-clients");
-  collectFromHtml(set, path.join(ROOT, "pages", "fabrics.html"));
+  collectFromHtml(set, path.join(ROOT, "pages", "works.html"));
   collectFromHtml(set, path.join(ROOT, "pages", "about", "business.html"));
   collectFromHtml(set, path.join(ROOT, "pages", "about", "history.html"));
   collectFromHtml(set, path.join(ROOT, "pages", "about", "contacts.html"));

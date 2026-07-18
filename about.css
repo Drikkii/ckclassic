@@ -457,6 +457,43 @@
   transition: color 0.2s ease;
 }
 
+.contacts-phones {
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.contacts-phones a {
+  font-size: 0.88rem;
+  line-height: 1.3;
+}
+
+.contacts-phone-group {
+  margin-bottom: 18px;
+}
+
+.contacts-phone-group:last-of-type {
+  margin-bottom: 10px;
+}
+
+.contacts-phone-group__number {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contacts-phone-group__number:hover {
+  color: var(--color-accent-dark);
+}
+
+.contacts-phone-group .contacts-social__links {
+  margin-bottom: 0;
+}
+
 .contacts-row__value a:hover {
   color: var(--color-accent-dark);
 }

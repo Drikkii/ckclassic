@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 final class ProductHelper
 {
+    public const DEFAULT_FILLER = 'ППУ HR 35/30 (или обсуждается)';
+
     public static function syncProductImages(array $product): array
     {
         $gallery = is_array($product['gallery'] ?? null) ? $product['gallery'] : [];
@@ -118,6 +120,33 @@ final class ProductHelper
         admin_flash("Каталог обновлён на сайте ({$count} товаров).");
     }
 
+    /** @return array{updated: int, total: int} */
+    public static function applyDefaultFillerToAll(
+        ProductRepository $repo,
+        CatalogExporter $exporter,
+        string $siteRoot,
+    ): array {
+        $filler = self::DEFAULT_FILLER;
+        $updated = 0;
+
+        foreach ($repo->allData() as $product) {
+            if (!is_array($product) || empty($product['sku'])) {
+                continue;
+            }
+            if (($product['filler'] ?? '') === $filler) {
+                continue;
+            }
+            $product['filler'] = $filler;
+            $repo->save((string) $product['sku'], $product);
+            $updated++;
+        }
+
+        return [
+            'updated' => $updated,
+            'total' => $exporter->write($siteRoot),
+        ];
+    }
+
     /** @param array<string, mixed> $product */
     public static function applyPost(array $product, array $post): array
     {
@@ -219,7 +248,7 @@ final class ProductHelper
             'isNew' => true,
             'popularity' => 50,
             'description' => '',
-            'filler' => 'ППУ высокой плотности, синтепон',
+            'filler' => self::DEFAULT_FILLER,
             'base' => 'прямой диван',
             'fabrics' => [],
             'gallery' => [],
